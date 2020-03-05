@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+
+{{ content | safe }}
+
+<h2><span>Explore other pages</span></h2>
+
+<ul class="link-list">
+  {% for item in collections.entry | random | head(3) %}
+    <li>
+      <a href="{{ item.url}}" class="link-list__link">
+      {{ item.data.title}}
+      </a>
+    </li>
+  {% endfor%}
+</ul>

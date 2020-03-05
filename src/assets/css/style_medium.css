@@ -1,0 +1,26 @@
+body {
+  font-size: 2rem;
+}
+
+.logo {
+  padding: 1.5rem 2rem;
+}
+
+.logo__img{
+  height: 6rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.nav__link {
+  padding: 1rem 2rem 0.4rem;
+  font-size: 2.6rem;
+}
+
+.bookmarks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
