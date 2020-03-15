@@ -54,7 +54,7 @@ module.exports = function(eleventyConfig) {
 
     return await (async () => {
       if (parseLinks.exists(targetUrl)) {
-        console.log('get' + targetUrl);
+        // console.log('get' + targetUrl);
         linkData = parseLinks.exists(targetUrl);
       } else {
         console.log('write' + targetUrl);

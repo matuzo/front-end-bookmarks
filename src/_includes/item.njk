@@ -1,17 +1,10 @@
 ---
 layout: base.njk
 ---
+{% import "partials/macros.njk" as macros with context %}
+
+<h2>{{ title }}</h2>
 
 {{ content | safe }}
 
-<h2><span>Explore other pages</span></h2>
-
-<ul class="link-list">
-  {% for item in collections.entry | random | head(3) %}
-    <li>
-      <a href="{{ item.url}}" class="link-list__link">
-      {{ item.data.title}}
-      </a>
-    </li>
-  {% endfor%}
-</ul>
+{{macros.linklist("Explore other pages", "", "entry", 3)}}

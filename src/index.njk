@@ -2,33 +2,9 @@
 title: ""
 layout: base.njk
 ---
+{% import "partials/macros.njk" as macros with context %}
 
-<p>
-  A collection of articles and talks about HTML and CSS, grouped by elements, attributes, properties, and selectors.<br>
-</p>
+<h2><span>Recently updated</span></h2>
 
-<h2><span>Last updated</span></h2>
-
-<div class="links">
-  <h3><a href="/html">HTML</a></h3>
-
-  <ul class="link-list">
-  {% for page in collections.html | head(4) %}
-    <li class="link-list__item">
-      <a href="{{ page.url }}" class="link-list__link">{{ page.data.title }}</a>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
-
-<div class="links">
-  <h3><a href="/css">CSS</a></h3>
-
-  <ul class="link-list">
-  {% for page in collections.css %}
-    <li class="link-list__item">
-      <a href="{{ page.url }}" class="link-list__link">{{ page.data.title }}</a>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
+{{macros.linklist("HTML", "html", "html")}}
+{{macros.linklist("CSS", "css", "css")}}

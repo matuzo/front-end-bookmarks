@@ -1,0 +1,28 @@
+{% macro linklist(title, url, list, limit = 6) %}
+<div class="links">
+  {% if title %}
+    <h3><a href="/{{ url }}">{{ title }}</a></h3>
+  {% endif %}
+   
+  <ul class="link-list">
+  {% for page in collections[list] | head(limit) %}
+    <li class="link-list__item">
+      <a href="{{ page.url }}" class="link-list__link">{{ page.data.title }}</a>
+      <p class="link-list__desc">{{ page.data.short_desc }}</p>
+      <ul class="tags">
+        {% set tags = page.data.tags %}
+        {% for tag in tags %}
+          {% if not "entry" in tag %}
+            <li class="tags__tag">
+              <a href="/{{ tags[0] }}/{% if tag !==tags[0] %}{{ tag }}{% endif %}" class="tags__link  tags__link--{{ tag }}">
+                {{ tag }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+{% endmacro %}

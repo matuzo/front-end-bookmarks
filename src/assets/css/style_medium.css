@@ -1,5 +1,6 @@
 body {
   font-size: 2rem;
+  margin: 3rem;
 }
 
 .logo {
@@ -14,9 +15,50 @@ h1 {
   font-size: 5rem;
 }
 
+h2, h3, .h3 {
+  margin-bottom: 1rem;
+}
+
+/* HEADER */
+.site-header {
+  margin-bottom: 4rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+/* NAV */
+
+.nav {
+  margin-bottom: 2rem;
+}
+
+.nav__items > * + * {
+  margin-left: 1rem;
+}
+
 .nav__link {
   padding: 1rem 2rem 0.4rem;
   font-size: 2.6rem;
+}
+
+
+/* Search */
+
+.jump {
+  margin-top: 1rem;
+}
+
+.jump__input {
+  max-width: 42rem;
+  padding: 1.3rem 1.4rem;
+}
+
+/* link list */
+
+.link-list {
+  margin-top: 2rem;
 }
 
 .bookmarks {

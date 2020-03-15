@@ -3,7 +3,7 @@ title: select
 short_desc: "short desc"
 tags:
   - html
-  - element
+  - elements
   - entry
 permalink: html/elements/{{ title | slug }}/index.html
 ---
@@ -12,7 +12,14 @@ permalink: html/elements/{{ title | slug }}/index.html
 <cite><a href="https://www.w3.org/TR/html52/single-page.html#the-select-element">4.10.7. The select element</a></cite>
 </blockquote>
 
-<h2><span>Code sample</span></h2>
+<h3><span>Links about <code>{{ title }}</code></span></h3>
+
+<ol class="bookmarks">
+  {% link "https://www.24a11y.com/2019/select-your-poison" %}
+  {% link "https://www.24a11y.com/2019/select-your-poison-part-2/" %}
+</ol>
+
+<h3><span>Code sample</span></h3>
 
 ```html
 <label for="color">Select color:</label>
@@ -22,10 +29,3 @@ permalink: html/elements/{{ title | slug }}/index.html
   <option value="blue"> Blue </option>
 </select>
 ```
-
-<h2><span>Links about <code>{{ title }}</code></span></h2>
-
-<ol class="bookmarks">
-  {% link "https://www.24a11y.com/2019/select-your-poison" %}
-  {% link "https://www.24a11y.com/2019/select-your-poison-part-2/" %}
-</ol>

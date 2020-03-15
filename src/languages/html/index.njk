@@ -1,0 +1,15 @@
+---
+title: HTML
+layout: overview.njk
+permalink: html/index.html
+tags:
+  - nav
+---
+{% import "partials/macros.njk" as macros with context %}
+
+<p>
+  Articles and talks about HTML elements and attributes.
+</p>
+
+{{macros.linklist("Elements", "html/elements", "elements")}}
+{{macros.linklist("Attributes", "html/attributes", "attributes")}}

@@ -3,7 +3,7 @@ title: multiple
 short_desc: "short desc"
 tags:
   - html
-  - attribute
+  - attributes
   - entry
 permalink: html/attributes/{{ title | slug }}/index.html
 ---
@@ -12,7 +12,13 @@ permalink: html/attributes/{{ title | slug }}/index.html
 <cite><a href="https://www.w3.org/TR/html52/single-page.html#the-select-element">4.11.4. The dialog element</a></cite>
 </blockquote>
 
-<h2><span>Code sample</span></h2>
+<h3><span>Related links</span></h3>
+
+<ol class="bookmarks">
+  {% link "https://www.24a11y.com/2019/select-your-poison-part-2/" %}
+</ol>
+
+<h3><span>Code sample</span></h3>
 
 ```html
 <label for="color">Select colors:</label>
@@ -22,9 +28,3 @@ permalink: html/attributes/{{ title | slug }}/index.html
   <option value="blue"> Blue </option>
 </select>
 ```
-
-<h2><span>Related links</span></h2>
-
-<ol class="bookmarks">
-  {% link "https://www.24a11y.com/2019/select-your-poison-part-2/" %}
-</ol>
