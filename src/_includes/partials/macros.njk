@@ -1,11 +1,17 @@
-{% macro linklist(title, url, list, limit = 6) %}
+{% macro linklist(title, url, list, limit = 6, randomize = false) %}
 <div class="links">
   {% if title %}
     <h3><a href="/{{ url }}">{{ title }}</a></h3>
   {% endif %}
    
   <ul class="link-list">
-  {% for page in collections[list] | head(limit) %}
+  {% set pages = collections[list] %}
+
+  {% if randomize %}
+    {% set pages = pages | random %}
+  {% endif %}
+
+  {% for page in pages | head(limit) %}
     <li class="link-list__item">
       <a href="{{ page.url }}" class="link-list__link">{{ page.data.title }}</a>
       <p class="link-list__desc">{{ page.data.short_desc }}</p>
