@@ -59,6 +59,7 @@ h2, h3, .h3 {
 
 .link-list {
   margin-top: 2rem;
+  grid-gap: 1rem;
 }
 
 .bookmarks {

@@ -194,30 +194,42 @@ h1 {
 
 .link-list {
   margin: 0;
-  padding: 0 0 0 0.7rem;
+  padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  grid-gap: 2.8rem 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  grid-gap: 0.7rem;
   font-size: 2.2rem;
   margin: 1.4rem 0 0;
 }
 
+.link-list > * + * {
+  margin-top: 1.4rem;
+}
+
+@supports (display: grid) {
+  .link-list > * + * {
+    margin-top: 0;
+  }
+}
+
 .link-list__item {
-  background: url('/assets/img/list-item.svg') no-repeat;
-  padding-left: 2.4rem;
-  background-position: top 0.3rem left;
+  background: rgba(52, 82, 123, 0.1)url('/assets/img/list-item.svg') no-repeat;
+  background-position: top 1.5rem left 1rem;
+  border-radius: 2px;
+  padding: 1.4rem 1.4rem 1.4rem 3.5rem;
 }
 
 .link-list__link {
-  background: rgb(255, 255, 255);
   display: block;
   font-weight: bold;
   line-height: 1;
+  margin-bottom: 0.4rem;;
 }
 
 .link-list__desc {
   font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 .link-list__link:link,
@@ -227,7 +239,6 @@ h1 {
 
 .link-list__link:focus,
 .link-list__link:hover {
-  background: rgb(255, 255, 255);
   text-decoration: none;
 }
 
