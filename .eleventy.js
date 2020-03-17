@@ -76,7 +76,7 @@ module.exports = function(eleventyConfig) {
   ${
     linkData.author
       ? `<p class="bookmark__meta"> posted on ${
-          linkData.date ? `<time>${DateTime.fromJSDate(linkData.date).toFormat("dd LLL yyyy")}</time>` : ''
+          linkData.date ? `<time>${DateTime.fromISO(linkData.date).toFormat("dd LLL yyyy")}</time>` : ''
         } by ${linkData.author}</p>`
       : ''
   }
