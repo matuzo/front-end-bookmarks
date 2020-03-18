@@ -1,6 +1,7 @@
 body {
   font-size: 2rem;
   margin: 3rem;
+  max-width: 80rem;
 }
 
 .logo {
@@ -63,7 +64,27 @@ h2, h3, .h3 {
 }
 
 .bookmarks {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
+  grid-gap: 1rem; */
+}
+
+.bookmarks > * + * {
+  margin-top: 1rem;
+}
+
+.bookmark {
+  flex-direction: row-reverse;
+}
+
+.bookmark__img {
+  margin: 0 2rem 0 0;
+  width: 25rem;
+  height: 14rem;
+}
+
+
+.card__desc {
+  font-size: 1.8rem;
+  line-height: 1.5;
 }

@@ -65,14 +65,13 @@ module.exports = function(eleventyConfig) {
       ? `/images${linkData.image}`
       : '/assets/img/blank.jpg';
 
-      const item = `<li class="bookmark">
-      <h3 class="bookmark__heading">
-      <a href="${targetUrl}" class="bookmark__link">
-        ${linkData.title}
-      </a>
-    </h3>
-    <img src="${image}" class="bookmark__img" alt="">
-
+      const item = `<li class="bookmark card">
+<div>
+<h3 class="card__heading">
+<a href="${targetUrl}" class="card__link">
+  ${linkData.title}
+</a>
+</h3>
   ${
     linkData.author
       ? `<p class="bookmark__meta"> posted on ${
@@ -81,7 +80,10 @@ module.exports = function(eleventyConfig) {
       : ''
   }
 
-  ${linkData.description ? `<p>${linkData.description}</p>` : ''}
+  ${linkData.description ? `<p class="card__desc">${linkData.description}</p>` : ''}
+</div>
+<img src="${image}" class="bookmark__img" alt="" width="320">
+
 </li>
 `;
       return item;
