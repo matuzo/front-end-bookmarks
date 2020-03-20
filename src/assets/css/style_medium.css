@@ -75,6 +75,7 @@ h2, h3, .h3 {
 
 .bookmark {
   flex-direction: row-reverse;
+  padding: 2rem;
 }
 
 .bookmark__img {
@@ -87,4 +88,12 @@ h2, h3, .h3 {
 .card__desc {
   font-size: 1.8rem;
   line-height: 1.5;
+}
+
+.tag-container {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  gap: 0.7rem;
 }
