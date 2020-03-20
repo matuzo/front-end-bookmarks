@@ -19,23 +19,14 @@ let linksData = fs.readFileSync(linksFile);
 let links = JSON.parse(linksData);
 
 const slugifySettings = {
-  remove: /[*+~.()/'"!:@]/g,
+  remove: /[*+~.()<>/'"!:@]/g,
   lower: true
 }
+slugify.extend({'<': ''})
+slugify.extend({'>': ''})
 
 const getUrlSlug = url => {
   return slugify(url, slugifySettings)
-}
-
-const checkIfFileExists = url => {
-  console.log(url)
-  console.log(getUrlSlug(url))
-  console.log(links[getUrlSlug(url)])
-   if (links[getUrlSlug(url)]) {
-      return links[getUrlSlug(url)];
-    }
-
-  return false
 }
 
 const getNewImageFileName = metadata => {
@@ -74,47 +65,52 @@ const downloadImage = (metadata) => {
     .catch(err => console.error(err));
 }
 
-const getData = async (targetUrl) => {
+const getData = async (key, targetUrl, id) => {
 
-  const { body: html, url } = await got(targetUrl);
-  const metadata = await metascraper({ html, url });
-  const entry = {
-    title: entities.encode(metadata.title)
-  }
-
-  if (metadata.description) {
-    entry.description = entities.encode(metadata.description)
-  }
-
-  if (metadata.author) {
-    entry.author = metadata.author
-  }
-
-  if (metadata.date) {
-    entry.date = metadata.date
-  }
-
-  if (metadata.image) {
-    console.log(metadata.image)
-    downloadImage(metadata);
-    entry.image = getNewImageFileName(metadata)
-  }
-
-  links[slugify(url, slugifySettings)] = entry;
   
-  fs.writeFile(linksFile, JSON.stringify(links), function(err) {
-    if (err) {
-      return console.log(err);
-    }
-    console.log('The file was saved!');
-  });
 
-  //console.log(metadata)
-  return entry
+  const currentLink = links[key].map(async link => {
+    if (link.id === id) {
+      
+      if (!link.processed) {
+        const { body: html, url } = await got(targetUrl);
+        const metadata = await metascraper({ html, url });
+        
+        link.title = entities.encode(metadata.title);
+        if (metadata.description) {
+          link.description = entities.encode(metadata.description)
+        }
+      
+        if (metadata.author) {
+          link.author = metadata.author
+        }
+      
+        if (metadata.date) {
+          link.date = metadata.date
+        }
+      
+        if (metadata.image) {
+          downloadImage(metadata);
+          link.image = getNewImageFileName(metadata)
+        }
+
+        link.processed = true;
+
+        fs.writeFile(linksFile, JSON.stringify(links, null, 2), function(err) {
+          if (err) {
+            return console.log(err);
+          }
+
+          console.log('The file was saved!');
+        });
+      } else {
+        console.log('already processed')
+      }
+    }
+  })
 }
 
 module.exports = {
- exists: checkIfFileExists,
  getData: getData,
  getUrlSlug: getUrlSlug
 }
