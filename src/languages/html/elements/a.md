@@ -12,6 +12,8 @@ definition:
     text: "4.5.1. The a element"
     url: https://www.w3.org/TR/html52/textlevel-semantics.html#the-a-element
 links: "a"
+related:
+  - "rel.bynens"
 ---
 <h3><span>Code sample</span></h3>
 

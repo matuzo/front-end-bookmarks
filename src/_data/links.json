@@ -39,6 +39,17 @@
       "processed": true
     },
     {
+      "id": "roselli2",
+      "url": "https://adrianroselli.com/2020/02/block-links-cards-clickable-regions-etc.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Block Links, Cards, Clickable Regions, Etc.",
+      "description": "Whether you call them cards, block links, or some other thing, the construct of making an area of content clickable (tappable, Enter-key-able, voice-activatable, etc.) is not new. While hit area size is mostly a usability issue, marketers often want a larger click area around their calls to action (…",
+      "date": "2020-03-12T14:55:07.000Z",
+      "processed": true
+    },
+    {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
       "tags": [
@@ -48,6 +59,48 @@
       "description": "The HTML a element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.",
       "date": "2020-02-10T15:29:54.791Z",
       "image": "/a-the-anchor-element.png",
+      "processed": true
+    }
+  ],
+  "aria-label": [
+    {
+      "id": "paciello",
+      "url": "https://developer.paciellogroup.com/blog/2017/07/short-note-on-aria-label-aria-labelledby-and-aria-describedby/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Short note on aria-label, aria-labelledby, and aria-describedby",
+      "description": "Be careful when you use the aria-label, aria-labelledby, and aria-describedby attributes, because they do not work consistently with all HTML elements. This is a short note on when (and when not) to u",
+      "date": "2018-07-18T08:46:02.000Z",
+      "image": "/short-note-on-aria-label-aria-labelledby-and-aria-describedby.png",
+      "processed": true
+    }
+  ],
+  "aria-labelledby": [
+    {
+      "id": "paciello",
+      "url": "https://developer.paciellogroup.com/blog/2017/07/short-note-on-aria-label-aria-labelledby-and-aria-describedby/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Short note on aria-label, aria-labelledby, and aria-describedby",
+      "description": "Be careful when you use the aria-label, aria-labelledby, and aria-describedby attributes, because they do not work consistently with all HTML elements. This is a short note on when (and when not) to u",
+      "date": "2018-07-18T08:46:02.000Z",
+      "image": "/short-note-on-aria-label-aria-labelledby-and-aria-describedby.png",
+      "processed": true
+    }
+  ],
+  "aria-describedby": [
+    {
+      "id": "paciello",
+      "url": "https://developer.paciellogroup.com/blog/2017/07/short-note-on-aria-label-aria-labelledby-and-aria-describedby/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Short note on aria-label, aria-labelledby, and aria-describedby",
+      "description": "Be careful when you use the aria-label, aria-labelledby, and aria-describedby attributes, because they do not work consistently with all HTML elements. This is a short note on when (and when not) to u",
+      "date": "2018-07-18T08:46:02.000Z",
+      "image": "/short-note-on-aria-label-aria-labelledby-and-aria-describedby.png",
       "processed": true
     }
   ],
@@ -258,6 +311,29 @@
       "processed": true
     }
   ],
+  "margin": [
+    {
+      "id": "quirks",
+      "url": "https://www.quirksmode.org/blog/archives/2020/02/negative_margin.html",
+      "tags": [
+        "general"
+      ],
+      "title": "Negative margins in CSS - QuirksBlog",
+      "processed": true
+    },
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/almanac/properties/m/margin/",
+      "tags": [
+        "general"
+      ],
+      "title": "margin | CSS-Tricks",
+      "description": "The margin property defines the outermost portion of the box model, creating space around an element, outside of any defined borders. Margins are set",
+      "date": "2020-03-06T11:00:00.000Z",
+      "image": "/margin-or-css-tricks.png",
+      "processed": true
+    }
+  ],
   "meter": [
     {
       "id": "ohara",
@@ -295,6 +371,31 @@
       "processed": true
     }
   ],
+  "positionsticky": [
+    {
+      "id": "roselli",
+      "url": "https://adrianroselli.com/2020/01/fixed-table-headers.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Fixed Table Headers",
+      "description": "Related A Responsive Accessible Table Hey, It’s Still OK to Use Tables Keyboard and Overflow",
+      "date": "2020-01-13T21:59:27.000Z",
+      "processed": true
+    },
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/position-sticky-and-table-headers/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Position Sticky and Table Headers | CSS-Tricks",
+      "description": "You can’t position: sticky; a . Nor a . But you can sticky a , which means you can make sticky headers inside a regular ol’ . This is tricky stuff,",
+      "date": "2020-03-05T13:24:58.000Z",
+      "image": "/position-sticky-and-table-headers-or-css-tricks.png",
+      "processed": true
+    }
+  ],
   "progress": [
     {
       "id": "progress_ohara",
@@ -315,6 +416,17 @@
       "description": "The HTML progress element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
       "date": "2020-03-09T08:43:21.964Z",
       "image": "/progress-the-progress-indicator-element.png",
+      "processed": true
+    }
+  ],
+  "rel": [
+    {
+      "id": "bynens",
+      "url": "https://mathiasbynens.github.io/rel-noopener/",
+      "tags": [
+        "security"
+      ],
+      "title": "About rel=noopener",
       "processed": true
     }
   ],
@@ -352,6 +464,19 @@
       "description": "The HTML select element represents a control that provides a menu of options",
       "date": "2020-03-09T08:50:04.027Z",
       "image": "/select.png",
+      "processed": true
+    }
+  ],
+  "svg": [
+    {
+      "id": "csstricksa11y",
+      "url": "https://css-tricks.com/accessible-svgs/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Accessible SVGs | CSS-Tricks",
+      "description": "Scalable Vector Graphic (SVG) is emerging as the preferred graphic format to use on the web today. Are you abandoning the icon font or replacing old pg,",
+      "date": "2016-08-28T17:02:11.000Z",
       "processed": true
     }
   ],
