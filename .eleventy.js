@@ -15,6 +15,14 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
+  eleventyConfig.addFilter('sortAlpha', (array) => {
+    return array.sort(function(a, b){
+        if(a.data.title < b.data.title) { return -1; }
+        if(a.data.title > b.data.title) { return 1; }
+        return 0;
+    })
+  });
+
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat('dd LLL yyyy');
   });
@@ -23,6 +31,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('htmlDateString', dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
+
+
 
   function shuffle(array) {
     var currentIndex = array.length,
@@ -53,7 +63,7 @@ module.exports = function(eleventyConfig) {
     ? `/images${linkData.image}`
     : '/assets/img/blank.jpg';
 
-    const template = `<li class="bookmark card">
+    let template = `<li class="bookmark card">
 <div>
 <h3 class="card__heading">
 <a href="${linkData.url}" class="card__link">
@@ -61,14 +71,12 @@ module.exports = function(eleventyConfig) {
 </a>
 </h3>
   ${
-    linkData.author
-      ? `<p class="bookmark__meta"> posted on ${
-          linkData.date
-            ? `<time>${DateTime.fromISO(linkData.date).toFormat(
+    linkData.date
+      ? `<p class="bookmark__meta"> posted on
+            <time>${DateTime.fromISO(linkData.date).toFormat(
                 'dd LLL yyyy'
-              )}</time>`
-            : ''
-        } by ${linkData.author}</p>`
+              )}</time>
+          ${linkData.author ? `by ${linkData.author}</p>` : ``}`
       : ''
   }
 
@@ -76,10 +84,25 @@ module.exports = function(eleventyConfig) {
     linkData.description
       ? `<p class="card__desc">${linkData.description}</p>`
       : ''
-  }
+  }`;
+
+  if (linkData.tags) {
+    template += `<div class="tag-container">Tags: <ul class="tags">`
+    
+      for (let i = 0; i < linkData.tags.length; i++) {
+        const tag = linkData.tags[i];
+        template += `<li class="tags__tag">
+        <span class="tags__link tags__link--${tag}">
+          ${tag}
+        </span>
+      </li>`
+      }
+    
+    template += `</ul></div>`
+    }
+    template += `
 </div>
 <img src="${image}" class="bookmark__img" alt="" width="320" loading="lazy">
-  
 </li>`;
     
     return template
