@@ -76,9 +76,9 @@
     </p>
     {% endif %}
 
-    <form class="jump">
+    <form class="jump" action="https://duckduckgo.com/" method="GET">
       <label for="search" class="jump__label">Jump to page</label>
-      <input type="text" id="search" class="jump__input" placeholder="e.g. title, article, last-child" />
+      <input type="text" name="q" autocomplete="off" id="search" class="jump__input" placeholder="e.g. title, article, last-child" value="site:www.froboo.dev " />
     </form>
   </header>
 
