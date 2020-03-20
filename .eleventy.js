@@ -78,7 +78,7 @@ module.exports = function(eleventyConfig) {
       : ''
   }
 </div>
-<img src="${image}" class="bookmark__img" alt="" width="320">
+<img src="${image}" class="bookmark__img" alt="" width="320" loading="lazy">
   
 </li>`;
     
