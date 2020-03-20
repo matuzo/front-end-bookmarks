@@ -430,7 +430,7 @@
       "description": "Last week I got a call from my bank regarding a wire transfer I had just scheduled. The customer support guy had me repeat everything back to him because there seemed to be a problem with the information. “Hmmmm, everything you said is right right except the last 3 digits of the account number.”",
       "author": "Brad Frost",
       "date": "2019-03-19T01:06:29.000Z",
-      "image": "/you-probably-dont-need-input-type=number.png",
+      "image": "/you-probably-dont-need-input-typenumber.png",
       "processed": true
     },
     {
@@ -442,7 +442,7 @@
       "title": "&lt;input type=“number”&gt;",
       "description": "input elements of type number are used to let the user enter a number. They include built-in validation to reject non-numerical entries.",
       "date": "2020-03-15T01:40:09.979Z",
-      "image": "/input-type=number.png",
+      "image": "/input-typenumber.png",
       "processed": true
     }
   ],
