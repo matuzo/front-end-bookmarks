@@ -1,8 +1,192 @@
 {
+  "a": [
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/a-complete-guide-to-links-and-buttons/",
+      "tags": [
+        "general"
+      ],
+      "title": "A Complete Guide to Links and Buttons | CSS-Tricks",
+      "description": "Our complete guide to links, buttons, and button-like inputs in HTML, CSS, and JavaScript.",
+      "author": "Chris Coyier",
+      "date": "2020-02-21T14:21:13.000Z",
+      "image": "/a-complete-guide-to-links-and-buttons-or-css-tricks.png",
+      "processed": true
+    },
+    {
+      "id": "marcy",
+      "url": "https://www.youtube.com/watch?v=8XjwDq9zG4I",
+      "tags": [
+        "general",
+        "accessibility",
+        "video"
+      ],
+      "title": "The Links vs. Buttons Showdown — Marcy Sutton: #ID24 Nov 2017",
+      "description": "Who would win in a showdown between HTML Links and Buttons? Marcy Sutton will settle it once and for all by pitting these opponents against each other in a d...",
+      "date": "2017-11-16T00:00:00.000Z",
+      "image": "/the-links-vs-buttons-showdown-marcy-sutton-id24-nov-2017.jpg",
+      "processed": true
+    },
+    {
+      "id": "roselli",
+      "url": "https://adrianroselli.com/2020/02/link-targets-and-3-2-5.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Link Targets and 3.2.5",
+      "description": "TL;DR: Regardless of what accessibility conformance level you target, do not arbitrarily open links in a new window or tab. If you are required to do so anyway, inform users in text. Overview Throughout this post I am going to use the terms browser window and tab interchangeably. While they…",
+      "date": "2020-03-02T01:57:39.000Z",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
+      "tags": [
+        "general"
+      ],
+      "title": "&lt;a&gt;: The Anchor element",
+      "description": "The HTML a element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.",
+      "date": "2020-02-10T15:29:54.791Z",
+      "image": "/a-the-anchor-element.png",
+      "processed": true
+    }
+  ],
+  "button": [
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/a-complete-guide-to-links-and-buttons/",
+      "tags": [
+        "general"
+      ],
+      "title": "A Complete Guide to Links and Buttons | CSS-Tricks",
+      "description": "Our complete guide to links, buttons, and button-like inputs in HTML, CSS, and JavaScript.",
+      "author": "Chris Coyier",
+      "date": "2020-02-21T14:21:13.000Z",
+      "image": "/a-complete-guide-to-links-and-buttons-or-css-tricks.png",
+      "processed": true
+    },
+    {
+      "id": "marcy",
+      "url": "https://www.youtube.com/watch?v=8XjwDq9zG4I",
+      "tags": [
+        "general",
+        "accessibility",
+        "video"
+      ],
+      "title": "The Links vs. Buttons Showdown — Marcy Sutton: #ID24 Nov 2017",
+      "description": "Who would win in a showdown between HTML Links and Buttons? Marcy Sutton will settle it once and for all by pitting these opponents against each other in a d...",
+      "date": "2017-11-16T00:00:00.000Z",
+      "image": "/the-links-vs-buttons-showdown-marcy-sutton-id24-nov-2017.jpg",
+      "processed": true
+    },
+    {
+      "id": "a11ycasts",
+      "url": "https://www.youtube.com/watch?v=CZGqnp06DnI",
+      "tags": [
+        "accessibility",
+        "video"
+      ],
+      "title": "Just use button -- A11ycasts #05",
+      "description": "Talking about tabindex and custom controls is super fun, and we’ll definitely be doing more of it in the future. But I wanted to pause for a moment and shine...",
+      "date": "2016-09-16T00:00:00.000Z",
+      "image": "/just-use-button-a11ycasts-05.jpg",
+      "processed": true
+    },
+    {
+      "id": "ohara",
+      "url": "https://www.scottohara.me/blog/2018/10/03/unbutton-buttons.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Unbuttoning Buttons | scottohara.me",
+      "description": "Regardless of how one might feel about using CSS to disguise an HTML element as another, it can’t be denied that it’s a common, and sometimes necessary, prac...",
+      "date": "2018-10-03T00:00:00.000Z",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button",
+      "tags": [
+        "general"
+      ],
+      "title": "&lt;button&gt;: The Button element",
+      "description": "The HTML button element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.",
+      "date": "2020-02-26T18:46:46.212Z",
+      "image": "/button-the-button-element.png",
+      "processed": true
+    }
+  ],
+  "clip-path": [
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/unfortunately-clip-path-path-is-still-a-no-go/",
+      "tags": [
+        "general"
+      ],
+      "title": "Unfortunately, clip-path: path() is Still a No-Go | CSS-Tricks",
+      "description": "I was extremely excited when I first heard that clip-path: path() was coming to Firefox. Just imagine being able to easily code a breathing box like the",
+      "date": "2020-03-02T14:54:56.000Z",
+      "image": "/unfortunately-clip-path-path-is-still-a-no-go-or-css-tricks.gif",
+      "processed": true
+    },
+    {
+      "id": "csstricks2",
+      "url": "https://css-tricks.com/almanac/properties/c/clip-path/",
+      "tags": [
+        "general"
+      ],
+      "title": "clip-path | CSS-Tricks",
+      "description": "The clip-path property in CSS allows you to specify a specific region of an element to display, rather than showing the complete area. There used to be a",
+      "date": "2019-08-16T10:00:00.000Z",
+      "processed": true
+    }
+  ],
+  "data": [
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/a-complete-guide-to-data-attributes/",
+      "tags": [
+        "general"
+      ],
+      "title": "A Complete Guide to Data Attributes | CSS-Tricks",
+      "description": "Everything you ever wanted to know about data attributes in HTML, CSS, and JavaScript.",
+      "author": "Chris Coyier",
+      "date": "2020-02-18T23:55:47.000Z",
+      "image": "/a-complete-guide-to-data-attributes-or-css-tricks.png",
+      "processed": true
+    }
+  ],
+  "details": [
+    {
+      "id": "rupert",
+      "url": "https://daverupert.com/2019/12/why-details-is-not-an-accordion/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Why &lt;details&gt; is Not an Accordion",
+      "description": "tl;dr - &lt;code&gt;&lt;summary&gt;&lt;/code&gt; is a button and buttons eat semantics",
+      "image": "/why-details-is-not-an-accordion.png",
+      "processed": true
+    },
+    {
+      "id": "roselli",
+      "url": "https://adrianroselli.com/2019/04/details-summary-are-not-insert-control-here.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Details / Summary Are Not [insert control here]",
+      "description": "Once major browsers started supporting &lt;details&gt; &amp; &lt;summary&gt; developers immediately started to play with them to see what sorts of patterns they could enhance or replace. This is a good thing. Experimentation pushes boundaries, improves understanding. However, we need to be careful of christening th…",
+      "date": "2019-12-07T03:59:35.000Z",
+      "processed": true
+    }
+  ],
   "dialog": [
     {
       "id": "dialog_ohara",
       "url": "https://www.scottohara.me/blog/2019/03/05/open-dialog.html",
+      "tags": [
+        "accessibility"
+      ],
       "title": "Having an open dialog | scottohara.me",
       "description": "I’ve written about building accessible modal dialogs a few times over the past five-ish years. Most recently I dissected the current state of modal dialog ac...",
       "date": "2019-03-05T00:00:00.000Z",
@@ -11,6 +195,9 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+      "tags": [
+        "general"
+      ],
       "title": "&lt;dialog&gt;: The Dialog element",
       "description": "The HTML dialog element represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow.",
       "date": "2020-02-08T09:17:05.990Z",
@@ -18,14 +205,16 @@
       "processed": true
     }
   ],
-  "multiple": [
+  "lang": [
     {
-      "id": "mdn",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple",
-      "title": "HTML attribute: multiple",
-      "description": "The Boolean multiple attribute, if set, means the form control accepts one or more values. Valid for the email and file input types and the select, the manner by which the user opts for multiple values depends on the form control.",
-      "date": "2019-11-15T13:47:46.910Z",
-      "image": "/html-attribute-multiple.png",
+      "id": "roselli",
+      "url": "https://adrianroselli.com/2015/01/on-use-of-lang-attribute.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "On Use of the Lang Attribute",
+      "description": "Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of…",
+      "date": "2019-02-16T22:38:04.000Z",
       "processed": true
     }
   ],
@@ -33,6 +222,9 @@
     {
       "id": "matuzo_liststyle",
       "url": "https://www.matuzo.at/blog/heres-what-i-didnt-know-about-list-style-type/",
+      "tags": [
+        "general"
+      ],
       "title": "Here’s what I didn’t know about list-style-type",
       "description": "In Chrome 79+, Firefox 39+, and Opera 66+ it’s possible to define a string value as the bullet of an ordered or unordered list.",
       "author": "Manuel Matuzović",
@@ -43,6 +235,9 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type",
+      "tags": [
+        "general"
+      ],
       "title": "list-style-type",
       "description": "The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element.",
       "date": "2019-10-04T09:36:46.246Z",
@@ -52,6 +247,9 @@
     {
       "id": "csstricks",
       "url": "https://css-tricks.com/almanac/properties/l/list-style/",
+      "tags": [
+        "general"
+      ],
       "title": "list-style | CSS-Tricks",
       "description": "The list-style property is a shorthand property that sets values for three different list-related properties in one declaration: ul { list-style: || || ;",
       "author": "Sara Cope",
@@ -60,16 +258,59 @@
       "processed": true
     }
   ],
+  "meter": [
+    {
+      "id": "ohara",
+      "url": "https://scottaohara.github.io/a11y_styled_form_controls/src/meter/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Styled Meter",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter",
+      "tags": [
+        "general"
+      ],
+      "title": "&lt;meter&gt;: The HTML Meter element",
+      "description": "The HTML meter element represents either a scalar value within a known range or a fractional value.",
+      "date": "2020-03-09T08:41:51.996Z",
+      "image": "/meter-the-html-meter-element.png",
+      "processed": true
+    }
+  ],
+  "multiple": [
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple",
+      "tags": [
+        "general"
+      ],
+      "title": "HTML attribute: multiple",
+      "description": "The Boolean multiple attribute, if set, means the form control accepts one or more values. Valid for the email and file input types and the select, the manner by which the user opts for multiple values depends on the form control.",
+      "date": "2019-11-15T13:47:46.910Z",
+      "image": "/html-attribute-multiple.png",
+      "processed": true
+    }
+  ],
   "progress": [
     {
       "id": "progress_ohara",
       "url": "https://scottaohara.github.io/a11y_styled_form_controls/src/progress-bar/",
+      "tags": [
+        "accessibility"
+      ],
       "title": "Styled Progress Bar",
       "processed": true
     },
     {
       "id": "progress_mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress",
+      "tags": [
+        "general"
+      ],
       "title": "&lt;progress&gt;: The Progress Indicator element",
       "description": "The HTML progress element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
       "date": "2020-03-09T08:43:21.964Z",
@@ -81,6 +322,9 @@
     {
       "id": "selectpoison",
       "url": "https://www.24a11y.com/2019/select-your-poison",
+      "tags": [
+        "accessibility"
+      ],
       "title": "&lt;select&gt; your poison - 24 Accessibility",
       "description": "If the web accessibility community were to somehow collectively agree on a single rallying cry, it could easily be “use native, semantic HTML elements.” This, like most things in accessibility, is an oversimplification, but it is a helpful one. As 2019 draws to a close, many of the popular component…",
       "date": "2020-01-04T00:49:41.000Z",
@@ -90,6 +334,9 @@
     {
       "id": "selectpoison2",
       "url": "https://www.24a11y.com/2019/select-your-poison-part-2/",
+      "tags": [
+        "accessibility"
+      ],
       "title": "&lt;select&gt; your poison part 2: test all the things - 24 Accessibility",
       "description": "TL:DR; Jump straight to the recommendations In part 1 of this deep dive, we took a broad look at both how the native &lt;select&gt; element works across browsers and platforms, and the current state of accessible custom select component implementations. It’s necessary to look at how fragmented current sel…",
       "date": "2019-12-18T15:11:33.000Z",
@@ -98,6 +345,9 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select",
+      "tags": [
+        "general"
+      ],
       "title": "&lt;select&gt;",
       "description": "The HTML select element represents a control that provides a menu of options",
       "date": "2020-03-09T08:50:04.027Z",
@@ -105,10 +355,64 @@
       "processed": true
     }
   ],
+  "typedate": [
+    {
+      "id": "hassell",
+      "url": "https://www.hassellinclusion.com/blog/input-type-date-ready-for-use/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Is input type=“date” ready for use in accessible websites? - Hassell Inclusion",
+      "description": "One of the ‘new’ HTML5 elements - input type=“date” - was intended to simplify the collection of dates on websites, and to reduce user errors whilst doing so. So is it well supported? And does using it help make forms more accessible? We took date inputs for a test drive with different browsers and …",
+      "date": "2020-03-01T09:31:57.000Z",
+      "image": "/is-input-typedate-ready-for-use-in-accessible-websites-hassell-inclusion.jpg",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date",
+      "tags": [
+        "general"
+      ],
+      "title": "&lt;input type=“date”&gt;",
+      "description": "input elements of type=“date” create input fields that let the user enter a date, either with a textbox that validates the input or a special date picker interface.",
+      "date": "2020-03-19T22:00:07.686Z",
+      "image": "/input-typedate.png",
+      "processed": true
+    }
+  ],
+  "typesearch": [
+    {
+      "id": "roselli",
+      "url": "https://adrianroselli.com/2019/07/ignore-typesearch.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Maybe Ignore type=search",
+      "description": "Another case of the headline saying it all. If you have a valid, accessible search field (with a useful, sensible label) then you can probably ignore type=”search” and use type=”text” instead. I made a code sample you can use for testing in your preferred set-up; it is what I used…",
+      "date": "2019-07-20T14:52:23.000Z",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": " https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search",
+      "tags": [
+        "general"
+      ],
+      "title": "&lt;input type=“search”&gt;",
+      "description": "input elements of type search are text fields designed for the user to enter search queries into. These are functionally identical to text inputs, but may be styled differently by the user agent.",
+      "date": "2019-12-19T20:51:49.970Z",
+      "image": "/input-typesearch.png",
+      "processed": true
+    }
+  ],
   "typenumber": [
     {
       "id": "numbergov",
       "url": "https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers/",
+      "tags": [
+        "accessibility"
+      ],
       "title": "Why the GOV.UK Design System team changed the input type for numbers",
       "description": "We take a look at why the GOV.UK Design System changed the element it uses for inputting numbers, making it more accessible and easier to use",
       "author": "Hanna Laakso, GDS, Frontend Developer",
@@ -119,6 +423,9 @@
     {
       "id": "number_frost",
       "url": "https://bradfrost.com/blog/post/you-probably-dont-need-input-typenumber/",
+      "tags": [
+        "ux"
+      ],
       "title": "You probably don’t need input type=“number”",
       "description": "Last week I got a call from my bank regarding a wire transfer I had just scheduled. The customer support guy had me repeat everything back to him because there seemed to be a problem with the information. “Hmmmm, everything you said is right right except the last 3 digits of the account number.”",
       "author": "Brad Frost",
@@ -129,6 +436,9 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
+      "tags": [
+        "general"
+      ],
       "title": "&lt;input type=“number”&gt;",
       "description": "input elements of type number are used to let the user enter a number. They include built-in validation to reject non-numerical entries.",
       "date": "2020-03-15T01:40:09.979Z",
@@ -140,11 +450,41 @@
     {
       "id": "lobo",
       "url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/",
+      "tags": [
+        "general"
+      ],
       "title": "Axiomatic CSS and Lobotomized Owls",
       "description": "Managing flow content can get unwieldy—too many class selectors can become a specificity headache, nested styling can get redundant, and content editors don’t always understand the presentational m…",
       "author": "Heydon Pickering",
       "date": "2014-10-21T14:00:00.000Z",
       "image": "/axiomatic-css-and-lobotomized-owls.png",
+      "processed": true
+    }
+  ],
+  "video": [
+    {
+      "id": "vinkle",
+      "url": "https://scottvinkle.me/blogs/blog/how-accessible-is-the-html-video-player",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "How accessible is the HTML video player?",
+      "description": "Comparing keyboard and screen reader accessibility of native video players.",
+      "author": "Scott Vinkle",
+      "date": "2019-12-20T00:04:00.000Z",
+      "image": "/how-accessible-is-the-html-video-player.jpg",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
+      "tags": [
+        "general"
+      ],
+      "title": "&lt;video&gt;: The Video Embed element",
+      "description": "The HTML Video element (video) embeds a media player which supports video playback into the document. You can use video for audio content as well, but the audio element may provide a more appropriate user experience.",
+      "date": "2020-02-22T23:56:54.947Z",
+      "image": "/video-the-video-embed-element.png",
       "processed": true
     }
   ]

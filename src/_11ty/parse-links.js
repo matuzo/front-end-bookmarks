@@ -3,7 +3,7 @@ const fs = require('fs');
 const download = require('image-downloader');
 const got = require('got');
 const metascraper = require('metascraper')([
-  require('metascraper-author')(),
+  require('./metascraper-author.js')(),
   require('metascraper-date')(),
   require('metascraper-description')(),
   require('./metascraper-image.js')(),
@@ -19,7 +19,7 @@ let linksData = fs.readFileSync(linksFile);
 let links = JSON.parse(linksData);
 
 const slugifySettings = {
-  remove: /[*+~.()<>/'"!:@]/g,
+  remove: /[*+~.,—?(#)<=>/'"!:@]/g,
   lower: true
 }
 slugify.extend({'<': ''})
@@ -36,7 +36,7 @@ const getNewImageFileName = metadata => {
   return `/${slugify(metadata.title, slugifySettings)}.${extension}`;
 }
 
-const downloadImage = (metadata) => {
+const downloadImage = (metadata, success, error) => {
   const image = metadata.image;
   const newFileName = getNewImageFileName(metadata);
 
@@ -56,18 +56,31 @@ const downloadImage = (metadata) => {
       .then(data => {
         fs.writeFile(filename, data, function(err) {
           if (err) {
+            error();
             return console.log(err);
           }
+          success();
           console.log('The file was saved!');
         });
       })
     })
-    .catch(err => console.error(err));
+    .catch(err => {
+      error();
+      console.error(err)
+    });
+}
+
+const writeLinks = (links) => {
+  fs.writeFile(linksFile, JSON.stringify(links, null, 2), function(err) {
+    if (err) {
+      return console.log(err);
+    }
+
+    console.log('The file was saved!');
+  });
 }
 
 const getData = async (key, targetUrl, id) => {
-
-  
 
   const currentLink = links[key].map(async link => {
     if (link.id === id) {
@@ -88,21 +101,20 @@ const getData = async (key, targetUrl, id) => {
         if (metadata.date) {
           link.date = metadata.date
         }
-      
+
         if (metadata.image) {
-          downloadImage(metadata);
-          link.image = getNewImageFileName(metadata)
+          downloadImage(metadata, function() {
+            link.image = getNewImageFileName(metadata)
+            link.processed = true;
+            writeLinks(links);
+          }, function() {
+            link.processed = true;
+            writeLinks(links);
+          });
+        } else {
+          link.processed = true;
+          writeLinks(links);
         }
-
-        link.processed = true;
-
-        fs.writeFile(linksFile, JSON.stringify(links, null, 2), function(err) {
-          if (err) {
-            return console.log(err);
-          }
-
-          console.log('The file was saved!');
-        });
       } else {
         console.log('already processed')
       }

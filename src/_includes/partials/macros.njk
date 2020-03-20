@@ -1,7 +1,13 @@
-{% macro linklist(title, url, list, limit = 6, randomize = false) %}
+{% macro linklist(title, url, list, limit = 1000, randomize = false, sort="date") %}
 <div class="links">
   {% if title %}
-    <h3><a href="/{{ url }}">{{ title }}</a></h3>
+    <h3>
+      {% if url %} 
+        <a href="/{{ url }}">{{ title }}</a>
+      {% else %}
+        <span>{{ title }}</span>
+      {% endif %}
+    </h3>
   {% endif %}
    
   <ul class="link-list">
@@ -11,7 +17,11 @@
     {% set pages = pages | random %}
   {% endif %}
 
-  {% for page in pages | head(limit) %}
+  {% if sort == "alpha" %}
+    {% set pages = pages | sortAlpha | reverse %}
+  {% endif %}
+
+  {% for page in pages | sort(url) | reverse | head(limit) %}
     <li class="link-list__item card">
       <a href="{{ page.url }}" class="card__link">{{ page.data.title }}</a>
       <p class="card__desc">{{ page.data.short_desc }}</p>

@@ -20,6 +20,6 @@ links: "typenumber"
 ```html
 <label>
   How much do you want to charge? 
-  $<input type=number min=0 step=0.01 name=price>
+  $<input type="number" min="0" step="0.01">
 </label>
 ```
