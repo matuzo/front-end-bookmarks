@@ -5,6 +5,23 @@ layout: base.njk
 
 <h2>{{ title }}</h2>
 
+{% if definition %}
+  <blockquote>
+    {{ definition.text }}
+  <cite><a href="{{ definition.cite.url }}"> {{ definition.cite.text }}</a></cite>
+  </blockquote>
+{% endif %}
+
+{% if links %}
+  <h3><span>Links about <code>{{ title }}</code></span></h3>
+  {% links links %}
+{% endif %}
+
+{% if related %}
+  <h3><span>Related links</span></h3>
+  {% links related %}
+{% endif %}
+
 {{ content | safe }}
 
 {{macros.linklist("Explore other pages", "", "entry", 3, true)}}

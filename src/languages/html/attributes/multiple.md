@@ -1,22 +1,20 @@
 ---
 title: multiple
-short_desc: "short desc"
+short_desc: "Enables form controls to accept one or more values."
 tags:
   - html
   - attributes
   - entry
 permalink: html/attributes/{{ title | slug }}/index.html
+definition:
+  text: "The multiple attribute is a boolean attribute. If the attribute is present, then the select element represents a control for selecting zero or more options from the list of options."
+  cite:
+    text: "4.11.4. The dialog element"
+    url: https://www.w3.org/TR/html52/single-page.html#the-select-element
+links: "multiple"
+related:
+  - 'select.selectpoison2'
 ---
-
-<blockquote>The multiple attribute is a boolean attribute. If the attribute is present, then the select element represents a control for selecting zero or more options from the list of options.
-<cite><a href="https://www.w3.org/TR/html52/single-page.html#the-select-element">4.11.4. The dialog element</a></cite>
-</blockquote>
-
-<h3><span>Related links</span></h3>
-
-<ol class="bookmarks">
-  {% link "https://www.24a11y.com/2019/select-your-poison-part-2/" %}
-</ol>
 
 <h3><span>Code sample</span></h3>
 

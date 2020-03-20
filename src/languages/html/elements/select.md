@@ -1,23 +1,18 @@
 ---
 title: select
-short_desc: "short desc"
+short_desc: "A control for selecting amongst a set of options."
 tags:
   - html
   - elements
   - entry
 permalink: html/elements/{{ title | slug }}/index.html
+definition:
+  text: "The select element represents a control for selecting amongst a set of options."
+  cite:
+    text: "4.10.7. The select element"
+    url: https://www.w3.org/TR/html52/single-page.html#the-select-element
+links: "select"
 ---
-
-<blockquote>The select element represents a control for selecting amongst a set of options.
-<cite><a href="https://www.w3.org/TR/html52/single-page.html#the-select-element">4.10.7. The select element</a></cite>
-</blockquote>
-
-<h3><span>Links about <code>{{ title }}</code></span></h3>
-
-<ol class="bookmarks">
-  {% link "https://www.24a11y.com/2019/select-your-poison" %}
-  {% link "https://www.24a11y.com/2019/select-your-poison-part-2/" %}
-</ol>
 
 <h3><span>Code sample</span></h3>
 

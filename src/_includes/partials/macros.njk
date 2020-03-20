@@ -12,9 +12,9 @@
   {% endif %}
 
   {% for page in pages | head(limit) %}
-    <li class="link-list__item">
-      <a href="{{ page.url }}" class="link-list__link">{{ page.data.title }}</a>
-      <p class="link-list__desc">{{ page.data.short_desc }}</p>
+    <li class="link-list__item card">
+      <a href="{{ page.url }}" class="card__link">{{ page.data.title }}</a>
+      <p class="card__desc">{{ page.data.short_desc }}</p>
       <ul class="tags">
         {% set tags = page.data.tags %}
         {% for tag in tags %}
