@@ -1,0 +1,61 @@
+{
+  "async": [
+    {
+      "id": "zellwk",
+      "url": "https://zellwk.com/blog/async-await-in-loops/",
+      "title": "JavaScript async and await in loops | Zell Liew",
+      "description": "I share some gotchas you have to watch out for when you use async and await in loops.",
+      "date": "2019-05-01T10:00:00.000Z",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function",
+      "title": "async function expression",
+      "description": "The async function keyword can be used to define async functions inside expressions.",
+      "date": "2020-03-13T15:41:52.383Z",
+      "image": "/async-function-expression.png",
+      "processed": true
+    }
+  ],
+  "await": [
+    {
+      "id": "zellwk",
+      "url": "https://zellwk.com/blog/async-await-in-loops/",
+      "title": "JavaScript async and await in loops | Zell Liew",
+      "description": "I share some gotchas you have to watch out for when you use async and await in loops.",
+      "date": "2019-05-01T10:00:00.000Z",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await",
+      "title": "await",
+      "description": "The await operator is used to wait for a Promise. It can only be used inside an async function.",
+      "date": "2020-03-04T04:30:58.026Z",
+      "image": "/await.png",
+      "processed": true
+    }
+  ],
+  "stringify": [
+    {
+      "id": "pawel",
+      "url": "https://pawelgrzybek.com/til-the-power-of-json-stringify-replacer-parameter/",
+      "title": "TIL — The power of JSON.stringify replacer parameter | pawelgrzybek.com",
+      "description": "I had a challenging problem with JSON stringify that ignored my data in a place where I expected sets of values. Luckily I managed to solve it in a very elegant way.",
+      "author": "Pawel Grzybek - https://pawelgrzybek.com/",
+      "date": "2019-10-11T00:00:00.000Z",
+      "image": "/til-the-power-of-jsonstringify-replacer-parameter-or-pawelgrzybekcom.jpg",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify",
+      "title": "JSON.stringify()",
+      "description": "The JSON.stringify() method converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.",
+      "date": "2020-01-15T03:22:29.194Z",
+      "image": "/jsonstringify.png",
+      "processed": true
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "displaycontents": [
+    {
+      "id": "roselli",
+      "url": "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Display: Contents Is Not a CSS Reset",
+      "description": "CSS resets are a collection of CSS styles that undo the default browser styling of many or most HTML elements. Recently I have seen cases of developers using display: contents on lists and headings to remove the margins and padding, and generally to visually do what a CSS reset might…",
+      "date": "2019-06-22T00:39:50.000Z",
+      "processed": true
+    },
+    {
+      "id": "hidde",
+      "url": "https://hiddedevries.nl/en/blog/2018-04-21-more-accessible-markup-with-display-contents",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "More accessible markup with display: contents",
+      "description": "The website of Hidde de Vries, freelance front-end developer.",
+      "date": "2018-04-21T00:55:00.000Z",
+      "processed": true
+    }
+  ],
+  "clip-path": [
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/unfortunately-clip-path-path-is-still-a-no-go/",
+      "title": "Unfortunately, clip-path: path() is Still a No-Go | CSS-Tricks",
+      "description": "I was extremely excited when I first heard that clip-path: path() was coming to Firefox. Just imagine being able to easily code a breathing box like the",
+      "date": "2020-03-02T14:54:56.000Z",
+      "image": "/unfortunately-clip-path-path-is-still-a-no-go-or-css-tricks.gif",
+      "processed": true
+    },
+    {
+      "id": "csstricks2",
+      "url": "https://css-tricks.com/almanac/properties/c/clip-path/",
+      "title": "clip-path | CSS-Tricks",
+      "description": "The clip-path property in CSS allows you to specify a specific region of an element to display, rather than showing the complete area. There used to be a",
+      "date": "2019-08-16T10:00:00.000Z",
+      "processed": true
+    }
+  ],
+  "grid-template-areas": [
+    {
+      "id": "",
+      "url": "https://ishadeed.com/article/grid-area/",
+      "tags": [
+        "layout"
+      ],
+      "title": "CSS Grid Template Areas In Action - Ahmad Shadeed",
+      "description": "Since CSS Grid became supported in the major browsers back in March 2017 (Almost three years ago), I started using it in my personal and client projects, of ...",
+      "author": "iShadeed",
+      "date": "2020-01-19T11:00:00.000Z",
+      "processed": true
+    }
+  ],
+  "liststyletype": [
+    {
+      "id": "matuzo_liststyle",
+      "url": "https://www.matuzo.at/blog/heres-what-i-didnt-know-about-list-style-type/",
+      "title": "Here’s what I didn’t know about list-style-type",
+      "description": "In Chrome 79+, Firefox 39+, and Opera 66+ it’s possible to define a string value as the bullet of an ordered or unordered list.",
+      "author": "Manuel Matuzović",
+      "date": "2020-01-28T00:00:00.000Z",
+      "image": "/heres-what-i-didnt-know-about-list-style-type.png",
+      "processed": true
+    },
+    {
+      "id": "ohara",
+      "url": "https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "“Fixing” Lists | scottohara.me",
+      "description": "In September of 2017 Gerard K. Cohen of Unfettered Thoughts posted an article on the how VoiceOver and Safari (Webkit) (macOS and iOS) remove list element se...",
+      "date": "2019-01-12T00:00:00.000Z",
+      "processed": true
+    },
+    {
+      "id": "unfettered",
+      "url": "https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "VoiceOver and list-style-type: none",
+      "description": "With that bit of additional CSS, we are able to return the list semantics for VoiceOver users without needing to touch the markup.",
+      "date": "2017-09-26T07:14:57.000Z",
+      "image": "/voiceover-and-list-style-type-none.jpg",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type",
+      "title": "list-style-type",
+      "description": "The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element.",
+      "date": "2019-10-04T09:36:46.246Z",
+      "image": "/list-style-type.png",
+      "processed": true
+    },
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/almanac/properties/l/list-style/",
+      "title": "list-style | CSS-Tricks",
+      "description": "The list-style property is a shorthand property that sets values for three different list-related properties in one declaration: ul { list-style: || || ;",
+      "author": "Sara Cope",
+      "date": "2014-03-04T11:00:00.000Z",
+      "image": "/list-style-or-css-tricks.png",
+      "processed": true
+    }
+  ],
+  "margin": [
+    {
+      "id": "quirks",
+      "url": "https://www.quirksmode.org/blog/archives/2020/02/negative_margin.html",
+      "title": "Negative margins in CSS - QuirksBlog",
+      "processed": true
+    },
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/almanac/properties/m/margin/",
+      "title": "margin | CSS-Tricks",
+      "description": "The margin property defines the outermost portion of the box model, creating space around an element, outside of any defined borders. Margins are set",
+      "date": "2020-03-06T11:00:00.000Z",
+      "image": "/margin-or-css-tricks.png",
+      "processed": true
+    }
+  ],
+  "nthchild": [
+    {
+      "id": "nthmaster",
+      "url": "http://nthmaster.com/",
+      "title": "Mastering the :nth-child | CSS3 pseudo classes and :nth-child ranges",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child",
+      "title": ":nth-child()",
+      "description": "The :nth-child() CSS pseudo-class matches elements based on their position in a group of siblings.",
+      "date": "2020-03-19T14:14:45.486Z",
+      "image": "/nth-child.png",
+      "processed": true
+    }
+  ],
+  "nthlastchild": [
+    {
+      "id": "ala",
+      "url": "https://alistapart.com/article/quantity-queries-for-css/",
+      "title": "Quantity Queries for CSS",
+      "description": "In responsive design, we think a lot about space, especially in the context of screen sizes. But the amount of content or the number of elements is bound to affect space, too, just as unpredictably…",
+      "author": "Heydon Pickering",
+      "date": "2015-03-03T15:00:00.000Z",
+      "image": "/quantity-queries-for-css.png",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child",
+      "title": ":nth-last-child()",
+      "description": "The :nth-last-child() CSS pseudo-class matches elements based on their position among a group of siblings, counting from the end.",
+      "date": "2018-09-18T23:19:02.444Z",
+      "image": "/nth-last-child.png",
+      "processed": true
+    }
+  ],
+  "positionsticky": [
+    {
+      "id": "roselli",
+      "url": "https://adrianroselli.com/2020/01/fixed-table-headers.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Fixed Table Headers",
+      "description": "Related A Responsive Accessible Table Hey, It’s Still OK to Use Tables Keyboard and Overflow",
+      "date": "2020-01-13T21:59:27.000Z",
+      "processed": true
+    },
+    {
+      "id": "csstricks",
+      "url": "https://css-tricks.com/position-sticky-and-table-headers/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Position Sticky and Table Headers | CSS-Tricks",
+      "description": "You can’t position: sticky; a . Nor a . But you can sticky a , which means you can make sticky headers inside a regular ol’ . This is tricky stuff,",
+      "date": "2020-03-05T13:24:58.000Z",
+      "image": "/position-sticky-and-table-headers-or-css-tricks.png",
+      "processed": true
+    }
+  ],
+  "universal": [
+    {
+      "id": "lobo",
+      "url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/",
+      "title": "Axiomatic CSS and Lobotomized Owls",
+      "description": "Managing flow content can get unwieldy—too many class selectors can become a specificity headache, nested styling can get redundant, and content editors don’t always understand the presentational m…",
+      "author": "Heydon Pickering",
+      "date": "2014-10-21T14:00:00.000Z",
+      "image": "/axiomatic-css-and-lobotomized-owls.png",
+      "processed": true
+    }
+  ]
+}

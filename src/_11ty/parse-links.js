@@ -14,20 +14,12 @@ const sharp = require('sharp');
 const Entities = require('html-entities').XmlEntities;
 const entities = new Entities();
 
-const linksFile = './src/_data/links.json'
-let linksData = fs.readFileSync(linksFile);
-let links = JSON.parse(linksData);
-
 const slugifySettings = {
   remove: /[*+~.,—?(#)<=>/'"!:@]/g,
   lower: true
 }
 slugify.extend({'<': ''})
 slugify.extend({'>': ''})
-
-const getUrlSlug = url => {
-  return slugify(url, slugifySettings)
-}
 
 const getNewImageFileName = metadata => {
   const image = metadata.image.replace(/\?.*$/,"");
@@ -70,7 +62,7 @@ const downloadImage = (metadata, success, error) => {
     });
 }
 
-const writeLinks = (links) => {
+const writeLinks = (linksFile, links) => {
   fs.writeFile(linksFile, JSON.stringify(links, null, 2), function(err) {
     if (err) {
       return console.log(err);
@@ -80,8 +72,7 @@ const writeLinks = (links) => {
   });
 }
 
-const getData = async (key, targetUrl, id) => {
-
+const getData = async (linksFile, links, file, key, targetUrl, id) => {
   const currentLink = links[key].map(async link => {
     if (link.id === id) {
       
@@ -106,14 +97,14 @@ const getData = async (key, targetUrl, id) => {
           downloadImage(metadata, function() {
             link.image = getNewImageFileName(metadata)
             link.processed = true;
-            writeLinks(links);
+            writeLinks(linksFile, links);
           }, function() {
             link.processed = true;
-            writeLinks(links);
+            writeLinks(linksFile, links);
           });
         } else {
           link.processed = true;
-          writeLinks(links);
+          writeLinks(linksFile, links);
         }
       } else {
         console.log('already processed')
@@ -123,8 +114,7 @@ const getData = async (key, targetUrl, id) => {
 }
 
 module.exports = {
- getData: getData,
- getUrlSlug: getUrlSlug
+ getData: getData
 }
 
 

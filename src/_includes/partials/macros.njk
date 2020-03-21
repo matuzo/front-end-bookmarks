@@ -1,4 +1,4 @@
-{% macro linklist(title, url, list, limit = 1000, randomize = false, sort="date") %}
+{% macro linklist(title, url, list, limit = 1000, randomize = false, sort="date", viewAll = false) %}
 <div class="links">
   {% if title %}
     <h3>
@@ -40,5 +40,9 @@
     </li>
   {% endfor %}
   </ul>
+
+  {% if viewAll %}
+    <a href="/{{ url }}" class="u-fw-b">View all {{ title }}</a>
+  {% endif %}
 </div>
 {% endmacro %}

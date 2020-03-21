@@ -13,7 +13,7 @@ definition:
     url: https://www.w3.org/TR/html52/textlevel-semantics.html#the-a-element
 links: "a"
 related:
-  - "rel.bynens"
+  - "html.rel.bynens"
 ---
 <h3><span>Code sample</span></h3>
 

@@ -13,7 +13,7 @@ definition:
     url: https://www.w3.org/TR/wai-aria/#aria-labelledby
 links: "aria-labelledby"
 related:
-  - 'svg.csstricksa11y'
+  - 'html.svg.csstricksa11y'
 ---
 
 <h3><span>Code sample</span></h3>

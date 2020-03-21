@@ -1,6 +1,6 @@
 ---
 title: button
-short_desc: "A control allowing a user to trigger actions"
+short_desc: "A control allowing a user to trigger actions."
 tags:
   - html
   - elements

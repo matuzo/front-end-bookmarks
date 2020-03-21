@@ -3,12 +3,8 @@
     {
       "id": "csstricks",
       "url": "https://css-tricks.com/a-complete-guide-to-links-and-buttons/",
-      "tags": [
-        "general"
-      ],
       "title": "A Complete Guide to Links and Buttons | CSS-Tricks",
       "description": "Our complete guide to links, buttons, and button-like inputs in HTML, CSS, and JavaScript.",
-      "author": "Chris Coyier",
       "date": "2020-02-21T14:21:13.000Z",
       "image": "/a-complete-guide-to-links-and-buttons-or-css-tricks.png",
       "processed": true
@@ -17,7 +13,6 @@
       "id": "marcy",
       "url": "https://www.youtube.com/watch?v=8XjwDq9zG4I",
       "tags": [
-        "general",
         "accessibility",
         "video"
       ],
@@ -52,13 +47,23 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;a&gt;: The Anchor element",
       "description": "The HTML a element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.",
       "date": "2020-02-10T15:29:54.791Z",
       "image": "/a-the-anchor-element.png",
+      "processed": true
+    }
+  ],
+  "aria-details": [
+    {
+      "id": "ohara",
+      "url": "https://www.scottohara.me/blog/2018/11/08/aria-details.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Getting the details on aria-details | scottohara.me",
+      "description": "Introduced in ARIA 1.1, aria-details is meant to help convey that there is additional information available for a particular element a user is interacting with.",
+      "date": "2018-11-08T00:00:00.000Z",
       "processed": true
     }
   ],
@@ -102,15 +107,47 @@
       "date": "2018-07-18T08:46:02.000Z",
       "image": "/short-note-on-aria-label-aria-labelledby-and-aria-describedby.png",
       "processed": true
+    },
+    {
+      "id": "paciello2",
+      "url": "https://developer.paciellogroup.com/blog/2018/09/describing-aria-describedby/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Describing aria-describedby",
+      "description": "A well-designed user interface (UI) should clearly identify important content and controls. Often people correlate this to using prominent visual cues to help guide individuals through a task or point",
+      "date": "2018-11-27T13:07:56.000Z",
+      "image": "/describing-aria-describedby.png",
+      "processed": true
+    }
+  ],
+  "article": [
+    {
+      "id": "smashing",
+      "url": "https://www.smashingmagazine.com/2020/01/html5-article-section/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Why You Should Choose HTML5 &lt;article&gt; Over &lt;section&gt; — Smashing Magazine",
+      "description": "In this article, Bruce Lawson explains what use we have of `` and how authors should mark up headings that are hugely important to AT users.",
+      "date": "2020-01-07T11:30:00.000Z",
+      "image": "/why-you-should-choose-html5-article-over-section-smashing-magazine.png",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section",
+      "title": "&lt;section&gt;: The Generic Section element",
+      "description": "The HTML section element represents a standalone section — which doesn’t have a more specific semantic element to represent it — contained within an HTML document.",
+      "date": "2019-08-19T08:54:47.538Z",
+      "image": "/section-the-generic-section-element.png",
+      "processed": true
     }
   ],
   "button": [
     {
       "id": "csstricks",
       "url": "https://css-tricks.com/a-complete-guide-to-links-and-buttons/",
-      "tags": [
-        "general"
-      ],
       "title": "A Complete Guide to Links and Buttons | CSS-Tricks",
       "description": "Our complete guide to links, buttons, and button-like inputs in HTML, CSS, and JavaScript.",
       "author": "Chris Coyier",
@@ -122,7 +159,6 @@
       "id": "marcy",
       "url": "https://www.youtube.com/watch?v=8XjwDq9zG4I",
       "tags": [
-        "general",
         "accessibility",
         "video"
       ],
@@ -159,9 +195,6 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;button&gt;: The Button element",
       "description": "The HTML button element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.",
       "date": "2020-02-26T18:46:46.212Z",
@@ -169,38 +202,10 @@
       "processed": true
     }
   ],
-  "clip-path": [
-    {
-      "id": "csstricks",
-      "url": "https://css-tricks.com/unfortunately-clip-path-path-is-still-a-no-go/",
-      "tags": [
-        "general"
-      ],
-      "title": "Unfortunately, clip-path: path() is Still a No-Go | CSS-Tricks",
-      "description": "I was extremely excited when I first heard that clip-path: path() was coming to Firefox. Just imagine being able to easily code a breathing box like the",
-      "date": "2020-03-02T14:54:56.000Z",
-      "image": "/unfortunately-clip-path-path-is-still-a-no-go-or-css-tricks.gif",
-      "processed": true
-    },
-    {
-      "id": "csstricks2",
-      "url": "https://css-tricks.com/almanac/properties/c/clip-path/",
-      "tags": [
-        "general"
-      ],
-      "title": "clip-path | CSS-Tricks",
-      "description": "The clip-path property in CSS allows you to specify a specific region of an element to display, rather than showing the complete area. There used to be a",
-      "date": "2019-08-16T10:00:00.000Z",
-      "processed": true
-    }
-  ],
   "data": [
     {
       "id": "csstricks",
       "url": "https://css-tricks.com/a-complete-guide-to-data-attributes/",
-      "tags": [
-        "general"
-      ],
       "title": "A Complete Guide to Data Attributes | CSS-Tricks",
       "description": "Everything you ever wanted to know about data attributes in HTML, CSS, and JavaScript.",
       "author": "Chris Coyier",
@@ -231,6 +236,17 @@
       "description": "Once major browsers started supporting &lt;details&gt; &amp; &lt;summary&gt; developers immediately started to play with them to see what sorts of patterns they could enhance or replace. This is a good thing. Experimentation pushes boundaries, improves understanding. However, we need to be careful of christening th…",
       "date": "2019-12-07T03:59:35.000Z",
       "processed": true
+    },
+    {
+      "id": "ohara",
+      "url": "https://www.scottohara.me/blog/2018/09/03/details-and-summary.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "The details and summary elements | scottohara.me",
+      "description": "The details and summary elements are two of HTML’s interactive elements and together are the elements that create a native disclosure widget.",
+      "date": "2018-09-03T00:00:00.000Z",
+      "processed": true
     }
   ],
   "dialog": [
@@ -248,13 +264,32 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;dialog&gt;: The Dialog element",
       "description": "The HTML dialog element represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow.",
       "date": "2020-02-08T09:17:05.990Z",
       "image": "/dialog-the-dialog-element.png",
+      "processed": true
+    }
+  ],
+  "figure": [
+    {
+      "id": "ohara",
+      "url": "https://www.scottohara.me/blog/2019/01/21/how-do-you-figure.html",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "How do you figure? | scottohara.me",
+      "description": "Introduced as part of HTML5, the figure and figcaption elements are meant to create a meaningful markup structure that: provides a descriptive label to a pi...",
+      "date": "2019-01-21T00:00:00.000Z",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure",
+      "title": "&lt;figure&gt;: The Figure with Optional Caption element",
+      "description": "The HTML figure (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (figcaption) element.",
+      "date": "2019-08-14T18:16:45.619Z",
+      "image": "/figure-the-figure-with-optional-caption-element.png",
       "processed": true
     }
   ],
@@ -271,69 +306,6 @@
       "processed": true
     }
   ],
-  "liststyletype": [
-    {
-      "id": "matuzo_liststyle",
-      "url": "https://www.matuzo.at/blog/heres-what-i-didnt-know-about-list-style-type/",
-      "tags": [
-        "general"
-      ],
-      "title": "Here’s what I didn’t know about list-style-type",
-      "description": "In Chrome 79+, Firefox 39+, and Opera 66+ it’s possible to define a string value as the bullet of an ordered or unordered list.",
-      "author": "Manuel Matuzović",
-      "date": "2020-01-28T00:00:00.000Z",
-      "image": "/heres-what-i-didnt-know-about-list-style-type.png",
-      "processed": true
-    },
-    {
-      "id": "mdn",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type",
-      "tags": [
-        "general"
-      ],
-      "title": "list-style-type",
-      "description": "The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element.",
-      "date": "2019-10-04T09:36:46.246Z",
-      "image": "/list-style-type.png",
-      "processed": true
-    },
-    {
-      "id": "csstricks",
-      "url": "https://css-tricks.com/almanac/properties/l/list-style/",
-      "tags": [
-        "general"
-      ],
-      "title": "list-style | CSS-Tricks",
-      "description": "The list-style property is a shorthand property that sets values for three different list-related properties in one declaration: ul { list-style: || || ;",
-      "author": "Sara Cope",
-      "date": "2014-03-04T11:00:00.000Z",
-      "image": "/list-style-or-css-tricks.png",
-      "processed": true
-    }
-  ],
-  "margin": [
-    {
-      "id": "quirks",
-      "url": "https://www.quirksmode.org/blog/archives/2020/02/negative_margin.html",
-      "tags": [
-        "general"
-      ],
-      "title": "Negative margins in CSS - QuirksBlog",
-      "processed": true
-    },
-    {
-      "id": "csstricks",
-      "url": "https://css-tricks.com/almanac/properties/m/margin/",
-      "tags": [
-        "general"
-      ],
-      "title": "margin | CSS-Tricks",
-      "description": "The margin property defines the outermost portion of the box model, creating space around an element, outside of any defined borders. Margins are set",
-      "date": "2020-03-06T11:00:00.000Z",
-      "image": "/margin-or-css-tricks.png",
-      "processed": true
-    }
-  ],
   "meter": [
     {
       "id": "ohara",
@@ -347,9 +319,6 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;meter&gt;: The HTML Meter element",
       "description": "The HTML meter element represents either a scalar value within a known range or a fractional value.",
       "date": "2020-03-09T08:41:51.996Z",
@@ -361,38 +330,10 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple",
-      "tags": [
-        "general"
-      ],
       "title": "HTML attribute: multiple",
       "description": "The Boolean multiple attribute, if set, means the form control accepts one or more values. Valid for the email and file input types and the select, the manner by which the user opts for multiple values depends on the form control.",
       "date": "2019-11-15T13:47:46.910Z",
       "image": "/html-attribute-multiple.png",
-      "processed": true
-    }
-  ],
-  "positionsticky": [
-    {
-      "id": "roselli",
-      "url": "https://adrianroselli.com/2020/01/fixed-table-headers.html",
-      "tags": [
-        "accessibility"
-      ],
-      "title": "Fixed Table Headers",
-      "description": "Related A Responsive Accessible Table Hey, It’s Still OK to Use Tables Keyboard and Overflow",
-      "date": "2020-01-13T21:59:27.000Z",
-      "processed": true
-    },
-    {
-      "id": "csstricks",
-      "url": "https://css-tricks.com/position-sticky-and-table-headers/",
-      "tags": [
-        "accessibility"
-      ],
-      "title": "Position Sticky and Table Headers | CSS-Tricks",
-      "description": "You can’t position: sticky; a . Nor a . But you can sticky a , which means you can make sticky headers inside a regular ol’ . This is tricky stuff,",
-      "date": "2020-03-05T13:24:58.000Z",
-      "image": "/position-sticky-and-table-headers-or-css-tricks.png",
       "processed": true
     }
   ],
@@ -409,9 +350,6 @@
     {
       "id": "progress_mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;progress&gt;: The Progress Indicator element",
       "description": "The HTML progress element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
       "date": "2020-03-09T08:43:21.964Z",
@@ -427,6 +365,29 @@
         "security"
       ],
       "title": "About rel=noopener",
+      "processed": true
+    }
+  ],
+  "section": [
+    {
+      "id": "smashing",
+      "url": "https://www.smashingmagazine.com/2020/01/html5-article-section/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Why You Should Choose HTML5 &lt;article&gt; Over &lt;section&gt; — Smashing Magazine",
+      "description": "In this article, Bruce Lawson explains what use we have of `` and how authors should mark up headings that are hugely important to AT users.",
+      "date": "2020-01-07T11:30:00.000Z",
+      "image": "/why-you-should-choose-html5-article-over-section-smashing-magazine.png",
+      "processed": true
+    },
+    {
+      "id": "mdn",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section",
+      "title": "&lt;section&gt;: The Generic Section element",
+      "description": "The HTML section element represents a standalone section — which doesn’t have a more specific semantic element to represent it — contained within an HTML document.",
+      "date": "2019-08-19T08:54:47.538Z",
+      "image": "/section-the-generic-section-element.png",
       "processed": true
     }
   ],
@@ -457,9 +418,6 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;select&gt;",
       "description": "The HTML select element represents a control that provides a menu of options",
       "date": "2020-03-09T08:50:04.027Z",
@@ -480,6 +438,32 @@
       "processed": true
     }
   ],
+  "title": [
+    {
+      "id": "24a11y",
+      "url": "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "The Trials and Tribulations of the Title Attribute - 24 Accessibility",
+      "description": "Scott O’Hara returns, not with prose, but with a little history on the title attribute, it’s unintended misuse by developers, and where it can and should be used to improve the accessibility on your website.",
+      "date": "2018-10-12T11:16:14.000Z",
+      "image": "/the-trials-and-tribulations-of-the-title-attribute-24-accessibility.gif",
+      "processed": true
+    },
+    {
+      "id": "paciello",
+      "url": "https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute/",
+      "tags": [
+        "accessibility"
+      ],
+      "title": "Using the HTML title attribute – Updated March 2020",
+      "description": "Note: This post has the same content as our 2013 post. They each originally addressed different aspects of the title attribute, but now they match. We are keeping both of them to account for inb",
+      "date": "2020-03-18T12:54:36.000Z",
+      "image": "/using-the-html-title-attribute-–-updated-march-2020.png",
+      "processed": true
+    }
+  ],
   "typedate": [
     {
       "id": "hassell",
@@ -496,9 +480,6 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;input type=“date”&gt;",
       "description": "input elements of type=“date” create input fields that let the user enter a date, either with a textbox that validates the input or a special date picker interface.",
       "date": "2020-03-19T22:00:07.686Z",
@@ -521,9 +502,6 @@
     {
       "id": "mdn",
       "url": " https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;input type=“search”&gt;",
       "description": "input elements of type search are text fields designed for the user to enter search queries into. These are functionally identical to text inputs, but may be styled differently by the user agent.",
       "date": "2019-12-19T20:51:49.970Z",
@@ -561,28 +539,10 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;input type=“number”&gt;",
       "description": "input elements of type number are used to let the user enter a number. They include built-in validation to reject non-numerical entries.",
       "date": "2020-03-15T01:40:09.979Z",
       "image": "/input-typenumber.png",
-      "processed": true
-    }
-  ],
-  "universal": [
-    {
-      "id": "lobo",
-      "url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/",
-      "tags": [
-        "general"
-      ],
-      "title": "Axiomatic CSS and Lobotomized Owls",
-      "description": "Managing flow content can get unwieldy—too many class selectors can become a specificity headache, nested styling can get redundant, and content editors don’t always understand the presentational m…",
-      "author": "Heydon Pickering",
-      "date": "2014-10-21T14:00:00.000Z",
-      "image": "/axiomatic-css-and-lobotomized-owls.png",
       "processed": true
     }
   ],
@@ -603,9 +563,6 @@
     {
       "id": "mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
-      "tags": [
-        "general"
-      ],
       "title": "&lt;video&gt;: The Video Embed element",
       "description": "The HTML Video element (video) embeds a media player which supports video playback into the document. You can use video for audio content as well, but the audio element may provide a more appropriate user experience.",
       "date": "2020-02-22T23:56:54.947Z",

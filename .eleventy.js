@@ -1,6 +1,10 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const { DateTime } = require('luxon');
-const links = require('./src/_data/links.json');
+const linkFiles = {
+  "html":  require('./src/_data/html.json'),
+  "js": require('./src/_data/js.json'),
+  "css": require('./src/_data/css.json'),
+}
 
 module.exports = function(eleventyConfig) {
   // Plugins
@@ -108,7 +112,8 @@ module.exports = function(eleventyConfig) {
     return template
   }
 
-  eleventyConfig.addShortcode('links', function(prop) {
+  eleventyConfig.addShortcode('links', function(prop, type) {
+    let links = linkFiles[type]
     let template = ` <ol class="bookmarks">`;
     let item
     let linkData
@@ -121,7 +126,8 @@ module.exports = function(eleventyConfig) {
     } else {
       for (let i = 0; i < prop.length; i++) {
         const parts = prop[i].split('.');
-        linkData = links[parts[0]].filter(link => link.id === parts[1])[0];
+        links = linkFiles[parts[0]]
+        linkData = links[parts[1]].filter(link => link.id === parts[2])[0];
         template += linkCard(linkData);
       }
     }

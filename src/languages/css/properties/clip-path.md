@@ -1,23 +1,23 @@
 ---
 title: clip-path
-short_desc: "Specifies a list item’s marker."
+short_desc: "Specifies a basic shape or references a clipPath element to create a clipping path."
 tags:
   - css
   - properties
   - entry
 permalink: css/properties/{{ title | slug }}/index.html
 definition:
-  text: "Specifies the marker string, which is used to fill the list item’s marker when its content value is normal and there is no marker image."
+  text: "Specifies a basic shape or references a clipPath element to create a clipping path."
   cite:
-    text: "3.4. Text-based Markers: the list-style-type property"
-    url: https://www.w3.org/TR/css-lists-3/#text-markers
+    text: "5.1 Clipping Shape: the clip-path property"
+    url: https://www.w3.org/TR/css-masking-1/#the-clip-path
 links: "clip-path"
 ---
 
 <h3><span>Code sample</span></h3>
 
 ```css
-ol {
-  list-style-type: lower-roman;
+div {
+  clip-path: polygon(15px 99px, 30px 87px, 65px 99px, 85px 55px);
 }
 ```

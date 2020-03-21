@@ -13,7 +13,7 @@ definition:
     url: https://www.w3.org/TR/html52/single-page.html#the-select-element
 links: "multiple"
 related:
-  - 'select.selectpoison2'
+  - 'html.select.selectpoison2'
 ---
 
 <h3><span>Code sample</span></h3>

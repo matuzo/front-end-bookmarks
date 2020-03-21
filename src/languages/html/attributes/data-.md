@@ -17,8 +17,7 @@ links: "data"
 <h3><span>Code sample</span></h3>
 
 ```html
-<ol>
-  <li data-length="2m11s">Beyond The Sea</li>
-  ...
-</ol>
+<h3 data-author-id="bob">
+  Bob
+</h3>
 ```

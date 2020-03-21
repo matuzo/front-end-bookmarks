@@ -1,0 +1,15 @@
+---
+title: JS
+layout: overview.njk
+permalink: js/index.html
+tags:
+  - nav
+---
+{% import "partials/macros.njk" as macros with context %}
+
+<p>
+  Articles and talks about Javascript methods.
+</p>
+
+{{macros.linklist("Methods", "html/methods", "methods", sort="alpha")}}
+{{macros.linklist("Expressions", "html/expressions", "expressions", sort="alpha")}}

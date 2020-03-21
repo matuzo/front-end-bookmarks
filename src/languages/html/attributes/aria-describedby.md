@@ -17,7 +17,8 @@ links: "aria-describedby"
 <h3><span>Code sample</span></h3>
 
 ```html
-<button aria-label="Submit">
-  <svg …></svg>
-</button>
+<button class="notifications" aria-describedby="notifications-desc">  
+  Notifications
+</button>  
+<div role="tooltip" id="notifications-desc">View and manage notifications settings</div> 
 ```
