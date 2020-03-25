@@ -8,3 +8,15 @@ layout: base.njk
 
 {{macros.linklist(title = "HTML", url = "html", limit = 6, list = "html", viewAll = true )}}
 {{macros.linklist(title = "CSS", url = "css", limit = 6, list = "css", viewAll = true )}}
+
+<h2><span>Tags</span></h2>
+
+<ul class="tags">
+  {% for tag in collections.tags %}
+    <li class="tags__tag">
+      <a href="{{ tag.url}}" class="tags__link tags__link--accessibility">
+        {{ tag.data.title}}
+      </a>
+    </li>
+  {% endfor%}
+</ul>
