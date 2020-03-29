@@ -24,6 +24,10 @@ layout: base.njk
 
 {% if related %}
   <h3><span>Related links</span></h3>
+
+  {% for entry in related %}
+    {{ bookmark(entry)}}
+  {% endfor %}
 {% endif %}
 
 {{ content | safe }}

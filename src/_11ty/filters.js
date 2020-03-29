@@ -70,5 +70,16 @@ module.exports = {
     ).map(title => {
       return filteredCollection.find(a => a.title === title);
     });
+  },
+
+  split: (str, seperator) => {
+    return str.split(seperator);
+  },
+
+  filterById: (entries, id) => {
+   
+    console.log(id)
+    console.log(entries.filter(entry => entry.id === id))
+    return  entries.filter(entry => entry.id === id)[0];
   }
 }

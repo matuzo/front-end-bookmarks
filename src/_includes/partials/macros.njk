@@ -48,10 +48,17 @@
 {% endmacro %}
 
 {% macro bookmark (entry) %}
+
+{% if '.' in entry %}
+  {% set parts = entry | split('.') %}
+  {% set file =  entries[parts[0]][parts[1]] %}
+  {% set entry = file | filterById(parts[2]) %}
+{% endif %}
+
 <li class="bookmark card">
   <div>
     <h3 class="card__heading">
-      <a href="${entry.url}" class="card__link">
+      <a href="{{entry.url}}" class="card__link">
         {{entry.title | safe }}
       </a>
     </h3>
@@ -73,7 +80,7 @@
         <ul class="tags">
           {% for tag in entry.tags %}
             <li class="tags__tag">
-              <a href="/tags/{{tag}}" class="tags__link tags__link--${tag}">
+              <a href="/tags/{{tag}}" class="tags__link tags__link--{{tag}}">
                 {{tag}}
               </a>
             </li>
