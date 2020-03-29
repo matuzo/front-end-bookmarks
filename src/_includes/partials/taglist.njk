@@ -1,0 +1,11 @@
+<h2><span>Tags</span></h2>
+
+<ul class="tags">
+  {% for tag in collections.tags %}
+    <li class="tags__tag">
+      <a href="{{ tag.url }}" class="tags__link {% if tag.url == page.url %}tags__link--active{% endif %}">
+        {{ tag.data.title}}
+      </a>
+    </li>
+  {% endfor%}
+</ul>

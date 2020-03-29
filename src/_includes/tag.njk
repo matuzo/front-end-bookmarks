@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+{% from "partials/macros.njk"import linklist, bookmark with context %}
+
+<h2>{{ title }}</h2>
+
+{{ content | safe }}
+
+<ol class="bookmarks">
+  {% for entry in entries | filterByTag(tag) %}
+    {{ bookmark(entry)}}
+  {% endfor %}
+</ol>
+
+{% include 'partials/taglist.njk' %}
