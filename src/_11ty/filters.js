@@ -77,9 +77,6 @@ module.exports = {
   },
 
   filterById: (entries, id) => {
-   
-    console.log(id)
-    console.log(entries.filter(entry => entry.id === id))
     return  entries.filter(entry => entry.id === id)[0];
   }
 }

@@ -6,7 +6,7 @@ layout: base.njk
 
 <h2><span>Recently updated</span></h2>
 
-{{macros.linklist(title = "HTML", url = "html", limit = 6, list = "html", viewAll = true )}}
-{{macros.linklist(title = "CSS", url = "css", limit = 6, list = "css", viewAll = true )}}
+{{macros.linklist(title = "HTML", url = "html", limit = 6, list = "html", viewAll = true, sort="date" )}}
+{{macros.linklist(title = "CSS", url = "css", limit = 6, list = "css", viewAll = true, sort="date" )}}
 
 {% include 'partials/taglist.njk' %}

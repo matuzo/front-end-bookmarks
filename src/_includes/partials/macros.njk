@@ -1,4 +1,4 @@
-{% macro linklist (title, url, list, limit = 1000, randomize = false, sort="date", viewAll = false) %}
+{% macro linklist (title, url, list, limit = 1000, randomize = false, sort="alpha", viewAll = false) %}
 <div class="links">
   {% if title %}
     <h3>
@@ -49,53 +49,53 @@
 
 {% macro bookmark (entry) %}
 
-{% if '.' in entry %}
-  {% set parts = entry | split('.') %}
-  {% set file =  entries[parts[0]][parts[1]] %}
-  {% set entry = file | filterById(parts[2]) %}
-{% endif %}
-
-<li class="bookmark card">
-  <div>
-    <h3 class="card__heading">
-      <a href="{{entry.url}}" class="card__link">
-        {{entry.title | safe }}
-      </a>
-    </h3>
-
-    {% if entry.date %}
-      <p class="bookmark__meta"> posted on
-          <time>{{ entry.date | readableDate }}</time>
-          {% if entry.author %}by {{entry.author}}{% endif %}
-        </p>
-    {% endif %}
-
-    {% if entry.description %}
-      <p class="card__desc">{{ entry.description }}</p>
-    {% endif %}
-
-    {% if entry.tags %}
-      <div class="tag-container">
-        Tags: 
-        <ul class="tags">
-          {% for tag in entry.tags %}
-            <li class="tags__tag">
-              <a href="/tags/{{tag}}" class="tags__link tags__link--{{tag}}">
-                {{tag}}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-  </div>
-
-  {% set image = '/assets/img/blank.jpg' %}
-
-  {% if entry.image %}
-    {% set image = '/images/' + entry.image %}
+  {% if '.' in entry %}
+    {% set parts = entry | split('.') %}
+    {% set file =  entries[parts[0]][parts[1]] %}
+    {% set entry = file | filterById(parts[2]) %}
   {% endif %}
 
-  <img src="{{ image }}" class="bookmark__img" alt="" width="320" loading="lazy">
-</li>
+  <li class="bookmark card">
+    <div>
+      <h3 class="card__heading">
+        <a href="{{entry.url}}" class="card__link">
+          {{entry.title | safe }}
+        </a>
+      </h3>
+
+      {% if entry.date %}
+        <p class="bookmark__meta"> posted on
+            <time>{{ entry.date | readableDate }}</time>
+            {% if entry.author %}by {{entry.author}}{% endif %}
+          </p>
+      {% endif %}
+
+      {% if entry.description %}
+        <p class="card__desc">{{ entry.description }}</p>
+      {% endif %}
+
+      {% if entry.tags %}
+        <div class="tag-container">
+          Tags: 
+          <ul class="tags">
+            {% for tag in entry.tags %}
+              <li class="tags__tag">
+                <a href="/tags/{{tag}}" class="tags__link tags__link--{{tag}}">
+                  {{tag}}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+
+    {% set image = '/assets/img/blank.jpg' %}
+
+    {% if entry.image %}
+      {% set image = '/images/' + entry.image %}
+    {% endif %}
+
+    <img src="{{ image }}" class="bookmark__img" alt="" width="320" loading="lazy">
+  </li>
 {% endmacro %}
