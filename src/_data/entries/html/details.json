@@ -1,0 +1,35 @@
+[
+  {
+    "id": "rupert",
+    "url": "https://daverupert.com/2019/12/why-details-is-not-an-accordion/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Why &lt;details&gt; is Not an Accordion",
+    "description": "tl;dr - &lt;code&gt;&lt;summary&gt;&lt;/code&gt; is a button and buttons eat semantics",
+    "image": "/why-details-is-not-an-accordion.png",
+    "processed": true
+  },
+  {
+    "id": "roselli",
+    "url": "https://adrianroselli.com/2019/04/details-summary-are-not-insert-control-here.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Details / Summary Are Not [insert control here]",
+    "description": "Once major browsers started supporting &lt;details&gt; &amp; &lt;summary&gt; developers immediately started to play with them to see what sorts of patterns they could enhance or replace. This is a good thing. Experimentation pushes boundaries, improves understanding. However, we need to be careful of christening th…",
+    "date": "2019-12-07T03:59:35.000Z",
+    "processed": true
+  },
+  {
+    "id": "ohara",
+    "url": "https://www.scottohara.me/blog/2018/09/03/details-and-summary.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "The details and summary elements | scottohara.me",
+    "description": "The details and summary elements are two of HTML’s interactive elements and together are the elements that create a native disclosure widget.",
+    "date": "2018-09-03T00:00:00.000Z",
+    "processed": true
+  }
+]

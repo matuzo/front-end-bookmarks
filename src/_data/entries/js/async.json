@@ -1,0 +1,19 @@
+[
+  {
+    "id": "zellwk",
+    "url": "https://zellwk.com/blog/async-await-in-loops/",
+    "title": "JavaScript async and await in loops | Zell Liew",
+    "description": "I share some gotchas you have to watch out for when you use async and await in loops.",
+    "date": "2019-05-01T10:00:00.000Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function",
+    "title": "async function expression",
+    "description": "The async function keyword can be used to define async functions inside expressions.",
+    "date": "2020-03-13T15:41:52.383Z",
+    "image": "/async-function-expression.png",
+    "processed": true
+  }
+]

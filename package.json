@@ -12,6 +12,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "glob": "^7.1.6",
     "got": "^10.6.0",
     "html-entities": "^1.2.1",
     "image-downloader": "^3.5.0",

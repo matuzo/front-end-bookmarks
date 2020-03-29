@@ -1,0 +1,24 @@
+[
+  {
+    "id": "vinkle",
+    "url": "https://scottvinkle.me/blogs/blog/how-accessible-is-the-html-video-player",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "How accessible is the HTML video player?",
+    "description": "Comparing keyboard and screen reader accessibility of native video players.",
+    "author": "Scott Vinkle",
+    "date": "2019-12-20T00:04:00.000Z",
+    "image": "/how-accessible-is-the-html-video-player.jpg",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
+    "title": "&lt;video&gt;: The Video Embed element",
+    "description": "The HTML Video element (video) embeds a media player which supports video playback into the document. You can use video for audio content as well, but the audio element may provide a more appropriate user experience.",
+    "date": "2020-02-22T23:56:54.947Z",
+    "image": "/video-the-video-embed-element.png",
+    "processed": true
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "paciello",
+    "url": "https://developer.paciellogroup.com/blog/2017/07/short-note-on-aria-label-aria-labelledby-and-aria-describedby/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Short note on aria-label, aria-labelledby, and aria-describedby",
+    "description": "Be careful when you use the aria-label, aria-labelledby, and aria-describedby attributes, because they do not work consistently with all HTML elements. This is a short note on when (and when not) to u",
+    "date": "2018-07-18T08:46:02.000Z",
+    "image": "/short-note-on-aria-label-aria-labelledby-and-aria-describedby.png",
+    "processed": true
+  }
+]

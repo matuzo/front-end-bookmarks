@@ -1,0 +1,24 @@
+[
+  {
+    "id": "roselli",
+    "url": "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Display: Contents Is Not a CSS Reset",
+    "description": "CSS resets are a collection of CSS styles that undo the default browser styling of many or most HTML elements. Recently I have seen cases of developers using display: contents on lists and headings to remove the margins and padding, and generally to visually do what a CSS reset might…",
+    "date": "2019-06-22T00:39:50.000Z",
+    "processed": true
+  },
+  {
+    "id": "hidde",
+    "url": "https://hiddedevries.nl/en/blog/2018-04-21-more-accessible-markup-with-display-contents",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "More accessible markup with display: contents",
+    "description": "The website of Hidde de Vries, freelance front-end developer.",
+    "date": "2018-04-21T00:55:00.000Z",
+    "processed": true
+  }
+]

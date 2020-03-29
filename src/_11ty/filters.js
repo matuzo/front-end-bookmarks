@@ -22,7 +22,7 @@ function shuffle(array) {
 module.exports = {
   // Date formatting (human readable)
   readableDate: dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat('dd LLL yyyy');
+    return DateTime.fromISO(dateObj).toFormat('dd LLL yyyy');
   },
 
   head: (array, n) => {
@@ -43,5 +43,32 @@ module.exports = {
 
   random: value => {
     return shuffle(value);
+  },
+
+  log: content => {
+    return console.log(content)
+  },
+
+  filterByTag: (collection, tag) => {
+    const filteredCollection = []
+    for (const key in collection) {
+      const lang = collection[key];
+      for (const prop in lang) {
+        for (let i = 0; i < lang[prop].length; i++) {
+          const link = lang[prop][i];
+          if (link.tags && link.tags.indexOf(tag) !== -1) {
+            filteredCollection.push(link);
+          } 
+          if (tag === 'misc' && !link.tags) {
+            filteredCollection.push(link);
+          }
+        }
+      }
+    }
+    return Array.from(
+      new Set(filteredCollection.map(a => a.title))
+    ).map(title => {
+      return filteredCollection.find(a => a.title === title);
+    });
   }
 }

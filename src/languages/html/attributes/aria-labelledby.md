@@ -11,7 +11,7 @@ definition:
   cite:
     text: "aria-labelledby (property)"
     url: https://www.w3.org/TR/wai-aria/#aria-labelledby
-links: "aria-labelledby"
+links: "arialabelledby"
 related:
   - 'html.svg.csstricksa11y'
 ---

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ala",
+    "url": "https://alistapart.com/article/quantity-queries-for-css/",
+    "title": "Quantity Queries for CSS",
+    "description": "In responsive design, we think a lot about space, especially in the context of screen sizes. But the amount of content or the number of elements is bound to affect space, too, just as unpredictably…",
+    "author": "Heydon Pickering",
+    "date": "2015-03-03T15:00:00.000Z",
+    "image": "/quantity-queries-for-css.png",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child",
+    "title": ":nth-last-child()",
+    "description": "The :nth-last-child() CSS pseudo-class matches elements based on their position among a group of siblings, counting from the end.",
+    "date": "2018-09-18T23:19:02.444Z",
+    "image": "/nth-last-child.png",
+    "processed": true
+  }
+]

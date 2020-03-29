@@ -1,0 +1,37 @@
+[
+  {
+    "id": "numbergov",
+    "url": "https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Why the GOV.UK Design System team changed the input type for numbers",
+    "description": "We take a look at why the GOV.UK Design System changed the element it uses for inputting numbers, making it more accessible and easier to use",
+    "author": "Hanna Laakso, GDS, Frontend Developer",
+    "date": "2020-02-24T11:37:44.000Z",
+    "image": "/why-the-govuk-design-system-team-changed-the-input-type-for-numbers.png",
+    "processed": true
+  },
+  {
+    "id": "number_frost",
+    "url": "https://bradfrost.com/blog/post/you-probably-dont-need-input-typenumber/",
+    "tags": [
+      "ux"
+    ],
+    "title": "You probably don’t need input type=“number”",
+    "description": "Last week I got a call from my bank regarding a wire transfer I had just scheduled. The customer support guy had me repeat everything back to him because there seemed to be a problem with the information. “Hmmmm, everything you said is right right except the last 3 digits of the account number.”",
+    "author": "Brad Frost",
+    "date": "2019-03-19T01:06:29.000Z",
+    "image": "/you-probably-dont-need-input-typenumber.png",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
+    "title": "&lt;input type=“number”&gt;",
+    "description": "input elements of type number are used to let the user enter a number. They include built-in validation to reject non-numerical entries.",
+    "date": "2020-03-15T01:40:09.979Z",
+    "image": "/input-typenumber.png",
+    "processed": true
+  }
+]

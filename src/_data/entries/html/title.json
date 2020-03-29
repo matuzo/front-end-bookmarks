@@ -1,0 +1,26 @@
+[
+  {
+    "id": "24a11y",
+    "url": "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "The Trials and Tribulations of the Title Attribute - 24 Accessibility",
+    "description": "Scott O’Hara returns, not with prose, but with a little history on the title attribute, it’s unintended misuse by developers, and where it can and should be used to improve the accessibility on your website.",
+    "date": "2018-10-12T11:16:14.000Z",
+    "image": "/the-trials-and-tribulations-of-the-title-attribute-24-accessibility.gif",
+    "processed": true
+  },
+  {
+    "id": "paciello",
+    "url": "https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Using the HTML title attribute – Updated March 2020",
+    "description": "Note: This post has the same content as our 2013 post. They each originally addressed different aspects of the title attribute, but now they match. We are keeping both of them to account for inb",
+    "date": "2020-03-18T12:54:36.000Z",
+    "image": "/using-the-html-title-attribute-–-updated-march-2020.png",
+    "processed": true
+  }
+]

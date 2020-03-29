@@ -1,7 +1,5 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const filters = require('./src/_11ty/filters.js')
-const shortcodes = require('./src/_11ty/shortcodes.js')
-
 
 module.exports = function(eleventyConfig) {
   // Plugins
@@ -10,11 +8,6 @@ module.exports = function(eleventyConfig) {
   // Filters
   Object.keys(filters).forEach(filterName => {
     eleventyConfig.addFilter(filterName, filters[filterName])
-  });
-
-  // Shortcodes
-  Object.keys(shortcodes).forEach(shortcodeName => {
-    eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
   });
 
   eleventyConfig.addPassthroughCopy('./src/images');

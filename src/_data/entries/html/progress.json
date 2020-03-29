@@ -1,0 +1,20 @@
+[
+  {
+    "id": "progress_ohara",
+    "url": "https://scottaohara.github.io/a11y_styled_form_controls/src/progress-bar/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Styled Progress Bar",
+    "processed": true
+  },
+  {
+    "id": "progress_mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress",
+    "title": "&lt;progress&gt;: The Progress Indicator element",
+    "description": "The HTML progress element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+    "date": "2020-03-09T08:43:21.964Z",
+    "image": "/progress-the-progress-indicator-element.png",
+    "processed": true
+  }
+]

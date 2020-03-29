@@ -1,0 +1,21 @@
+[
+  {
+    "id": "pawel",
+    "url": "https://pawelgrzybek.com/til-the-power-of-json-stringify-replacer-parameter/",
+    "title": "TIL — The power of JSON.stringify replacer parameter | pawelgrzybek.com",
+    "description": "I had a challenging problem with JSON stringify that ignored my data in a place where I expected sets of values. Luckily I managed to solve it in a very elegant way.",
+    "author": "Pawel Grzybek - https://pawelgrzybek.com/",
+    "date": "2019-10-11T00:00:00.000Z",
+    "image": "/til-the-power-of-jsonstringify-replacer-parameter-or-pawelgrzybekcom.jpg",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify",
+    "title": "JSON.stringify()",
+    "description": "The JSON.stringify() method converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.",
+    "date": "2020-01-15T03:22:29.194Z",
+    "image": "/jsonstringify.png",
+    "processed": true
+  }
+]

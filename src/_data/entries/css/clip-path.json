@@ -1,0 +1,19 @@
+[
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/unfortunately-clip-path-path-is-still-a-no-go/",
+    "title": "Unfortunately, clip-path: path() is Still a No-Go | CSS-Tricks",
+    "description": "I was extremely excited when I first heard that clip-path: path() was coming to Firefox. Just imagine being able to easily code a breathing box like the",
+    "date": "2020-03-02T14:54:56.000Z",
+    "image": "/unfortunately-clip-path-path-is-still-a-no-go-or-css-tricks.gif",
+    "processed": true
+  },
+  {
+    "id": "csstricks2",
+    "url": "https://css-tricks.com/almanac/properties/c/clip-path/",
+    "title": "clip-path | CSS-Tricks",
+    "description": "The clip-path property in CSS allows you to specify a specific region of an element to display, rather than showing the complete area. There used to be a",
+    "date": "2019-08-16T10:00:00.000Z",
+    "processed": true
+  }
+]

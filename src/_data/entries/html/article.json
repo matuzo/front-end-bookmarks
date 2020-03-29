@@ -1,0 +1,23 @@
+[
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2020/01/html5-article-section/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Why You Should Choose HTML5 &lt;article&gt; Over &lt;section&gt; — Smashing Magazine",
+    "description": "In this article, Bruce Lawson explains what use we have of `` and how authors should mark up headings that are hugely important to AT users.",
+    "date": "2020-01-07T11:30:00.000Z",
+    "image": "/why-you-should-choose-html5-article-over-section-smashing-magazine.png",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section",
+    "title": "&lt;section&gt;: The Generic Section element",
+    "description": "The HTML section element represents a standalone section — which doesn’t have a more specific semantic element to represent it — contained within an HTML document.",
+    "date": "2019-08-19T08:54:47.538Z",
+    "image": "/section-the-generic-section-element.png",
+    "processed": true
+  }
+]

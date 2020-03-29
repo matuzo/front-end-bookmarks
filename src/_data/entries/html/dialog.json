@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dialog_ohara",
+    "url": "https://www.scottohara.me/blog/2019/03/05/open-dialog.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Having an open dialog | scottohara.me",
+    "description": "I’ve written about building accessible modal dialogs a few times over the past five-ish years. Most recently I dissected the current state of modal dialog ac...",
+    "date": "2019-03-05T00:00:00.000Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+    "title": "&lt;dialog&gt;: The Dialog element",
+    "description": "The HTML dialog element represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow.",
+    "date": "2020-02-08T09:17:05.990Z",
+    "image": "/dialog-the-dialog-element.png",
+    "processed": true
+  }
+]

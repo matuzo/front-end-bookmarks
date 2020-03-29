@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ohara",
+    "url": "https://scottaohara.github.io/a11y_styled_form_controls/src/meter/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Styled Meter",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter",
+    "title": "&lt;meter&gt;: The HTML Meter element",
+    "description": "The HTML meter element represents either a scalar value within a known range or a fractional value.",
+    "date": "2020-03-09T08:41:51.996Z",
+    "image": "/meter-the-html-meter-element.png",
+    "processed": true
+  }
+]

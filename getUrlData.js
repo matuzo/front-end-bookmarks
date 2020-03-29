@@ -1,34 +1,28 @@
 const parseLinks = require('./src/_11ty/parse-links.js');
-const files = ['js', 'html', 'css']
-console.log('Start parsing:')
-const fs = require('fs');
+var glob = require("glob")
 
-for (let i = 0; i < files.length; i++) {
-  const file = files[i];
-  const filePath = `./src/_data/${file}.json`
-  const links = require(filePath);
+var getDirectories = function (src, callback) {
+  glob(src + '/**/*.json', callback);
+};
 
-  // let linksData = fs.readFileSync(filePath);
-  // let linksData = JSON.parse(links);
+getDirectories('./src/_data/entries', function (err, files) {
+  if (err) {
+    console.log('Error', err);
+  } else {
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+      const links = require(file);
+    
+      console.log(`Parsing ${file}`);
+    
+        for (let i = 0; i < links.length; i++) {
+          const url = links[i].url;
+          const id = links[i].id;
 
-  console.log(`Parsing ${filePath}`);
-console.log(links)
-  for (key in links) {
-    const item = links[key];
-
-
-
-    for (let i = 0; i < item.length; i++) {
-      const url = item[i].url;
-      const id = item[i].id;
-  //     console.log(file)
-  //     console.log(key)
-  //     console.log(url)
-  //     console.log(id)
-  //     console.log(linksData)
-      parseLinks.getData(filePath, links, file, key, url, id);
+          parseLinks.getData(file, links, url, id);
+        }
     }
   }
-}
+});
 
 console.log('Finished parsing')

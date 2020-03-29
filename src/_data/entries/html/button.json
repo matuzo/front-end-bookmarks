@@ -1,0 +1,58 @@
+[
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/a-complete-guide-to-links-and-buttons/",
+    "title": "A Complete Guide to Links and Buttons | CSS-Tricks",
+    "description": "Our complete guide to links, buttons, and button-like inputs in HTML, CSS, and JavaScript.",
+    "author": "Chris Coyier",
+    "date": "2020-02-21T14:21:13.000Z",
+    "image": "/a-complete-guide-to-links-and-buttons-or-css-tricks.png",
+    "processed": true
+  },
+  {
+    "id": "marcy",
+    "url": "https://www.youtube.com/watch?v=8XjwDq9zG4I",
+    "tags": [
+      "accessibility",
+      "video"
+    ],
+    "title": "The Links vs. Buttons Showdown — Marcy Sutton: #ID24 Nov 2017",
+    "description": "Who would win in a showdown between HTML Links and Buttons? Marcy Sutton will settle it once and for all by pitting these opponents against each other in a d...",
+    "date": "2017-11-16T00:00:00.000Z",
+    "image": "/the-links-vs-buttons-showdown-marcy-sutton-id24-nov-2017.jpg",
+    "processed": true
+  },
+  {
+    "id": "a11ycasts",
+    "url": "https://www.youtube.com/watch?v=CZGqnp06DnI",
+    "tags": [
+      "accessibility",
+      "video"
+    ],
+    "title": "Just use button -- A11ycasts #05",
+    "description": "Talking about tabindex and custom controls is super fun, and we’ll definitely be doing more of it in the future. But I wanted to pause for a moment and shine...",
+    "date": "2016-09-16T00:00:00.000Z",
+    "image": "/just-use-button-a11ycasts-05.jpg",
+    "processed": true
+  },
+  {
+    "id": "ohara",
+    "url": "https://www.scottohara.me/blog/2018/10/03/unbutton-buttons.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Unbuttoning Buttons | scottohara.me",
+    "description": "Regardless of how one might feel about using CSS to disguise an HTML element as another, it can’t be denied that it’s a common, and sometimes necessary, prac...",
+    "date": "2018-10-03T00:00:00.000Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button",
+    "title": "&lt;button&gt;: The Button element",
+    "description": "The HTML button element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.",
+    "date": "2020-02-26T18:46:46.212Z",
+    "image": "/button-the-button-element.png",
+    "processed": true
+  }
+]

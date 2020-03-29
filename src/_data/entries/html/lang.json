@@ -1,0 +1,13 @@
+[
+  {
+    "id": "roselli",
+    "url": "https://adrianroselli.com/2015/01/on-use-of-lang-attribute.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "On Use of the Lang Attribute",
+    "description": "Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of…",
+    "date": "2019-02-16T22:38:04.000Z",
+    "processed": true
+  }
+]

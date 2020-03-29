@@ -11,7 +11,7 @@ definition:
   cite:
     text: "aria-describedby (property)"
     url: https://www.w3.org/TR/wai-aria/#aria-describedby
-links: "aria-describedby"
+links: "ariadescribedby"
 ---
 
 <h3><span>Code sample</span></h3>

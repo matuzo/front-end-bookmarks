@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 ---
-{% import "partials/macros.njk" as macros with context %}
+{% from "partials/macros.njk"import linklist, bookmark with context %}
 
 <h2>{{ title }}</h2>
 
@@ -14,14 +14,18 @@ layout: base.njk
 
 {% if links %}
   <h3><span>Links about <code>{{ title }}</code></span></h3>
-  {% links links, tags[0] %}
+
+<ol class="bookmarks">
+  {% for entry in entries[tags[0]][links] %}
+    {{ bookmark(entry)}}
+  {% endfor %}
+  </ol>
 {% endif %}
 
 {% if related %}
   <h3><span>Related links</span></h3>
-  {% links related, tags[0] %}
 {% endif %}
 
 {{ content | safe }}
 
-{{macros.linklist("Explore other pages", "", "entry", 4, true)}}
+{{linklist("Explore other pages", "", "entry", 4, true)}}

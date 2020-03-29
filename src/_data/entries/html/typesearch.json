@@ -1,0 +1,22 @@
+[
+  {
+    "id": "roselli",
+    "url": "https://adrianroselli.com/2019/07/ignore-typesearch.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Maybe Ignore type=search",
+    "description": "Another case of the headline saying it all. If you have a valid, accessible search field (with a useful, sensible label) then you can probably ignore type=”search” and use type=”text” instead. I made a code sample you can use for testing in your preferred set-up; it is what I used…",
+    "date": "2019-07-20T14:52:23.000Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": " https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search",
+    "title": "&lt;input type=“search”&gt;",
+    "description": "input elements of type search are text fields designed for the user to enter search queries into. These are functionally identical to text inputs, but may be styled differently by the user agent.",
+    "date": "2019-12-19T20:51:49.970Z",
+    "image": "/input-typesearch.png",
+    "processed": true
+  }
+]

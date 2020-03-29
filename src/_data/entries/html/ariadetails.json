@@ -1,0 +1,13 @@
+[
+  {
+    "id": "ohara",
+    "url": "https://www.scottohara.me/blog/2018/11/08/aria-details.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Getting the details on aria-details | scottohara.me",
+    "description": "Introduced in ARIA 1.1, aria-details is meant to help convey that there is additional information available for a particular element a user is interacting with.",
+    "date": "2018-11-08T00:00:00.000Z",
+    "processed": true
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "hassell",
+    "url": "https://www.hassellinclusion.com/blog/input-type-date-ready-for-use/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Is input type=“date” ready for use in accessible websites? - Hassell Inclusion",
+    "description": "One of the ‘new’ HTML5 elements - input type=“date” - was intended to simplify the collection of dates on websites, and to reduce user errors whilst doing so. So is it well supported? And does using it help make forms more accessible? We took date inputs for a test drive with different browsers and …",
+    "date": "2020-03-01T09:31:57.000Z",
+    "image": "/is-input-typedate-ready-for-use-in-accessible-websites-hassell-inclusion.jpg",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date",
+    "title": "&lt;input type=“date”&gt;",
+    "description": "input elements of type=“date” create input fields that let the user enter a date, either with a textbox that validates the input or a special date picker interface.",
+    "date": "2020-03-19T22:00:07.686Z",
+    "image": "/input-typedate.png",
+    "processed": true
+  }
+]

@@ -72,9 +72,10 @@ const writeLinks = (linksFile, links) => {
   });
 }
 
-const getData = async (linksFile, links, file, key, targetUrl, id) => {
-  const currentLink = links[key].map(async link => {
+const getData = async (file, links, targetUrl, id) => {
+  links.map(async link => {
     if (link.id === id) {
+      console.log(id)
       
       if (!link.processed) {
         const { body: html, url } = await got(targetUrl);
@@ -97,14 +98,14 @@ const getData = async (linksFile, links, file, key, targetUrl, id) => {
           downloadImage(metadata, function() {
             link.image = getNewImageFileName(metadata)
             link.processed = true;
-            writeLinks(linksFile, links);
+            writeLinks(file, links);
           }, function() {
             link.processed = true;
-            writeLinks(linksFile, links);
+            writeLinks(file, links);
           });
         } else {
           link.processed = true;
-          writeLinks(linksFile, links);
+          writeLinks(file, links);
         }
       } else {
         console.log('already processed')

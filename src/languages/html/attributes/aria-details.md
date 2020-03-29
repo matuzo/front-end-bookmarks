@@ -11,7 +11,7 @@ definition:
   cite:
     text: "aria-details (property)"
     url: https://www.w3.org/TR/wai-aria/#aria-details
-links: "aria-details"
+links: "ariadetails"
 ---
 
 <h3><span>Code sample</span></h3>

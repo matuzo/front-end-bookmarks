@@ -1,0 +1,34 @@
+[
+  {
+    "id": "selectpoison",
+    "url": "https://www.24a11y.com/2019/select-your-poison",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "&lt;select&gt; your poison - 24 Accessibility",
+    "description": "If the web accessibility community were to somehow collectively agree on a single rallying cry, it could easily be “use native, semantic HTML elements.” This, like most things in accessibility, is an oversimplification, but it is a helpful one. As 2019 draws to a close, many of the popular component…",
+    "date": "2020-01-04T00:49:41.000Z",
+    "image": "/select-your-poison-24-accessibility.png",
+    "processed": true
+  },
+  {
+    "id": "selectpoison2",
+    "url": "https://www.24a11y.com/2019/select-your-poison-part-2/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "&lt;select&gt; your poison part 2: test all the things - 24 Accessibility",
+    "description": "TL:DR; Jump straight to the recommendations In part 1 of this deep dive, we took a broad look at both how the native &lt;select&gt; element works across browsers and platforms, and the current state of accessible custom select component implementations. It’s necessary to look at how fragmented current sel…",
+    "date": "2019-12-18T15:11:33.000Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select",
+    "title": "&lt;select&gt;",
+    "description": "The HTML select element represents a control that provides a menu of options",
+    "date": "2020-03-09T08:50:04.027Z",
+    "image": "/select.png",
+    "processed": true
+  }
+]

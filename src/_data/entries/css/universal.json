@@ -1,0 +1,12 @@
+[
+  {
+    "id": "lobo",
+    "url": "https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/",
+    "title": "Axiomatic CSS and Lobotomized Owls",
+    "description": "Managing flow content can get unwieldy—too many class selectors can become a specificity headache, nested styling can get redundant, and content editors don’t always understand the presentational m…",
+    "author": "Heydon Pickering",
+    "date": "2014-10-21T14:00:00.000Z",
+    "image": "/axiomatic-css-and-lobotomized-owls.png",
+    "processed": true
+  }
+]

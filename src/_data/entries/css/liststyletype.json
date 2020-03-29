@@ -1,0 +1,54 @@
+[
+  {
+    "id": "matuzo_liststyle",
+    "url": "https://www.matuzo.at/blog/heres-what-i-didnt-know-about-list-style-type/",
+    "title": "Here’s what I didn’t know about list-style-type",
+    "description": "In Chrome 79+, Firefox 39+, and Opera 66+ it’s possible to define a string value as the bullet of an ordered or unordered list.",
+    "author": "Manuel Matuzović",
+    "date": "2020-01-28T00:00:00.000Z",
+    "image": "/heres-what-i-didnt-know-about-list-style-type.png",
+    "processed": true
+  },
+  {
+    "id": "ohara",
+    "url": "https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "“Fixing” Lists | scottohara.me",
+    "description": "In September of 2017 Gerard K. Cohen of Unfettered Thoughts posted an article on the how VoiceOver and Safari (Webkit) (macOS and iOS) remove list element se...",
+    "date": "2019-01-12T00:00:00.000Z",
+    "processed": true
+  },
+  {
+    "id": "unfettered",
+    "url": "https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "VoiceOver and list-style-type: none",
+    "description": "With that bit of additional CSS, we are able to return the list semantics for VoiceOver users without needing to touch the markup.",
+    "date": "2017-09-26T07:14:57.000Z",
+    "image": "/voiceover-and-list-style-type-none.jpg",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type",
+    "title": "list-style-type",
+    "description": "The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element.",
+    "date": "2019-10-04T09:36:46.246Z",
+    "image": "/list-style-type.png",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/almanac/properties/l/list-style/",
+    "title": "list-style | CSS-Tricks",
+    "description": "The list-style property is a shorthand property that sets values for three different list-related properties in one declaration: ul { list-style: || || ;",
+    "author": "Sara Cope",
+    "date": "2014-03-04T11:00:00.000Z",
+    "image": "/list-style-or-css-tricks.png",
+    "processed": true
+  }
+]

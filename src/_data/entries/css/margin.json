@@ -1,0 +1,17 @@
+[
+  {
+    "id": "quirks",
+    "url": "https://www.quirksmode.org/blog/archives/2020/02/negative_margin.html",
+    "title": "Negative margins in CSS - QuirksBlog",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/almanac/properties/m/margin/",
+    "title": "margin | CSS-Tricks",
+    "description": "The margin property defines the outermost portion of the box model, creating space around an element, outside of any defined borders. Margins are set",
+    "date": "2020-03-06T11:00:00.000Z",
+    "image": "/margin-or-css-tricks.png",
+    "processed": true
+  }
+]
