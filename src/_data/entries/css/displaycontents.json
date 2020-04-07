@@ -20,5 +20,14 @@
     "description": "The website of Hidde de Vries, freelance front-end developer.",
     "date": "2018-04-21T00:55:00.000Z",
     "processed": true
+  },
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2019/05/display-box-generation/",
+    "title": "Digging Into The Display Property: Box Generation — Smashing Magazine",
+    "description": "Continuing a series on the display property in CSS, this time Rachel Andrew takes a look at the values which control box generation, for those times when you don’t want to generate a box at all.",
+    "date": "2019-05-01T11:00:59.000Z",
+    "image": "/digging-into-the-display-property-box-generation-smashing-magazine.png",
+    "processed": true
   }
 ]

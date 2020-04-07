@@ -13,5 +13,14 @@
     "date": "2020-03-06T11:00:00.000Z",
     "image": "/margin-or-css-tricks.png",
     "processed": true
+  },
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2019/07/margins-in-css/",
+    "title": "Everything You Need To Know About CSS Margins — Smashing Magazine",
+    "description": "Margins in CSS seem simple enough at first glance. Applied to an element it forms a space around the element, pushing other elements away. However, there is more to a margin than you might think.",
+    "date": "2019-07-15T10:30:59.000Z",
+    "image": "/everything-you-need-to-know-about-css-margins-smashing-magazine.png",
+    "processed": true
   }
 ]
