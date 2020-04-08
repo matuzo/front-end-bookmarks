@@ -10,6 +10,17 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter(filterName, filters[filterName])
   });
 
+  // Collections
+
+  // Get only content that matches a tag
+  eleventyConfig.addCollection("entriesSorted", function(collection) {
+      return collection.getFilteredByTag("entry").sort(function(a, b){
+        if(a.data.title < b.data.title) { return -1; }
+        if(a.data.title > b.data.title) { return 1; }
+        return 0;
+    })
+  });
+
   eleventyConfig.addPassthroughCopy('./src/images');
   eleventyConfig.addPassthroughCopy('./src/assets');
 
