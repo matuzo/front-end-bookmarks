@@ -19,7 +19,7 @@
     "luxon": "^1.22.0",
     "metascraper-title": "^5.11.1",
     "sharp": "^0.24.1",
-    "slugify": "^1.3.6"
+    "slugify": "^1.4.0"
   },
   "dependencies": {
     "metascraper": "^5.11.4",

@@ -88,7 +88,8 @@
 
         <ul class="combo-box__list" id="lb-icons" role="listbox" aria-label="Icons" tabindex="-1" hidden>
           {% for collection in collections.entriesSorted %}
-            <li data-combo-box-option="{{ collection.url }}" id="{{ collection.data.title | slug }}" role="option" class="combo-box__item">{{ collection.data.title }}</li>
+            {% set id = collection.data.title_save or collection.data.title | slugStrict %}
+            <li data-combo-url="{{ collection.url }}" id="{{ id }}" role="option" class="combo-box__item">{{ collection.data.title }}</li>
           {% endfor %}
         </ul>
       </div>

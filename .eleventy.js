@@ -1,5 +1,6 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const filters = require('./src/_11ty/filters.js')
+const slugify = require('slugify')
 
 module.exports = function(eleventyConfig) {
   // Plugins
@@ -11,8 +12,6 @@ module.exports = function(eleventyConfig) {
   });
 
   // Collections
-
-  // Get only content that matches a tag
   eleventyConfig.addCollection("entriesSorted", function(collection) {
       return collection.getFilteredByTag("entry").sort(function(a, b){
         if(a.data.title < b.data.title) { return -1; }
@@ -20,6 +19,14 @@ module.exports = function(eleventyConfig) {
         return 0;
     })
   });
+
+  eleventyConfig.addFilter("slugStrict", function(string) {
+    return slugify(string, {
+      lower: true,      // convert to lower case, defaults to `false`
+      strict: true     // strip special characters except replacement, defaults to `false`
+    })
+  });
+
 
   eleventyConfig.addPassthroughCopy('./src/images');
   eleventyConfig.addPassthroughCopy('./src/assets');

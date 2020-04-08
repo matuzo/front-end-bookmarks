@@ -100,14 +100,6 @@ ComboboxAutocomplete.prototype.init = function () {
   if (button && button.tagName === 'BUTTON') {
     button.addEventListener('click', this.handleButtonClick.bind(this))
   }
-
-  document.addEventListener('comboboxfiltered', (e) => {
-    if (e.detail === 'alle') {
-      this.allOptions = this.allOptionsUnchanged
-    } else {
-      this.allOptions = this.allOptionsUnchanged.filter(option => { return option.getAttribute('data-combo-box-option') === e.detail })
-    }
-  }, false)
 }
 
 ComboboxAutocomplete.prototype.getLowercaseContent = function (node) {
@@ -124,9 +116,11 @@ ComboboxAutocomplete.prototype.setActiveDescendant = function (option) {
 
 ComboboxAutocomplete.prototype.setValue = function (value, id) {
   this.filter = value
+  console.log(this.filter)
   this.comboboxNode.value = this.filter
+  console.log('here4')
+
   this.comboboxNode.setSelectionRange(this.filter.length, this.filter.length)
-  this.comboboxNode.setAttribute('data-combonode-id', id)
   this.filterOptions()
 }
 
@@ -142,13 +136,15 @@ ComboboxAutocomplete.prototype.setOption = function (option, flag) {
 
     if (this.isBoth) {
       this.comboboxNode.value = this.option.textContent
-      this.comboboxNode.setAttribute('data-combonode-id', this.option.id)
       if (flag) {
+  console.log('here5')
+
         this.comboboxNode.setSelectionRange(
           this.option.textContent.length,
           this.option.textContent.length
         )
       } else {
+        console.log('here')
         this.comboboxNode.setSelectionRange(
           this.filter.length,
           this.option.textContent.length
@@ -335,10 +331,13 @@ ComboboxAutocomplete.prototype.handleComboboxKeyDown = function (event) {
       flag = true
       this.dispatchInputEvent()
 
-      if (this.comboboxNode.hasAttribute('data-combobox-jump')) {
-        if (this.option.id) {
-          location.href = this.option.id
+      if (!this.option) {
+        if (this.listboxNode.children.length) {
+        location.href = this.listboxNode.children[0].dataset.comboUrl
         }
+        break;
+      } else {
+        location.href = this.option.dataset.comboUrl
       }
       break
 
@@ -402,11 +401,15 @@ ComboboxAutocomplete.prototype.handleComboboxKeyDown = function (event) {
       break
 
     case 36:
+      console.log('here2')
+
       this.comboboxNode.setSelectionRange(0, 0)
       flag = true
       break
 
     case 35:
+      console.log('here3')
+
       var length = this.comboboxNode.value.length
       this.comboboxNode.setSelectionRange(length, length)
       flag = true
@@ -577,12 +580,9 @@ ComboboxAutocomplete.prototype.handleListboxMouseout = function (event) {
 
 ComboboxAutocomplete.prototype.handleOptionClick = function (event) {
   this.comboboxNode.value = event.target.textContent
-  this.comboboxNode.setAttribute('data-combonode-id', event.target.id)
-  if (this.comboboxNode.hasAttribute('data-combobox-jump')) {
-    if (event.target.id) {
-      location.href = event.target.id
+    if (event.target.dataset.comboUrl) {
+      location.href = event.target.dataset.comboUrl
     }
-  }
   this.close(true)
   this.dispatchInputEvent()
 }
