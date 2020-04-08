@@ -477,3 +477,11 @@ h1 {
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap; /* added line */
 }
+
+.page_404 {
+  filter: grayscale(100);
+}
+
+.page_404:focus-within {
+  filter: grayscale(0);
+}
