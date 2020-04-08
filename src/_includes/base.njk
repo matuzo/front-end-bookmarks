@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js" itemscope itemtype="http://schema.org/WebPage">
 <head>
  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,10 +75,27 @@
       A collection of articles and talks about HTML and CSS, grouped by elements, attributes, properties, and selectors.
     </p>
     {% endif %}
-
     <form class="jump" action="https://duckduckgo.com/" method="GET">
-      <label for="search" class="jump__label">Jump to page</label>
-      <input type="text" name="q" autocomplete="off" id="search" class="jump__input" placeholder="e.g. title, article, last-child" value="site:www.froboo.dev " />
+      <div class="combo-box js-combo-box">
+        <label for="search" class="jump__label">Jump to page</label>
+
+        <div class="combo-box__controls">
+          <input id="search" name="q" value="site:www.froboo.dev " class="combo-box__input js-pl-icon-filter-keywords" type="text" role="combobox" aria-autocomplete="both" autocomplete="off" aria-expanded="false" aria-controls="lb-icons" aria-haspopup="true" aria-activedescendant="" placeholder="e.g. title, article, last-child">
+          <button class="combo-box__btn" type="button" id="cb1-button" aria-label="Open" tabindex="-1">
+            ▼ <span class="u-visually-hidden">Show options</span>
+          </button>
+        </div>
+
+        <ul class="combo-box__list" id="lb-icons" role="listbox" aria-label="Icons" tabindex="-1" hidden>
+          {% for collection in collections.entriesSorted %}
+            <li data-combo-box-option="{{ collection.url }}" id="{{ collection.data.title | slug }}" role="option" class="combo-box__item">{{ collection.data.title }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      
+      
+      
     </form>
   </header>
 
@@ -96,5 +113,6 @@
   {% else %}
     <script src="/assets/min/script.min.js"></script>
   {% endif %} #}
+  <script src="/assets/js/search.js" defer type="module"></script>
 </body>
 </html>

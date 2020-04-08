@@ -158,6 +158,8 @@ h1 {
 
 .jump {
   margin-top: 0.7rem;
+  max-width: 32rem;
+
 }
 
 .jump__label {
@@ -168,15 +170,102 @@ h1 {
   color: rgb(52, 82, 123);
 }
 
-.jump__input {
+.combo-box {
+  position: relative;
+}
+
+.combo-box__controls {
+  position: relative;
+}
+
+.combo-box__input {
   display: block;
   border: 0.3rem solid#c34035;
   padding: 1rem 1rem;
   width: 100%;
-  max-width: 32rem;
   font-size: 1.7rem;
   caret-color: #c34035;
+  position: relative;
 }
+
+.combo-box__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background: #c34035;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.combo-box__btn:hover {
+  background-color: rgb(202, 77, 66);
+}
+
+.combo-box__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 24rem;
+  border: solid #c34035;
+  border-width: 0 3px 3px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: calc(100% - 3px);
+  overflow: auto;
+  background: #fff;
+  background: rgb(202, 77, 66);
+  color: #fff;
+}
+
+.combo-box__list ::-webkit-scrollbar {
+  width: 34px;
+}
+.combo-box__list  {
+  scrollbar-color: rgb(202, 77, 66) rgba(255, 255, 2550.9);
+}
+.combo-box__list ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 2550.9);
+}
+.combo-box__list ::-webkit-scrollbar-thumb {
+  background-color: rgb(202, 77, 66) ;
+  border: 3px solid rgba(255, 255, 2550.9);
+}
+
+.combo-box__item {
+  padding: 0.2rem 0.8rem;
+}
+
+.combo-box__item:hover,
+.combo-box__item[aria-selected="true"] {
+  color: #c34035;
+  background: rgba(255, 255, 255, 0.9)
+}
+
+.combo-box__list--visible {
+  display: block;
+}
+
+
+.wm-search-results {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  margin-top:2rem;
+}
+
 
 /* Content */
 
@@ -282,6 +371,7 @@ h1 {
 }
 
 .tags__link--video,
+.tags__link--active,
 .tags__link--js,
 .tags__link--css,
 .tags__link--html {
@@ -376,4 +466,14 @@ h1 {
 
 .u-fw-b {
   font-weight: bold;
+}
+
+.u-visually-hidden { 
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
 }
