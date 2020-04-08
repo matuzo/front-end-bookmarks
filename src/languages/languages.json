@@ -1,3 +1,4 @@
 {
-  "layout": "item.njk"
+  "layout": "item.njk",
+  "date": "Last Modified"
 }
