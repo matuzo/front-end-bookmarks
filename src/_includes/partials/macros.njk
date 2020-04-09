@@ -93,7 +93,7 @@
     {% set image = '/assets/img/blank.jpg' %}
 
     {% if entry.image %}
-      {% set image = '/images/' + entry.image %}
+      {% set image = '/images' + entry.image %}
     {% endif %}
 
     <img src="{{ image }}" class="bookmark__img" alt="" width="320" loading="lazy">
