@@ -533,6 +533,7 @@ ComboboxAutocomplete.prototype.handleComboboxKeyUp = function (event) {
 }
 
 ComboboxAutocomplete.prototype.handleComboboxClick = function (event) {
+  console.log(this.isOpen())
   if (this.isOpen()) {
     this.close(true)
   } else {
