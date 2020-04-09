@@ -1,13 +1,13 @@
 {% macro linklist (title, url, list, limit = 1000, randomize = false, sort="alpha", viewAll = false) %}
 <div class="links">
   {% if title %}
-    <h3>
+    <h2 class="h3">
       {% if url %} 
         <a href="/{{ url }}">{{ title }}</a>
       {% else %}
         <span>{{ title }}</span>
       {% endif %}
-    </h3>
+    </h2>
   {% endif %}
    
   <ul class="link-list">
@@ -57,7 +57,7 @@
 
   <li class="bookmark card">
     <div>
-      <h3 class="card__heading">
+      <h3 class="h3 card__heading">
         <a href="{{entry.url}}" class="card__link">
           {{entry.title | safe }}
         </a>

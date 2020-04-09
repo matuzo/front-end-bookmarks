@@ -12,11 +12,11 @@ body {
   height: 6rem;
 }
 
-h1 {
+h1, .h1 {
   font-size: 5rem;
 }
 
-h2, h3, .h3 {
+.h2, .h3 {
   margin-bottom: 1rem;
 }
 

@@ -3,7 +3,7 @@ layout: base.njk
 ---
 {% from "partials/macros.njk"import linklist, bookmark with context %}
 
-<h2>{{ title }}</h2>
+<h1 class="h2">{{ title }}</h1>
 
 {% if definition %}
   <blockquote>
@@ -13,7 +13,7 @@ layout: base.njk
 {% endif %}
 
 {% if links %}
-  <h3><span>Links about <code>{{ title }}</code></span></h3>
+  <h2 class="h3"><span>Links about <code>{{ title }}</code></span></h2>
 
 <ol class="bookmarks">
   {% for entry in entries[tags[0]][links] %}
@@ -23,7 +23,7 @@ layout: base.njk
 {% endif %}
 
 {% if related %}
-  <h3><span>This might be interesting as well</span></h3>
+  <h2 class="h3"><span>This might be interesting as well</span></h2>
 
   {% for entry in related %}
     {{ bookmark(entry)}}

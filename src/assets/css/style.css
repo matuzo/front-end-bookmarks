@@ -16,21 +16,20 @@ body {
   max-width: 50.8rem;
 }
 
-h2 {
+.h2 {
   margin: 0 0 0.7rem;
   font-size: 3.2rem;
   color: #c34035;
 }
 
-.h3,
-h3 {
+.h3 {
   margin: 0 0 0.7rem;
   font-size: 2.2rem;
   font-weight: bold;
   line-height: 1.3;
 }
 
-h3 > * {
+.h3 > * {
   background-color: #34527b;
   color: #FFFFFF;
   padding: 0.6rem 0.8rem 0.4rem;
@@ -38,8 +37,8 @@ h3 > * {
   line-height: 1;
 }
 
-h3 a:link,
-h3 a:visited {
+.h3 a:link,
+.h3 a:visited {
   text-decoration: none;
   color: #fff;
 }
@@ -93,7 +92,7 @@ img {
   height: 4rem;
 }
 
-h1 {
+.h1 {
   font-size: 3.3rem;
   background: #c34035;
   padding: 0.4em 0.3em 0.2em;
@@ -103,6 +102,7 @@ h1 {
   margin: 0;
   line-height: 1;
   flex-grow: 1;
+  font-weight: bold;
 }
 
 /* NAV */
@@ -273,7 +273,7 @@ h1 {
   margin: 3.5rem 0 0;
 }
 
-.site-content h2 + * {
+.site-content .h2 + * {
   margin-top: 1.4rem;
 }
 
@@ -331,13 +331,13 @@ h1 {
   line-height: 1.4;
 }
 
-.card__link:link,
-.card__link:visited {
+a.card__link:link,
+a.card__link:visited {
   color: rgb(52, 82, 123);
 }
 
-.card__link:focus,
-.card__link:hover {
+a.card__link:focus,
+a.card__link:hover {
   text-decoration: none;
 }
 
