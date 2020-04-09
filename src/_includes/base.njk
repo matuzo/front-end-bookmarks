@@ -13,6 +13,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d72b2b">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Manuel Matuzović">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
@@ -38,6 +39,8 @@
     <meta property="og:site_name" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="website">
+
+    <link rel="canonical" href="{{ project.site_url }}{{ page.url }}">
 
     {% if project.env == 'production' %}
       <link rel="stylesheet" href="/assets/css/style.min.css" />
@@ -92,7 +95,7 @@
           </button>
         </div>
 
-        <ul class="combo-box__list" id="lb-icons" role="listbox" aria-label="Icons" tabindex="-1" hidden>
+        <ul class="combo-box__list" id="lb" role="listbox" aria-label="Icons" tabindex="-1" hidden>
           {% for collection in collections.entriesSorted %}
             {% set id = collection.data.title_save or collection.data.title | slugStrict %}
             <li data-combo-url="{{ collection.url }}" id="{{ id }}" role="option" class="combo-box__item">{{ collection.data.title }}</li>
