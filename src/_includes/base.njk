@@ -17,23 +17,25 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
+    {% set description = short_desc or project.site_description %}
+
     <!-- Search Engine -->
-    <meta name="description" content="{{ project.site_description }}">
+    <meta name="description" content="{{ description }}">
     <meta name="image" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=test">
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
-    <meta itemprop="description" content="{{ project.site_description }}">
+    <meta itemprop="description" content="{{ description }}">
     <meta itemprop="image" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=test">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
-    <meta name="twitter:description" content="{{ project.site_description }}">
+    <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:site" content="@mmatuzo">
     <meta name="twitter:creator" content="@mmatuzo">
     <meta name="twitter:image:src" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=240210">
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
     <meta property="og:title" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
-    <meta property="og:description" content="{{ project.site_description }}">
+    <meta property="og:description" content="{{ description }}">
     <meta property="og:image" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=test">
     <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
@@ -83,7 +85,7 @@
 
     {% if page.url == '/' %}
     <p>
-      A collection of articles and talks about HTML and CSS, grouped by elements, attributes, properties, and selectors.
+      A collection of articles and talks about HTML, CSS and JS,  grouped by <a href="/html/elements/">elements</a>, <a href="/html/attributes/">attributes</a>, <a href="/css/properties/">properties</a>, <a href="/css/selectors/">selectors</a>, <a href="/js/methods/">methods</a>, and <a href="/js/expressions/">expressions</a>.
     </p>
     {% endif %}
     <form class="jump" action="https://duckduckgo.com/" method="GET">
