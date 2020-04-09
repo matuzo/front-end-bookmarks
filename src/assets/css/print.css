@@ -1,0 +1,74 @@
+body {
+  max-width: 100%;
+}
+
+.logo {
+  padding: 0;
+  background: none;
+}
+
+.logo__img path {
+  fill: #000;
+}
+
+*,
+*:before,
+*:after,
+*:first-letter,
+p:first-line,
+div:first-line,
+blockquote:first-line,
+li:first-line {
+  background: transparent !important;
+  color: #000 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.h3 > * {
+  padding: 0;
+}
+
+.jump,
+.nav {
+  display: none;
+}
+
+.card {
+  padding: 0;
+}
+
+.tags {
+  display: block;
+}
+
+a[href]:after {
+  content: " (" attr(href) ")";
+}
+
+.h2 a:after,
+.h3 a::after,
+.logo::after {
+  display: none !important;
+}
+
+.card__heading a::after {
+  display: block !important;
+  font-size: 16px;
+}
+
+.link-list {
+  display: block;
+}
+
+.link-list__item {
+  margin-bottom: 2rem;
+}
+
+.bookmark {
+  flex-direction: row-reverse;
+}
+
+.bookmark__img {
+  display: none;
+}

@@ -92,6 +92,10 @@ img {
   height: 4rem;
 }
 
+.logo__img path {
+  fill: #fff;
+}
+
 .h1 {
   font-size: 3.3rem;
   background: #c34035;
