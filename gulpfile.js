@@ -27,4 +27,4 @@ gulp.task('scripts', function () {
     .pipe(gulp.dest('./src/assets/js/'));
 });
 
-gulp.task('build', gulp.series('css', 'cssNano'));
+gulp.task('build', gulp.series('scripts', 'css', 'cssNano'));
