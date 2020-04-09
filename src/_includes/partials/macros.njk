@@ -23,7 +23,7 @@
 
   {% for page in pages | sort(url) | reverse | head(limit) %}
     <li class="link-list__item card">
-      <a href="{{ page.url }}" class="card__link">{{ page.data.title }}</a>
+      <a href="{{ page.url }}" class="card__link" rel="noopener">{{ page.data.title }}</a>
       <p class="card__desc">{{ page.data.short_desc }}</p>
       <ul class="tags">
         {% set tags = page.data.tags %}
@@ -58,7 +58,7 @@
   <li class="bookmark card">
     <div>
       <h3 class="h3 card__heading">
-        <a href="{{entry.url}}" class="card__link">
+        <a href="{{entry.url}}" class="card__link" rel="noopener">
           {{entry.title | safe }}
         </a>
       </h3>
