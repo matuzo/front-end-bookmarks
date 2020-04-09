@@ -22,7 +22,7 @@ gulp.task('cssNano', function () {
 
 gulp.task('scripts', function () {
   return gulp.src('./src/assets/js/search.js')
-    .pipe(uglify({compress: {drop_console: false}}))
+    .pipe(uglify({compress: {drop_console: true }}))
     .pipe(concat("scripts.min.js"))
     .pipe(gulp.dest('./src/assets/js/'));
 });
