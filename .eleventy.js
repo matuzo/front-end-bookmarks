@@ -1,6 +1,6 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const filters = require('./src/_11ty/filters.js')
-const slugify = require('slugify')
+const htmlmin = require('html-minifier');
 
 module.exports = function(eleventyConfig) {
   // Plugins
@@ -11,6 +11,20 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter(filterName, filters[filterName])
   });
 
+  // Transforms
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if( outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
+
+    return content;
+  });
+
   // Collections
   eleventyConfig.addCollection("entriesSorted", function(collection) {
       return collection.getFilteredByTag("entry").sort(function(a, b){
@@ -19,14 +33,6 @@ module.exports = function(eleventyConfig) {
         return 0;
     })
   });
-
-  eleventyConfig.addFilter("slugStrict", function(string) {
-    return slugify(string, {
-      lower: true,      // convert to lower case, defaults to `false`
-      strict: true     // strip special characters except replacement, defaults to `false`
-    })
-  });
-
 
   eleventyConfig.addPassthroughCopy('./src/images');
   eleventyConfig.addPassthroughCopy('./src/assets');

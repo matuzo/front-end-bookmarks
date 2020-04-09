@@ -24,6 +24,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
     "html-entities": "^1.2.1",
+    "html-minifier": "^4.0.0",
     "image-downloader": "^3.5.0",
     "luxon": "^1.22.0",
     "metascraper-title": "^5.11.1",
