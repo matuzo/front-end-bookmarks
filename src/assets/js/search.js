@@ -110,7 +110,7 @@ ComboboxAutocomplete.prototype.setActiveDescendant = function (option) {
   if (option && this.listboxHasVisualFocus) {
     this.comboboxNode.setAttribute('aria-activedescendant', option.id)
   } else {
-    this.comboboxNode.setAttribute('aria-activedescendant', '')
+    this.comboboxNode.removeAttribute('aria-activedescendant')
   }
 }
 
@@ -118,7 +118,6 @@ ComboboxAutocomplete.prototype.setValue = function (value, id) {
   this.filter = value
   console.log(this.filter)
   this.comboboxNode.value = this.filter
-  console.log('here4')
 
   this.comboboxNode.setSelectionRange(this.filter.length, this.filter.length)
   this.filterOptions()
@@ -137,14 +136,12 @@ ComboboxAutocomplete.prototype.setOption = function (option, flag) {
     if (this.isBoth) {
       this.comboboxNode.value = this.option.textContent
       if (flag) {
-  console.log('here5')
 
         this.comboboxNode.setSelectionRange(
           this.option.textContent.length,
           this.option.textContent.length
         )
       } else {
-        console.log('here')
         this.comboboxNode.setSelectionRange(
           this.filter.length,
           this.option.textContent.length
@@ -401,15 +398,11 @@ ComboboxAutocomplete.prototype.handleComboboxKeyDown = function (event) {
       break
 
     case 36:
-      console.log('here2')
-
       this.comboboxNode.setSelectionRange(0, 0)
       flag = true
       break
 
     case 35:
-      console.log('here3')
-
       var length = this.comboboxNode.value.length
       this.comboboxNode.setSelectionRange(length, length)
       flag = true
