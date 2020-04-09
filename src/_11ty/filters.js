@@ -27,7 +27,13 @@ module.exports = {
   },
 
   machineDate: dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy-MM-dd');
+    var date = DateTime.fromJSDate(dateObj);
+
+    if (!date.isValid) {
+      date = DateTime.fromISO(dateObj)
+    }
+    
+    return date.toFormat('yyyy-MM-dd');
   },
 
   head: (array, n) => {
