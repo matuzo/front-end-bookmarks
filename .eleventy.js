@@ -12,18 +12,18 @@ module.exports = function(eleventyConfig) {
   });
 
   // Transforms
-  // eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-  //   if( outputPath.endsWith(".html") ) {
-  //     let minified = htmlmin.minify(content, {
-  //       useShortDoctype: true,
-  //       removeComments: true,
-  //       collapseWhitespace: true
-  //     });
-  //     return minified;
-  //   }
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if( outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
 
-  //   return content;
-  // });
+    return content;
+  });
 
   // Collections
   eleventyConfig.addCollection("entriesSorted", function(collection) {
