@@ -25,6 +25,10 @@ module.exports = {
     return DateTime.fromISO(dateObj).toFormat('dd LLL yyyy');
   },
 
+  machineDate: dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat('yyyy-MM-dd');
+  },
+
   head: (array, n) => {
     if (n < 0) {
       return array.slice(n);
