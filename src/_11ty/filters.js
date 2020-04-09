@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const slugify = require('slugify')
 
 function shuffle(array) {
   var currentIndex = array.length,
@@ -82,5 +83,12 @@ module.exports = {
 
   filterById: (entries, id) => {
     return  entries.filter(entry => entry.id === id)[0];
+  },
+
+  slugStrict: string => {
+    return slugify(string, {
+      lower: true,      // convert to lower case, defaults to `false`
+      strict: true     // strip special characters except replacement, defaults to `false`
+    })
   }
 }
