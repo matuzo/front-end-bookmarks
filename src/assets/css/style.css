@@ -227,17 +227,21 @@ img {
   background: #fff;
   background: rgb(202, 77, 66);
   color: #fff;
-}
-
-.combo-box__list ::-webkit-scrollbar {
-  width: 34px;
-}
-.combo-box__list  {
   scrollbar-color: rgb(202, 77, 66) rgba(255, 255, 2550.9);
 }
+
+.combo-box__list--visible {
+  display: block;
+}
+
+.combo-box__list::-webkit-scrollbar {
+  width: 34px;
+}
+
 .combo-box__list ::-webkit-scrollbar-track {
   background: rgba(255, 255, 2550.9);
 }
+
 .combo-box__list ::-webkit-scrollbar-thumb {
   background-color: rgb(202, 77, 66) ;
   border: 3px solid rgba(255, 255, 2550.9);
@@ -253,9 +257,7 @@ img {
   background: rgba(255, 255, 255, 0.9)
 }
 
-.combo-box__list--visible {
-  display: block;
-}
+
 
 
 .wm-search-results {
