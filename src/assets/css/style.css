@@ -10,10 +10,10 @@ html {
 
 body {
   font-family: sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin: 0 auto;
-  line-height: 1.5;
-  max-width: 50.8rem;
+  line-height: 1.6;
+  max-width: 44rem;
 }
 
 .h2 {
@@ -97,7 +97,7 @@ img {
 }
 
 .h1 {
-  font-size: 3.3rem;
+  font-size: 3.2rem;
   background: #c34035;
   padding: 0.4em 0.3em 0.2em;
   display: inline-flex;
@@ -112,7 +112,7 @@ img {
 /* NAV */
 
 .nav {
-  margin-bottom: 1.4rem;
+  margin-bottom: 2.1rem;
 }
 
 .nav__items {
@@ -161,7 +161,7 @@ img {
 /* Search */
 
 .jump {
-  margin-top: 0.7rem;
+  margin-top: 1.4rem;
   max-width: 32rem;
 
 }
@@ -228,6 +228,7 @@ img {
   width: 100%;
   top: calc(100% - 3px);
   overflow: auto;
+  -webkit-overflow-scrolling: auto;
   background: #fff;
   background: rgb(202, 77, 66);
   color: #fff;
@@ -333,7 +334,7 @@ img {
 }
 
 .card__desc {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   line-height: 1.4;
 }
 
@@ -355,7 +356,7 @@ a.card__link:hover {
   flex-wrap: wrap;
   align-items: flex-start;
   margin-top: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 .tags__tag {
@@ -519,4 +520,20 @@ a.card__link:hover {
 .skip-link:visited {
   color: #34527b;
   text-decoration: none;
+}
+
+/* Focus styles */
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+/*
+  Optionally: Define a strong focus indicator for keyboard focus.
+  If you choose to skip this step then the browser's default focus
+  indicator will be displayed instead.
+*/
+.js-focus-visible .focus-visible {
+outline: 5px solid #000;
+outline-offset: 2px;;
 }
