@@ -445,7 +445,7 @@ ComboboxAutocomplete.prototype.handleComboboxInput = function (event) {
     this.filterOptions()
   }
 
-  const stopKeys = [27, 8, 35, 36, 37, 39]
+  var stopKeys = [27, 8, 35, 36, 37, 39]
 
   if (stopKeys.indexOf(event.keyCode) !== -1) {
     return
@@ -599,7 +599,7 @@ ComboboxAutocomplete.prototype.handleOptionMouseout = function (event) {
 
 // Initialize comboboxes
 
-const comboboxes = document.querySelectorAll('.js-combo-box')
+var comboboxes = document.querySelectorAll('.js-combo-box')
 
 for (var i = 0; i < comboboxes.length; i++) {
   var combobox = comboboxes[i]

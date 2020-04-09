@@ -39,14 +39,15 @@
     <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="/assets/css/prism.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/assets/css/style_medium.css" media="(min-width: 768px)"/>
-      
     {% if project.env == 'development' %}
+      <link rel="stylesheet" href="/assets/css/style.min.css" />
+      <link rel="stylesheet" href="/assets/css/style_medium.min.css" media="(min-width: 768px)"/>
     {% else %}
-      <link rel="stylesheet" href="/assets/min/style.min.css" />
+      <link rel="stylesheet" href="/assets/css/prism.css" />
+      <link rel="stylesheet" href="/assets/css/style.css" />
+      <link rel="stylesheet" href="/assets/css/style_medium.css" media="(min-width: 768px)"/>
     {% endif %}
+
 </head>
 <body>
   <header class="site-header">
@@ -85,7 +86,7 @@
         <label for="search" class="jump__label">Jump to page</label>
 
         <div class="combo-box__controls">
-          <input id="search" name="q" value="site:www.froboo.dev " class="combo-box__input js-pl-icon-filter-keywords" type="text" role="combobox" aria-autocomplete="both" autocomplete="off" aria-expanded="false" aria-controls="lb-icons" aria-haspopup="true" aria-activedescendant="" placeholder="e.g. title, article, last-child">
+          <input id="search" name="q" value="site:www.frontendbookmarks.com " class="combo-box__input js-pl-icon-filter-keywords" type="text" role="combobox" aria-autocomplete="both" autocomplete="off" aria-expanded="false" aria-controls="lb-icons" aria-haspopup="true" aria-activedescendant="" placeholder="e.g. title, article, last-child">
           <button class="combo-box__btn" type="button" id="cb1-button" aria-label="Open" tabindex="-1">
             ▼ <span class="u-visually-hidden">Show options</span>
           </button>
@@ -98,10 +99,6 @@
           {% endfor %}
         </ul>
       </div>
-
-      
-      
-      
     </form>
   </header>
 
@@ -113,12 +110,10 @@
     built with <a href="https://www.11ty.dev/" rel="noopener">eleventy</a> and ❤️ in Vienna by <a href="https://twitter.com/mmatuzo" rel="noopener">@mmatuzo</a><br>
   </footer>
   
-  {# {% if hell.env == 'development' %}
-    <script src="/assets/focus-visible.js"></script>
-    <script src="/assets/script.js"></script>
+  {% if project.env == 'development' %}
+    <script src="/assets/js/search.js" defer type="module"></script>
   {% else %}
-    <script src="/assets/min/script.min.js"></script>
-  {% endif %} #}
-  <script src="/assets/js/search.js" defer type="module"></script>
+    <script src="/assets/js/search.min.js" defer type="module"></script>
+  {% endif %}
 </body>
 </html>
