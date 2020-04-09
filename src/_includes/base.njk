@@ -89,7 +89,7 @@
         <label for="search" class="jump__label">Jump to page</label>
 
         <div class="combo-box__controls">
-          <input id="search" name="q" value="site:www.frontendbookmarks.com " class="combo-box__input js-pl-icon-filter-keywords" type="text" role="combobox" aria-autocomplete="both" autocomplete="off" aria-expanded="false" aria-controls="lb-icons" aria-haspopup="true" aria-activedescendant="" placeholder="e.g. title, article, last-child">
+          <input id="search" name="q" value="site:www.frontendbookmarks.com " class="combo-box__input js-pl-icon-filter-keywords" type="text" role="combobox" aria-autocomplete="both" autocomplete="off" aria-expanded="false" aria-controls="lb" aria-haspopup="true" aria-activedescendant="" placeholder="e.g. title, article, last-child">
           <button class="combo-box__btn" type="button" id="cb1-button" aria-label="Open" tabindex="-1">
             ▼ <span class="u-visually-hidden">Show options</span>
           </button>
@@ -114,9 +114,9 @@
   </footer>
   
   {% if project.env == 'development' %}
-    <script src="/assets/js/search.js" defer type="module"></script>
+    <script src="/assets/js/search.js" async type="module"></script>
   {% else %}
-    <script src="/assets/js/scripts.min.js" defer type="module"></script>
+    <script src="/assets/js/scripts.min.js" async type="module"></script>
   {% endif %}
 </body>
 </html>
