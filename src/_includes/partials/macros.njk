@@ -13,12 +13,13 @@
   <ul class="link-list">
   {% set pages = collections[list] %}
 
-  {% if randomize %}
-    {% set pages = pages | random %}
-  {% endif %}
 
   {% if sort == "alpha" %}
     {% set pages = pages | sortAlpha | reverse %}
+  {% endif %}
+
+  {% if randomize %}
+    {% set pages = pages | random %}
   {% endif %}
 
   {% for page in pages | sort(url) | reverse | head(limit) %}
