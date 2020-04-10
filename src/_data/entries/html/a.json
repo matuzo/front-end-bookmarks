@@ -44,6 +44,24 @@
     "processed": true
   },
   {
+    "id": "htmhell",
+    "url": "https://www.htmhell.dev/16-alt-no-aria-label-no-alt/",
+    "title": "HTMHell - #16 alt, no wait…, aria-label, no wait…, alt",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2020-02-09T00:00:00.000Z",
+    "image": "/htmhell-16-alt-no-wait-aria-label-no-wait-alt.png",
+    "processed": true
+  },
+  {
+    "id": "htmhell2",
+    "url": "https://www.htmhell.dev/6-link-with-void-operator-as-href-value/",
+    "title": "HTMHell - #6 link with void operator as href value",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2019-10-25T00:00:00.000Z",
+    "image": "/htmhell-6-link-with-void-operator-as-href-value.png",
+    "processed": true
+  },
+  {
     "id": "mdn",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
     "title": "&lt;a&gt;: The Anchor element",

@@ -12,6 +12,15 @@
     "processed": true
   },
   {
+    "id": "htmhell",
+    "url": "https://www.htmhell.dev/10-section-is-no-replacement-for-div/",
+    "title": "HTMHell - #10 &lt;section&gt; is no replacement for &lt;div&gt;",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2019-11-22T00:00:00.000Z",
+    "image": "/htmhell-10-section-is-no-replacement-for-div.png",
+    "processed": true
+  },
+  {
     "id": "mdn",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section",
     "title": "&lt;section&gt;: The Generic Section element",

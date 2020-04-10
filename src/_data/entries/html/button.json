@@ -47,6 +47,51 @@
     "processed": true
   },
   {
+    "id": "htmhell",
+    "url": "https://www.htmhell.dev/14-not-my-type/",
+    "title": "HTMHell - #14 not my type",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2020-01-17T00:00:00.000Z",
+    "image": "/htmhell-14-not-my-type.png",
+    "processed": true
+  },
+  {
+    "id": "htmhell2",
+    "url": "https://www.htmhell.dev/5-button-like-link/",
+    "title": "HTMHell - #5 button-like-link",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2019-10-22T00:00:00.000Z",
+    "image": "/htmhell-5-button-like-link.png",
+    "processed": true
+  },
+  {
+    "id": "htmhell3",
+    "url": "https://www.htmhell.dev/3-image-buttons/",
+    "title": "HTMHell - #3 image-buttons",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2019-10-22T00:00:00.000Z",
+    "image": "/htmhell-3-image-buttons.png",
+    "processed": true
+  },
+  {
+    "id": "htmhell4",
+    "url": "https://www.htmhell.dev/2-div-with-button-role/",
+    "title": "HTMHell - #2 div with button role",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2019-10-17T00:00:00.000Z",
+    "image": "/htmhell-2-div-with-button-role.png",
+    "processed": true
+  },
+  {
+    "id": "htmhell5",
+    "url": "https://www.htmhell.dev/1-button-disguised-as-a-link/",
+    "title": "HTMHell - #1 button disguised as a link",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2019-10-17T00:00:00.000Z",
+    "image": "/htmhell-1-button-disguised-as-a-link.png",
+    "processed": true
+  },
+  {
     "id": "mdn",
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button",
     "title": "&lt;button&gt;: The Button element",

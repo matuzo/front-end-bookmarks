@@ -12,6 +12,8 @@ definition:
     text: "4.3.2. The article element"
     url: https://www.w3.org/TR/html52/sections.html#the-article-element
 links: "article"
+related: 
+ - 'html.section.htmhell'
 ---
 
 ```html

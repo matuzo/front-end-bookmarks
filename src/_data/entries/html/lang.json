@@ -9,5 +9,20 @@
     "description": "Way back in October I noticed this WHATWG HTML bug (26942) where someone asked why do these examples of &lt;html&gt; lack the lang attribute? I thought the answer from Hixie was a bit dismissive and not based on any data or real-world benefits of use, particularly in the context of…",
     "date": "2019-02-16T22:38:04.000Z",
     "processed": true
+  },
+  {
+    "id": "deque",
+    "url": "https://dequeuniversity.com/rules/axe/3.3/html-has-lang",
+    "title": "&lt;html&gt; element must have a lang attribute Axe Rules | Deque University | Deque Systems",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang",
+    "title": "lang",
+    "description": "The lang global attribute helps define the language of an element: the language that non-editable elements are written in, or the language that the editable elements should be written in by the user. The attribute contains a single “language tag” in the format defined in Tags for Identifying Languag…",
+    "date": "2020-02-10T19:10:03.175Z",
+    "image": "/lang.png",
+    "processed": true
   }
 ]

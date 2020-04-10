@@ -10,5 +10,14 @@
     "date": "2018-07-18T08:46:02.000Z",
     "image": "/short-note-on-aria-label-aria-labelledby-and-aria-describedby.png",
     "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute",
+    "title": "Using the aria-labelledby attribute",
+    "description": "The aria-labelledby attribute establishes relationships between objects and their label(s), and its value should be one or more element IDs, which refer to elements that have the text needed for labeling. List multiple element IDs in a space delimited fashion. This idea is similar to how the “for” a…",
+    "date": "2019-03-18T15:57:32.387Z",
+    "image": "/using-the-aria-labelledby-attribute.png",
+    "processed": true
   }
 ]
