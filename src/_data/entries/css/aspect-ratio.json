@@ -1,0 +1,18 @@
+[
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
+    "title": "Designing An Aspect Ratio Unit For CSS — Smashing Magazine",
+    "description": "What problems will the new aspect ratio unit solve? A look at the design of a new CSS feature.",
+    "date": "2019-03-11T14:00:41.000Z",
+    "image": "/designing-an-aspect-ratio-unit-for-css-smashing-magazine.png",
+    "processed": true
+  },
+  {
+    "id": "caniuse",
+    "url": "https://caniuse.com/#feat=mdn-css_properties_aspect-ratio",
+    "title": "Can I use... Support tables for HTML5, CSS3, etc",
+    "date": "2020-03-24T11:00:00.000Z",
+    "processed": true
+  }
+]

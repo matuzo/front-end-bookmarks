@@ -1,0 +1,11 @@
+[
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2019/12/browsers-containment-css-contain-property/",
+    "title": "Helping Browsers Optimize With The CSS Contain Property — Smashing Magazine",
+    "description": "The CSS contain property gives you a way to explain your layout to the browser, so performance optimizations can be made. However, it does come with some side effects in terms of your layout.",
+    "date": "2019-12-27T12:00:00.000Z",
+    "image": "/helping-browsers-optimize-with-the-css-contain-property-smashing-magazine.png",
+    "processed": true
+  }
+]
