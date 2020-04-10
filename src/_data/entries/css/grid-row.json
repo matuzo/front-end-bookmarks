@@ -1,0 +1,11 @@
+[
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2020/01/understanding-css-grid-lines/",
+    "title": "Understanding CSS Grid: Grid Lines — Smashing Magazine",
+    "description": "In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a look at how to use the grid lines to place items.",
+    "date": "2020-01-10T11:30:00.000Z",
+    "image": "/understanding-css-grid-grid-lines-smashing-magazine.png",
+    "processed": true
+  }
+]

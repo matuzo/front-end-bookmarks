@@ -10,7 +10,7 @@ definition:
   text: "This property specifies named grid areas, which are not associated with any particular grid item, but can be referenced from the grid-placement properties."
   cite:
     text: "7.3. Named Areas: the grid-template-areas property"
-    url: https://www.w3.org/TR/css-masking-1/#the-clip-path
+    url: https://www.w3.org/TR/css-grid-1/#propdef-grid-template-areas
 links: "grid-template-areas"
 ---
 
