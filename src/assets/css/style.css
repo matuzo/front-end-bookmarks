@@ -88,8 +88,8 @@ img {
 }
 
 .logo__img {
-  height: 9rem;
   height: 4rem;
+  width: 2.86rem;
 }
 
 .logo__img path {
