@@ -51,6 +51,7 @@ After running the command successfully, you'll see fields added to the object.
   },
   {
     "id": "newlink",
+    "title": "New link title",
     "url": "https://this-is-the-new-link.com",
     "description": "Meta description",
     "date": "2020-02-10T19:10:03.175Z",
