@@ -12,6 +12,8 @@ definition:
     text: "3.4. Text-based Markers: the list-style-type property"
     url: https://www.w3.org/TR/css-lists-3/#text-markers
 links: "liststyletype"
+related:
+ - 'css.marker.csstricks'
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
