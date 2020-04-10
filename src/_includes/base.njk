@@ -17,25 +17,25 @@
     <meta name="theme-color" content="#34527b">
 
     {% set description = short_desc or project.site_description %}
-
+    {% set image = 'sm_general.jpg' %}
     <!-- Search Engine -->
     <meta name="description" content="{{ description }}">
-    <meta name="image" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=test">
+    <meta name="image" content="{{ project.site_url }}/assets/img/{{ image }}">
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta itemprop="description" content="{{ description }}">
-    <meta itemprop="image" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=test">
+    <meta itemprop="image" content="{{ project.site_url }}/assets/img/{{ image }}">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:site" content="@mmatuzo">
     <meta name="twitter:creator" content="@mmatuzo">
-    <meta name="twitter:image:src" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=240210">
+    <meta name="twitter:image:src" content="{{ project.site_url }}/assets/img/{{ image }}">
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
     <meta property="og:title" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta property="og:description" content="{{ description }}">
-    <meta property="og:image" content="{{ project.site_url }}/images/og/{{ title | slug }}.png?s=test">
+    <meta property="og:image" content="{{ project.site_url }}/assets/img/{{ image }}">
     <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta property="og:locale" content="en_GB">
