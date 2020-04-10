@@ -14,7 +14,7 @@ definition:
 links: "positionsticky"
 ---
 
-<h3><span>Code sample</span></h3>
+<h2 class="h3"><span>Code sample</span></h2>
 
 ```css
 header {

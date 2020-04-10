@@ -14,7 +14,7 @@ definition:
 links: "meter"
 ---
 
-<h3><span>Code sample</span></h3>
+<h2 class="h3"><span>Code sample</span></h2>
 
 ```html
 Tickets sold: <meter min="0" max="100" value="75"></meter>

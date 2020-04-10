@@ -13,7 +13,7 @@ definition:
     url: https://www.w3.org/TR/SVG2/intro.html
 links: "svg"
 ---
-<h3><span>Code sample</span></h3>
+<h2 class="h3"><span>Code sample</span></h2>
 
 ```html
 <svg height="100" width="100">

@@ -16,7 +16,7 @@ related:
   - 'html.svg.csstricksa11y'
 ---
 
-<h3><span>Code sample</span></h3>
+<h2 class="h3"><span>Code sample</span></h2>
 
 ```html
 <svg viewBox="0 0 100 100" aria-labelledby="title_id" role="img">
