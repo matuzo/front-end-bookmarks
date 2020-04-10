@@ -1,0 +1,20 @@
+[
+  {
+    "id": "htmhell",
+    "url": "https://www.htmhell.dev/18-main-divigation/",
+    "title": "HTMHell - #18 main divigation",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2020-03-22T00:00:00.000Z",
+    "image": "/htmhell-18-main-divigation.png",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav",
+    "title": "&lt;nav&gt;: The Navigation Section element",
+    "description": "The HTML nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.",
+    "date": "2019-03-23T19:17:28.323Z",
+    "image": "/nav-the-navigation-section-element.png",
+    "processed": true
+  }
+]
