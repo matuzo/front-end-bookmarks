@@ -17,7 +17,7 @@
     <meta name="theme-color" content="#34527b">
 
     {% set description = short_desc or project.site_description %}
-    {% set image = 'sm_general.jpg' %}
+    {% set image = sm_img or 'sm_general.jpg' %}
     <!-- Search Engine -->
     <meta name="description" content="{{ description }}">
     <meta name="image" content="{{ project.site_url }}/assets/img/{{ image }}">
