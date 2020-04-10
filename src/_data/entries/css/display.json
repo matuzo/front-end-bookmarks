@@ -1,0 +1,20 @@
+[
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2019/04/display-two-value/",
+    "title": "Digging Into The Display Property: The Two Values Of Display — Smashing Magazine",
+    "description": "We talk a lot about Flexbox and CSS Grid Layout, but these layout methods are essentially values of the CSS display property, a workhorse of a property that doesn’t get a lot of attention. Rachel Andrew takes a better look in a short series.",
+    "date": "2019-04-08T11:00:59.000Z",
+    "image": "/digging-into-the-display-property-the-two-values-of-display-smashing-magazine.png",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/almanac/properties/d/display/",
+    "title": "display | CSS-Tricks",
+    "description": "Every element on a web page is a rectangular box. The display property in CSS determines just how that rectangular box behaves. There are only a handful",
+    "date": "2020-01-02T11:00:00.000Z",
+    "image": "/display-or-css-tricks.png",
+    "processed": true
+  }
+]
