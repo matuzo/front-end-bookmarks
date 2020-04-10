@@ -7,5 +7,14 @@
     "date": "2020-01-10T11:30:00.000Z",
     "image": "/understanding-css-grid-grid-lines-smashing-magazine.png",
     "processed": true
+  },
+  {
+    "id": "chen",
+    "url": "https://www.chenhuijing.com/blog/understanding-grid-placement/#%F0%9F%91%9F",
+    "title": "Understanding grid placement through building a HTML periodical table",
+    "description": "I’ve been using CSS grid to build layouts for quite a while now, and all my designs to date involved...",
+    "date": "2019-05-06T00:00:00.000Z",
+    "image": "/understanding-grid-placement-through-building-a-html-periodical-table.jpg",
+    "processed": true
   }
 ]
