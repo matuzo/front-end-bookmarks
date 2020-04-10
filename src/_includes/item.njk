@@ -7,7 +7,7 @@ layout: base.njk
 
 {% if definition %}
   <blockquote>
-    {{ definition.text }}
+    {{ definition.text | safe }}
   <cite><a href="{{ definition.cite.url }}"> {{ definition.cite.text }}</a></cite>
   </blockquote>
 {% endif %}
