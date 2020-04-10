@@ -34,8 +34,11 @@ module.exports = function(eleventyConfig) {
     })
   });
 
-  eleventyConfig.addPassthroughCopy('./src/images');
-  eleventyConfig.addPassthroughCopy('./src/assets');
+  eleventyConfig.addPassthroughCopy({
+    './src/assets/favicon': '/',
+    './src/images': '/images',
+    './src/assets': '/assets'
+  });
 
   return {
     templateFormats: ['md', 'njk'],
