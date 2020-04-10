@@ -39,9 +39,30 @@ Then run `node getUrlData.js` on the command line to fetch the title, descriptio
 ]
 ```
 
+After running the command successfully, you'll see fields added to the object.
+
+```json
+[
+  {
+    "id": "existinglink",
+    "url": "https://...",
+    "title": "Existing Link",
+    "processed": true
+  },
+  {
+    "id": "newlink",
+    "url": "https://this-is-the-new-link.com",
+    "description": "Meta description",
+    "date": "2020-02-10T19:10:03.175Z",
+    "image": "/image.png",
+    "processed": true
+  }
+]
+```
+
 ## Adding a page
 
-If you want to add a new page, create a JSON file in one of the subfolders in [/src/_data/entries/](/src/_data/entries/).
+If you want to add a new page, create a JSON file in one of the subfolders in [/src/_data/entries/](/src/_data/entries/) and add an array of link objects.
 
 ```json
 [
@@ -58,14 +79,14 @@ If you want to add a new page, create a JSON file in one of the subfolders in [/
 
 Then run `node getUrlData.js` on the command line to fetch the title, description, meta data, and image.
 
-Now copy a `.md` file in one of the subfolders in [/src/languages](/src/languages), rename it and edit the following fields:
+Now copy one of the `.md` files in one of the subfolders in [/src/languages](/src/languages), rename it and edit the following fields:
 
 * `title` (name of the property, element, etc.)
 * `short_desc` (Short defintion)
 * `definition` (Official defintion)
 * `links` (name of the JSON file)
 
-...and change the code sample.
+...and change the code sample at the bottom.
 
 ```
 ---
