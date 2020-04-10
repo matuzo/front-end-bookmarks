@@ -1,0 +1,20 @@
+[
+  {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2020/01/understanding-css-grid-container/",
+    "title": "Understanding CSS Grid: Creating A Grid Container — Smashing Magazine",
+    "description": "In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a detailed look at what happens when you create a grid container and the various properties that can be applied to the container to shape your grid.",
+    "date": "2020-01-03T11:30:00.000Z",
+    "image": "/understanding-css-grid-creating-a-grid-container-smashing-magazine.png",
+    "processed": true
+  },
+  {
+    "id": "smashing2",
+    "url": "https://www.smashingmagazine.com/2019/05/display-grid-subgrid/",
+    "title": "Digging Into The Display Property: Grids All The Way Down — Smashing Magazine",
+    "description": "Continuing a series on the display property in CSS, this time Rachel Andrew takes a look at what happens when you use grid as a value of display, with added information about how subgrid changes that behavior.",
+    "date": "2019-05-24T11:00:59.000Z",
+    "image": "/digging-into-the-display-property-grids-all-the-way-down-smashing-magazine.png",
+    "processed": true
+  }
+]

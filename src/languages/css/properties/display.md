@@ -14,6 +14,7 @@ definition:
 links: "display"
 related: 
  - 'css.displaycontents.smashing'
+ - 'css.displaygrid.smashing'
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

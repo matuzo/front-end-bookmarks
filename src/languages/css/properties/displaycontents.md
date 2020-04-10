@@ -12,6 +12,8 @@ definition:
     text: "2.5. Box Generation: the none and contents keywords"
     url: https://www.w3.org/TR/css-display-3/#box-generation
 links: "displaycontents"
+related: 
+ - 'css.display.smashing'
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
