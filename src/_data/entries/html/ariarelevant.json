@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dodson",
+    "url": "https://medium.com/dev-channel/why-authors-should-avoid-aria-relevant-5d3164fab1e3",
+    "title": "Why authors should avoid aria-relevant",
+    "description": "The ARIA attribute, aria-relevant, is supposed to affect how live regions are processed by screen readers. It is designed to provide a hint to screen readers that content being removed from a web…",
+    "author": "Rob Dodson",
+    "date": "2018-06-20T12:24:53.789Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-relevant_attribute",
+    "title": "Using the aria-relevant attribute",
+    "description": "The aria-relevant attribute is an optional value used to describe what types of changes have occurred to an aria-live region, and which are relevant and should be announced. Any change that is not relevant acts in the same manner it would if the aria-live attribute were set to off.",
+    "date": "2020-01-07T11:07:59.630Z",
+    "image": "/using-the-aria-relevant-attribute.png",
+    "processed": true
+  }
+]
