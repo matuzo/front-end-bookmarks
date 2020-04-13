@@ -1,0 +1,29 @@
+[
+  {
+    "id": "gmt",
+    "url": "https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/",
+    "title": "How to prevent anchor links from scrolling behind a sticky header with one line of CSS",
+    "description": "Yesterday, we looked at how to create sticky headers with the position: sticky CSS property.\nOne problem with sticky headers are anchor links. By default, they snap to the top of the document, behind the sticky navigation menu.\nYou can see it yourself in this demo.\nToday, I want to talk about a CSS …",
+    "date": "2020-03-03T15:30:00.000Z",
+    "image": "/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css.png",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/fixed-headers-and-jump-links-the-solution-is-scroll-margin-top/",
+    "title": "Fixed Headers and Jump Links? The Solution is scroll-margin-top | CSS-Tricks",
+    "description": "The problem: you click a jump link like &lt;a href=”#header-3″&gt;Jump&lt;/a&gt; which links to something like &lt;h3 id=“header-3”&gt;Header&lt;/h3&gt;.",
+    "date": "2020-02-21T23:49:30.000Z",
+    "image": "/fixed-headers-and-jump-links-the-solution-is-scroll-margin-top-or-css-tricks.png",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin",
+    "title": "scroll-margin",
+    "description": "The scroll-margin property is a shorthand property which sets all of the scroll-margin longhands, assigning values much like the margin property does for the margin-* longhands.",
+    "date": "2019-12-17T08:01:54.037Z",
+    "image": "/scroll-margin.png",
+    "processed": true
+  }
+]
