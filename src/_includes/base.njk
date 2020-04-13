@@ -52,8 +52,13 @@
       <link rel="stylesheet" href="/assets/css/style_medium.css" media="(min-width: 768px)"/>
     {% endif %}
 
-      <link rel="stylesheet" href="/assets/css/print.css" media="print" />
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" />
 
+    <!-- RSS Feeds -->
+    {% for feed in collections.feeds %}
+      {%- set absoluteFeedUrl -%}{{ feed.url | url | absoluteUrl(project.site_url) }}{%- endset -%}
+      <link type="application/atom+xml" rel="alternate" href="{{ absoluteFeedUrl }}" title="{{ feed.data.title }}">
+    {% endfor %}
 </head>
 <body>
   <header class="site-header">
