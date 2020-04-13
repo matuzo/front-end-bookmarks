@@ -5,6 +5,15 @@
     "title": "JavaScript async and await in loops | Zell Liew",
     "description": "I share some gotchas you have to watch out for when you use async and await in loops.",
     "date": "2019-05-01T10:00:00.000Z",
+    "author": "Zell Liew",
+    "processed": true
+  },
+  {
+    "id": "mathiasbynens",
+    "url": "https://mathiasbynens.be/notes/async-stack-traces",
+    "title": "Asynchronous stack traces: why await beats Promise#then() · Mathias Bynens",
+    "author": "Mathias Bynens",
+    "date": "2017-10-02T00:00:00.000Z",
     "processed": true
   },
   {
