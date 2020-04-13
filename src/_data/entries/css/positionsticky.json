@@ -8,6 +8,7 @@
     "title": "Fixed Table Headers",
     "description": "Related A Responsive Accessible Table Hey, It’s Still OK to Use Tables Keyboard and Overflow",
     "date": "2020-01-13T21:59:27.000Z",
+    "author": "Adrian Roselli",
     "processed": true
   },
   {
@@ -19,6 +20,7 @@
     "title": "Position Sticky and Table Headers | CSS-Tricks",
     "description": "You can’t position: sticky; a . Nor a . But you can sticky a , which means you can make sticky headers inside a regular ol’ . This is tricky stuff,",
     "date": "2020-03-05T13:24:58.000Z",
+    "author": "Chris Coyier",
     "image": "/position-sticky-and-table-headers-or-css-tricks.png",
     "processed": true
   }

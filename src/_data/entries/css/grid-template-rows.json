@@ -15,6 +15,7 @@
     "title": "Animating CSS Grid",
     "description": "Soooo, Jen Simmons just dropped a surprise bombshell on Twitter – CSS Grid grid-template-columns and grid-template-rows properties are now…",
     "date": "2019-01-14T11:00:00.000Z",
+    "author": "CSS IRL",
     "image": "/animating-css-grid.png",
     "processed": true
   },
@@ -23,6 +24,7 @@
     "url": "https://blog.logrocket.com/new-in-firefox-66-animating-css-grid-b4ed90ac32f5/",
     "title": "New in Firefox 66: Animating CSS Grid - LogRocket Blog",
     "description": "Firefox is continuously improving, and the Mozilla team manages to surprise us with every new release. We have seen outstanding improvements on their dev tools recently that are pushing many devs to use of Firefox in development, also the browser implementation of CSS modules and APIs are growing co…",
+    "author": "Facundo Corradini",
     "date": "2019-11-19T14:10:05.000Z",
     "image": "/new-in-firefox-66-animating-css-grid-logrocket-blog.jpeg",
     "processed": true

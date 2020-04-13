@@ -19,6 +19,7 @@
     "description": "Who would win in a showdown between HTML Links and Buttons? Marcy Sutton will settle it once and for all by pitting these opponents against each other in a d...",
     "date": "2017-11-16T00:00:00.000Z",
     "image": "/the-links-vs-buttons-showdown-marcy-sutton-id24-nov-2017.jpg",
+    "author": "Marcy Sutton",
     "processed": true
   },
   {
@@ -30,6 +31,7 @@
     "title": "Link Targets and 3.2.5",
     "description": "TL;DR: Regardless of what accessibility conformance level you target, do not arbitrarily open links in a new window or tab. If you are required to do so anyway, inform users in text. Overview Throughout this post I am going to use the terms browser window and tab interchangeably. While they…",
     "date": "2020-03-02T01:57:39.000Z",
+    "author": "Adrian Roselli",
     "processed": true
   },
   {
@@ -41,6 +43,7 @@
     "title": "Block Links, Cards, Clickable Regions, Etc.",
     "description": "Whether you call them cards, block links, or some other thing, the construct of making an area of content clickable (tappable, Enter-key-able, voice-activatable, etc.) is not new. While hit area size is mostly a usability issue, marketers often want a larger click area around their calls to action (…",
     "date": "2020-03-12T14:55:07.000Z",
+    "author": "Adrian Roselli",
     "processed": true
   },
   {

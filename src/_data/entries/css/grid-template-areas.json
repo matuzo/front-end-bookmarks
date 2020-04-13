@@ -6,6 +6,7 @@
     "description": "In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a look at how to use grid-template-areas to place items.",
     "date": "2020-02-12T11:30:00.000Z",
     "image": "/understanding-css-grid-grid-template-areas-smashing-magazine.png",
+    "author": "Rachel Andrew",
     "processed": true
   },
   {

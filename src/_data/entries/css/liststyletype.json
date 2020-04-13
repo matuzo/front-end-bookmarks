@@ -18,6 +18,7 @@
     "title": "“Fixing” Lists | scottohara.me",
     "description": "In September of 2017 Gerard K. Cohen of Unfettered Thoughts posted an article on the how VoiceOver and Safari (Webkit) (macOS and iOS) remove list element se...",
     "date": "2019-01-12T00:00:00.000Z",
+    "author": "Scott O'Hara",
     "processed": true
   },
   {
@@ -30,6 +31,7 @@
     "description": "With that bit of additional CSS, we are able to return the list semantics for VoiceOver users without needing to touch the markup.",
     "date": "2017-09-26T07:14:57.000Z",
     "image": "/voiceover-and-list-style-type-none.jpg",
+    "author": "Unfettered Thoughts",
     "processed": true
   },
   {

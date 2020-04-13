@@ -20,6 +20,7 @@
     "description": "Who would win in a showdown between HTML Links and Buttons? Marcy Sutton will settle it once and for all by pitting these opponents against each other in a d...",
     "date": "2017-11-16T00:00:00.000Z",
     "image": "/the-links-vs-buttons-showdown-marcy-sutton-id24-nov-2017.jpg",
+    "author": "Marcy Sutton",
     "processed": true
   },
   {
@@ -32,6 +33,7 @@
     "title": "Just use button -- A11ycasts #05",
     "description": "Talking about tabindex and custom controls is super fun, and we’ll definitely be doing more of it in the future. But I wanted to pause for a moment and shine...",
     "date": "2016-09-16T00:00:00.000Z",
+    "author": "Rob Dodson",
     "image": "/just-use-button-a11ycasts-05.jpg",
     "processed": true
   },
@@ -44,6 +46,7 @@
     "title": "Unbuttoning Buttons | scottohara.me",
     "description": "Regardless of how one might feel about using CSS to disguise an HTML element as another, it can’t be denied that it’s a common, and sometimes necessary, prac...",
     "date": "2018-10-03T00:00:00.000Z",
+    "author": "Scott O'Hara",
     "processed": true
   },
   {

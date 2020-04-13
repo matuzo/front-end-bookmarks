@@ -7,6 +7,7 @@
     ],
     "title": "Display: Contents Is Not a CSS Reset",
     "description": "CSS resets are a collection of CSS styles that undo the default browser styling of many or most HTML elements. Recently I have seen cases of developers using display: contents on lists and headings to remove the margins and padding, and generally to visually do what a CSS reset might…",
+    "author": "Adrian Roselli",
     "date": "2019-06-22T00:39:50.000Z",
     "processed": true
   },
@@ -19,6 +20,7 @@
     "title": "More accessible markup with display: contents",
     "description": "The website of Hidde de Vries, freelance front-end developer.",
     "date": "2018-04-21T00:55:00.000Z",
+    "author": "Hidde de Vries",
     "processed": true
   },
   {
@@ -26,6 +28,7 @@
     "url": "https://www.smashingmagazine.com/2019/05/display-box-generation/",
     "title": "Digging Into The Display Property: Box Generation — Smashing Magazine",
     "description": "Continuing a series on the display property in CSS, this time Rachel Andrew takes a look at the values which control box generation, for those times when you don’t want to generate a box at all.",
+    "author": "Rachel Andrew",
     "date": "2019-05-01T11:00:59.000Z",
     "image": "/digging-into-the-display-property-box-generation-smashing-magazine.png",
     "processed": true

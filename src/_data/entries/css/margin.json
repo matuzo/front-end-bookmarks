@@ -3,6 +3,7 @@
     "id": "quirks",
     "url": "https://www.quirksmode.org/blog/archives/2020/02/negative_margin.html",
     "title": "Negative margins in CSS - QuirksBlog",
+    "author": "Peter-Paul Koch",
     "processed": true
   },
   {
@@ -12,6 +13,7 @@
     "description": "The margin property defines the outermost portion of the box model, creating space around an element, outside of any defined borders. Margins are set",
     "date": "2020-03-06T11:00:00.000Z",
     "image": "/margin-or-css-tricks.png",
+    "author": "Sara Cope",
     "processed": true
   },
   {
@@ -19,6 +21,7 @@
     "url": "https://www.smashingmagazine.com/2019/07/margins-in-css/",
     "title": "Everything You Need To Know About CSS Margins — Smashing Magazine",
     "description": "Margins in CSS seem simple enough at first glance. Applied to an element it forms a space around the element, pushing other elements away. However, there is more to a margin than you might think.",
+    "author": "Rachel Andrew",
     "date": "2019-07-15T10:30:59.000Z",
     "image": "/everything-you-need-to-know-about-css-margins-smashing-magazine.png",
     "processed": true
