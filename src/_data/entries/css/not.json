@@ -1,0 +1,32 @@
+[
+  {
+    "id": "valkhof",
+    "url": "https://kilianvalkhof.com/2008/css-html/the-css3-not-selector/",
+    "title": "The CSS3 :not() selector",
+    "description": "The :not() selector is only supported by modern browsers, :not(IE).",
+    "date": "2008-08-26T10:57:18.000Z",
+    "image": "/the-css3-not-selector.jpg",
+    "author": "Kilian Valkhof",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/almanac/selectors/n/not/",
+    "title": ":not() | CSS-Tricks",
+    "description": "The :not(X) property in CSS is a negation pseudo class and accepts a simple selector1 as an argument. Essentially, just another selector of any kind. :not",
+    "date": "2019-07-15T10:00:00.000Z",
+    "image": "/not-or-css-tricks.jpg",
+    "author": "Sara Cope",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:not",
+    "title": ":not()",
+    "description": "The :not() CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class.",
+    "date": "2019-12-20T04:29:09.458Z",
+    "image": "/not.png",
+    "author": "MDN",
+    "processed": true
+  }
+]
