@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  {%- set absoluteFeedUrl -%}{{ page.url | url | absoluteUrl(project.site_url) }}{%- endset -%}
+  {%- set collection = collections[collectionName] -%}
+  
+  <id>{{ absoluteFeedUrl }}/</id>
+  <title>{{ title or project.site_title }}</title>
+  <subtitle>{{ description or project.site_description }}</subtitle>
+  <link href="{{ absoluteFeedUrl }}" rel="self" type="application/atom+xml" />
+  <link href="{{ project.site_url }}" rel="alternate" type="text/html" />
+  <author>
+    <name>{{ project.site_title }}</name>
+  </author>
+
+  {% if collection %}
+  <updated>{{ collection | rssLastUpdatedDate }}</updated>
+  {% endif %}
+
+  {%- for entry in collection | reverse -%}
+  {%- set absoluteEntryUrl -%}{{ entry.url | url | absoluteUrl(project.site_url) }}{%- endset -%}
+  <entry>
+    <title>{{ entry.data.title }}</title>
+    <link href="{{ absoluteEntryUrl }}" />
+    <updated>{{ entry.date | rssDate }}</updated>
+    <id>{{ absoluteEntryUrl }}</id>
+    <content type="html">
+      <![CDATA[{{ entry.templateContent | htmlToAbsoluteUrls(absoluteEntryUrl) | safe }}]]>
+    </content>
+  </entry>
+  {%- endfor -%}
+</feed>
