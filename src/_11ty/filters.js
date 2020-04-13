@@ -23,7 +23,7 @@ function shuffle(array) {
 module.exports = {
   // Date formatting (human readable)
   readableDate: dateObj => {
-    return DateTime.fromISO(dateObj).toFormat('dd LLL yyyy');
+    return DateTime.fromISO(dateObj).toFormat('LLLL d, yyyy');
   },
 
   machineDate: dateObj => {
