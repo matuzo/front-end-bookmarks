@@ -1,0 +1,6 @@
+{
+    "layout": "feed.njk",
+    "tags": "feeds",
+    "permalink": "{{ page.filePathStem }}.xml",
+    "sitemap": false
+}
