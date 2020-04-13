@@ -64,9 +64,12 @@
         </a>
       </h3>
 
-      {% if entry.date %}
-        <p class="bookmark__meta"> posted on
+      {% if entry.date or entry.author %}
+        <p class="bookmark__meta">
+        {% if entry.date %}
+          posted on
             <time datetime="{{ entry.date | machineDate }}">{{ entry.date | readableDate }}</time>
+          {% endif %}
             {% if entry.author %}by {{entry.author}}{% endif %}
           </p>
       {% endif %}
