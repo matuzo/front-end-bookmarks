@@ -1,10 +1,12 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const rss = require('@11ty/eleventy-plugin-rss');
 const filters = require('./src/_11ty/filters.js')
 const htmlmin = require('html-minifier');
 
 module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(rss);
 
   // Filters
   Object.keys(filters).forEach(filterName => {
