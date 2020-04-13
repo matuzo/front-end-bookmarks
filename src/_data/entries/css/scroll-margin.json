@@ -27,5 +27,19 @@
     "date": "2019-12-17T08:01:54.037Z",
     "image": "/scroll-margin.png",
     "processed": true
+  },
+  {
+    "id": "sven",
+    "url": "https://codepen.io/maddesigns/pen/XWbRZbb",
+    "author": "Sven Wolfermann",
+    "title": "scroll-margin-top / scroll-padding, smooth scroll and fixed headers",
+    "processed": true
+  },
+  {
+    "id": "sven",
+    "url": "https://codepen.io/maddesigns/pen/KKpGjqj",
+    "author": "Sven Wolfermann",
+    "title": "fixed headers jump :target (IE11 version)",
+    "processed": true
   }
 ]
