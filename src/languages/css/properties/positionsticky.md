@@ -12,6 +12,7 @@ definition:
     text: "6.2. Sticky positioning"
     url: https://www.w3.org/TR/css-position-3/#sticky-pos
 links: "positionsticky"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

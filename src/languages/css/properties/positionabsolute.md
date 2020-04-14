@@ -12,6 +12,7 @@ definition:
     text: "6.3. Absolute positioning"
     url: https://www.w3.org/TR/css-position-3/#abs-pos
 links: "positionabsolute"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

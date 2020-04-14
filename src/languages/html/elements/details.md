@@ -12,6 +12,7 @@ definition:
     text: "4.11.1. The details element"
     url: https://www.w3.org/TR/html52/single-page.html#the-details-element
 links: "details"
+date: 2020-04-10
 ---
 
 ```html

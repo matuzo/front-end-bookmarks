@@ -12,6 +12,7 @@ definition:
     text: "3.2.5.7. Embedding custom non-visible data with the data-* attributes"
     url: https://www.w3.org/TR/html52/dom.html#embedding-custom-non-visible-data-with-the-data-attributes
 links: "data"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

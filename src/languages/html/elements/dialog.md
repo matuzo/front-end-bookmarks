@@ -12,6 +12,7 @@ definition:
     text: "4.11.4. The dialog element"
     url: https://www.w3.org/TR/html52/single-page.html#the-dialog-element
 links: "dialog"
+date: 2020-04-10
 ---
 
 ```html

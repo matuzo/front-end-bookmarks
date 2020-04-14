@@ -12,6 +12,7 @@ definition:
     text: "4.8.2. Links created by a and area elements."
     url: "https://www.w3.org/TR/html52/single-page.html#element-attrdef-a-rel"
 links: "rel"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

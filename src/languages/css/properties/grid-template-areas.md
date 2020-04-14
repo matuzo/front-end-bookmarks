@@ -12,6 +12,7 @@ definition:
     text: "7.3. Named Areas: the grid-template-areas property"
     url: https://www.w3.org/TR/css-grid-1/#propdef-grid-template-areas
 links: "grid-template-areas"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

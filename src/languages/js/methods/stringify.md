@@ -13,6 +13,7 @@ definition:
     text: "24.5.2JSON.stringify"
     url: https://ecma-international.org/ecma-262/10.0/index.html#sec-json.stringify
 links: "stringify"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

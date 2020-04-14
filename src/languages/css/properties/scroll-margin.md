@@ -12,7 +12,7 @@ definition:
     text: "5.1. Scroll Snapping Area: the scroll-margin property"
     url: https://drafts.csswg.org/css-scroll-snap-1/#propdef-scroll-margin
 links: "scroll-margin"
-date: Last Modified
+date: 2020-04-14
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

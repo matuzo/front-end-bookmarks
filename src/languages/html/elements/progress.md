@@ -12,6 +12,7 @@ definition:
     text: "4.10.13. The progress element"
     url: https://www.w3.org/TR/html52/single-page.html#the-progress-element
 links: "progress"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

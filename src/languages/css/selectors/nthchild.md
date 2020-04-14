@@ -12,7 +12,7 @@ definition:
     text: "6.6.5.2. :nth-child() pseudo-class"
     url: https://www.w3.org/TR/selectors-3/#nth-child-pseudo
 links: "nthchild"
-date: Last Modified
+date: 2020-04-11
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

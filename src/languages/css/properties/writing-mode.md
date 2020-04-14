@@ -12,6 +12,7 @@ definition:
     text: "3.2. Block Flow Direction: the writing-mode property"
     url: https://www.w3.org/TR/css-writing-modes-3/#block-flow
 links: "writingmode"
+date: 2020-04-12
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

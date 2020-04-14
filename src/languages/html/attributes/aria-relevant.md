@@ -12,6 +12,7 @@ definition:
     text: "aria-relevant (property)"
     url: https://www.w3.org/TR/wai-aria/#aria-relevant
 links: "ariarelevant"
+date: 2020-04-14
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

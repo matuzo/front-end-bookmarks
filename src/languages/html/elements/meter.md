@@ -12,6 +12,7 @@ definition:
     text: "4.10.14. The meter element"
     url: https://www.w3.org/TR/html52/single-page.html#the-meter-element
 links: "meter"
+date: 2020-04-11
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

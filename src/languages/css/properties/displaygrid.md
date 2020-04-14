@@ -14,6 +14,7 @@ definition:
 links: "displaygrid"
 related: 
  - 'css.display.smashing'
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
