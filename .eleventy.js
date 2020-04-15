@@ -39,8 +39,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     './src/assets/favicon': '/',
     './src/images': '/images',
-    './src/assets': '/assets'
-  });
+    './src/assets': '/assets',
+    './src/netlify.toml': '/netlify.toml'
+   });
 
   return {
     templateFormats: ['md', 'njk'],
