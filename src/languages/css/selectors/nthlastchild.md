@@ -1,11 +1,12 @@
 ---
 title: ":nth-last-child()"
+title_clean: nth-last-child
 short_desc: "Represents an element that has an+b-1 siblings after it in the document tree."
 tags:
   - css
   - selectors
   - entry
-permalink: css/selectors/{{ title | slug }}/index.html
+permalink: css/selectors/{{ title_clean | slug }}/index.html
 definition:
   text: "The :nth-last-child(an+b) pseudo-class notation represents an element that has an+b-1 siblings after it in the document tree, for any positive integer or zero value of n."
   cite:

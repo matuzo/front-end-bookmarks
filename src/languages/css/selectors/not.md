@@ -1,11 +1,12 @@
 ---
 title: ":not()"
+title_clean: not
 short_desc: "Represents an element that is not represented by its argument."
 tags:
   - css
   - selectors
   - entry
-permalink: css/selectors/{{ title | slug }}/index.html
+permalink: css/selectors/{{ title_clean | slug }}/index.html
 definition:
   text: "The negation pseudo-class, :not(X), is a functional notation taking a simple selector (excluding the negation pseudo-class itself) as an argument. It represents an element that is not represented by its argument. "
   cite:

@@ -1,11 +1,12 @@
 ---
 title: "::marker"
+title_clean: "marker"
 short_desc: "The ::marker pseudo-element represents the automatically generated marker box of a list item."
 tags:
   - css
   - selectors
   - entry
-permalink: css/selectors/{{ title | slug }}/index.html
+permalink: css/selectors/{{ title_clean | slug }}/index.html
 definition:
   text: "The ::marker pseudo-element represents the automatically generated marker box of a list item."
   cite:
