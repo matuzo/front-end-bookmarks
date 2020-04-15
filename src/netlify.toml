@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/css/selectors/:not()/ "
-  to = " /css/selectors/not/"
+  from = "/css/selectors/:not()"
+  to = "/css/selectors/not"
   status = 301
