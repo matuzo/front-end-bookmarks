@@ -12,6 +12,7 @@ definition:
     text: "4.3.3. The section element"
     url: https://www.w3.org/TR/html52/sections.html#the-section-element
 links: "section"
+date: 2020-04-10
 ---
 
 ```html

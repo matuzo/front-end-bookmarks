@@ -12,6 +12,7 @@ definition:
     text: "1.1. About SVG"
     url: https://www.w3.org/TR/SVG2/intro.html
 links: "svg"
+date: 2020-04-10
 ---
 <h2 class="h3"><span>Code sample</span></h2>
 

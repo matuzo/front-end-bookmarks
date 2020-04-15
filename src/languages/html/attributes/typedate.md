@@ -13,6 +13,7 @@ definition:
     text: "4.10.5.1.7. Date state (type=date)"
     url: "https://www.w3.org/TR/html52/single-page.html#date-state-typedate"
 links: "typedate"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

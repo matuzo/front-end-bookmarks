@@ -12,6 +12,7 @@ definition:
     text: "3. Margins"
     url: https://www.w3.org/TR/css-box-3/#margins
 links: "margin"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

@@ -12,6 +12,7 @@ definition:
     text: "await (MDN)"
     url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
 links: "await"
+date: 2020-04-14
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

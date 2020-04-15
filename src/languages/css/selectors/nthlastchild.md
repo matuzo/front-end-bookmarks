@@ -13,6 +13,7 @@ definition:
     text: "6.6.5.3. :nth-last-child() pseudo-class"
     url: https://www.w3.org/TR/selectors-3/#nth-last-child-pseudo
 links: "nthlastchild"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

@@ -13,6 +13,7 @@ definition:
     text: "4.10.5.1.2. Text (type=text) state and Search state (type=search)"
     url: "https://www.w3.org/TR/html52/single-page.html#text-typetext-state-and-search-state-typesearch"
 links: "typesearch"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

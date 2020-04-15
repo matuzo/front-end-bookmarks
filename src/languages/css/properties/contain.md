@@ -12,6 +12,7 @@ definition:
     text: "2. Strong Containment: the contain property"
     url: https://www.w3.org/TR/css-contain-1/#contain-property
 links: "contain"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

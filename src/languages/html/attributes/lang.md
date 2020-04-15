@@ -12,6 +12,7 @@ definition:
     text: "3.2.5.2. The lang and xml:lang attributes"
     url: https://www.w3.org/TR/html52/dom.html#the-lang-and-xmllang-attributes
 links: "lang"
+date: 2020-04-10
 ---
 
 <h3><span>Code samples</span></h3>

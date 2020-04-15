@@ -13,6 +13,7 @@ definition:
     text: "6.6.7. The negation pseudo-class"
     url: https://drafts.csswg.org/selectors-3/#negation
 links: "not"
+date: 2020-04-14
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

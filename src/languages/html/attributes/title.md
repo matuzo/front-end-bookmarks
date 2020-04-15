@@ -12,6 +12,7 @@ definition:
     text: "3.2.5.1. The title attribute"
     url: https://www.w3.org/TR/html52/dom.html#the-title-attribute
 links: "title"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

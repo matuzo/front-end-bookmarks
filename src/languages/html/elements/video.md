@@ -12,6 +12,7 @@ definition:
     text: "4.7.10. The video element"
     url: https://www.w3.org/TR/html52/semantics-embedded-content.html#the-video-element
 links: "video"
+date: 2020-04-10
 ---
 <h2 class="h3"><span>Code sample</span></h2>
 

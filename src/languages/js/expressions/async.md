@@ -12,6 +12,7 @@ definition:
     text: "async function expression (MDN)"
     url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async
 links: "async"
+date: 2020-04-13
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

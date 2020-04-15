@@ -12,6 +12,7 @@ definition:
     text: "4.4.12. The figure element"
     url: https://www.w3.org/TR/html52/grouping-content.html#the-figure-element
 links: "figure"
+date: 2020-04-10
 ---
 
 ```html

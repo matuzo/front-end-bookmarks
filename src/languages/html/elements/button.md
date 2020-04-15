@@ -12,6 +12,7 @@ definition:
     text: "4.10.6. The button element"
     url: https://www.w3.org/TR/html52/sec-forms.html#the-button-element
 links: "button"
+date: 2020-04-10
 ---
 <h2 class="h3"><span>Code sample</span></h2>
 

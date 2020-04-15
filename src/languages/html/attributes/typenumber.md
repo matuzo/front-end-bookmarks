@@ -13,6 +13,7 @@ definition:
     text: "4.10.5.1.12. Number state (type=number)"
     url: https://www.w3.org/TR/html52/single-page.html#number-state-typenumber
 links: "typenumber"
+date: 2020-04-10
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
