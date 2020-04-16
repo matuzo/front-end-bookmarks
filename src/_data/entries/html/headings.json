@@ -1,0 +1,21 @@
+[
+  {
+    "id": "paciello",
+    "url": "https://developer.paciellogroup.com/blog/2020/03/heading-off-confusion-when-do-headings-fail-wcag/",
+    "title": "Heading off confusion: When do headings fail WCAG?",
+    "description": "Ed note: this post talks about evaluating headings in the context of an accessibility review while the following week’s post, Headings &amp; Accessibility, talks about providing headings as visu",
+    "date": "2020-03-24T13:56:50.000Z",
+    "image": "/heading-off-confusion-when-do-headings-fail-wcag.jpg",
+    "author": "David Swallow",
+    "processed": true
+  },
+  {
+    "id": "roselli",
+    "url": "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+    "title": "There Is No Document Outline Algorithm",
+    "description": "I figured I would state the entire argument in the title. After all, as of this writing and the last seven-plus years, the statement is accurate as far as the browsers are concerned. I am penning this as sort of a follow-up to my post from 2013, The Truth about…",
+    "date": "2020-02-10T14:38:27.000Z",
+    "author": "Adrian Roselli",
+    "processed": true
+  }
+]
