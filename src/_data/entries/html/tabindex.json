@@ -1,0 +1,76 @@
+[
+  {
+    "id": "tpg",
+    "url": "https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/",
+    "title": "Using the tabindex attribute",
+    "description": "The HTML tabindex attribute is used to manage keyboard focus. Used wisely, it can effectively handle focus within web widgets. Used unwisely however, the tabindex attribute can destroy the usability o",
+    "date": "2014-08-04T12:17:01.000Z",
+    "image": "/using-the-tabindex-attribute.png",
+    "author": "Léonie Watson",
+    "tags": [
+      "accessibility"
+    ],
+    "processed": true
+  },
+  {
+    "id": "ohara",
+    "url": "https://www.scottohara.me/blog/2019/05/25/tabindex.html",
+    "title": "Tabindex: it rarely pays to be positive | scottohara.me",
+    "description": "HTML’s tabindex attribute may be used to modify whether an element can receive keyboard focus, or not. It’s an attribute that can be quite beneficial in crea...",
+    "date": "2019-05-25T00:00:00.000Z",
+    "author": "Scott O'Hara",
+    "tags": [
+      "accessibility"
+    ],
+    "processed": true
+  },
+  {
+    "id": "dodson",
+    "url": "https://www.youtube.com/watch?v=Pe0Ce1WtnUM",
+    "title": "Controlling focus with tabindex -- A11ycasts #04",
+    "description": "Whenever possible you want to use native HTML elements for your custom controls. The button tag, for instance, is very easy to style, and has built-in keyboa...",
+    "date": "2016-09-02T00:00:00.000Z",
+    "image": "/controlling-focus-with-tabindex-a11ycasts-04.jpg",
+    "author": "Rob Dodson",
+    "tags": [
+      "accessibility"
+    ],
+    "processed": true
+  },
+  {
+    "id": "tink",
+    "url": "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Flexbox &amp; the keyboard navigation disconnect – Tink",
+    "author": "Léonie Watson",
+    "date": "2016-02-04T00:00:00.000Z",
+    "tags": [
+      "accessibility"
+    ],
+    "processed": true
+  },
+  {
+    "id": "google",
+    "url": "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex",
+    "title": "Using tabindex | Web Fundamentals | Google Developers",
+    "description": "Modifying the DOM order with tabindex",
+    "author": "Meggin Kearney",
+    "image": "/using-tabindex-or-web-fundamentals-or-google-developers.png",
+    "tags": [
+      "accessibility"
+    ],
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/de/docs/Web/HTML/Globale_Attribute/tabindex",
+    "title": "tabindex",
+    "description": "Das Globale Attribut tabindex gibt an, ob sein Element fokussiert werden kann, ob und an welcher Stelle es an der sequentiellen Tastaturnavigation beteiligt ist (normalerweise mit der Tabulatortaste, daher der Name).",
+    "author": "MDN",
+    "date": "2019-04-17T20:31:41.579Z",
+    "image": "/tabindex.png",
+    "processed": true
+  }
+]
