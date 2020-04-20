@@ -1,5 +1,15 @@
 [
   {
+    "id": "chen",
+    "url": "https://www.chenhuijing.com/blog/css-for-i18n/#%F0%9F%91%BE",
+    "title": "CSS for internationalisation",
+    "description": "I’ve come across people who do not think that CSS is related to internationalisation at all, but if you think...",
+    "date": "2020-04-19T00:00:00.000Z",
+    "image": "/css-for-internationalisation.jpg",
+    "author": "Chen Hui Jing",
+    "processed": true
+  },
+  {
     "id": "roselli",
     "url": "https://adrianroselli.com/2015/01/on-use-of-lang-attribute.html",
     "tags": [
