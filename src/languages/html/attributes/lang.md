@@ -13,6 +13,7 @@ definition:
     url: https://www.w3.org/TR/html52/dom.html#the-lang-and-xmllang-attributes
 links: "lang"
 date: 2020-04-10
+sm_img: images/sm/sm_lang.jpg
 ---
 
 <h3><span>Code samples</span></h3>
