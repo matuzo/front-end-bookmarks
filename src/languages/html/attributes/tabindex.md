@@ -13,7 +13,7 @@ definition:
     url: https://www.w3.org/TR/html52/editing.html#the-tabindex-attribute
 links: "tabindex"
 date: 2020-04-18
-sm_img: images/sm/tabindex.jpg
+sm_img: images/sm/sm_tabindex.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>

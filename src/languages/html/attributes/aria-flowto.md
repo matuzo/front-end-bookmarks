@@ -13,7 +13,7 @@ definition:
     url: https://www.w3.org/TR/wai-aria/#aria-flowto
 links: "ariaflowto"
 date: 2020-04-18
-sm_img: images/sm/aria-flowto.jpg
+sm_img: images/sm/sm_aria-flowto.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
