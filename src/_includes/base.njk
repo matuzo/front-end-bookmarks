@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js {{ page_class}}" itemscope itemtype="http://schema.org/WebPage">
+<html class="no-js {{ page_class}}" itemscope itemtype="http://schema.org/WebPage">
 <head>
  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,22 +20,22 @@
     {% set image = sm_img or 'sm_general.jpg' %}
     <!-- Search Engine -->
     <meta name="description" content="{{ description }}">
-    <meta name="image" content="{{ project.site_url }}/assets/img/{{ image }}">
+    <meta name="image" content="{{ project.site_url }}/{{ image }}">
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta itemprop="description" content="{{ description }}">
-    <meta itemprop="image" content="{{ project.site_url }}/assets/img/{{ image }}">
+    <meta itemprop="image" content="{{ project.site_url }}/{{ image }}">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:site" content="@mmatuzo">
     <meta name="twitter:creator" content="@mmatuzo">
-    <meta name="twitter:image:src" content="{{ project.site_url }}/assets/img/{{ image }}">
+    <meta name="twitter:image:src" content="{{ project.site_url }}/{{ image }}">
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
     <meta property="og:title" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta property="og:description" content="{{ description }}">
-    <meta property="og:image" content="{{ project.site_url }}/assets/img/{{ image }}">
+    <meta property="og:image" content="{{ project.site_url }}/{{ image }}">
     <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ project.site_title }}{% if title %} - {{ title }}{%endif%}">
     <meta property="og:locale" content="en_GB">
