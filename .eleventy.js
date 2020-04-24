@@ -1,25 +1,25 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const rss = require('@11ty/eleventy-plugin-rss');
-const filters = require('./src/_11ty/filters.js')
+const filters = require('./src/_11ty/filters.js');
 const htmlmin = require('html-minifier');
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(rss);
 
   // Filters
-  Object.keys(filters).forEach(filterName => {
-    eleventyConfig.addFilter(filterName, filters[filterName])
+  Object.keys(filters).forEach((filterName) => {
+    eleventyConfig.addFilter(filterName, filters[filterName]);
   });
 
   // Transforms
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-    if( outputPath.endsWith(".html") ) {
+  eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
+    if (outputPath.endsWith('.html')) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
-        collapseWhitespace: true
+        collapseWhitespace: true,
       });
       return minified;
     }
@@ -28,20 +28,24 @@ module.exports = function(eleventyConfig) {
   });
 
   // Collections
-  eleventyConfig.addCollection("entriesSorted", function(collection) {
-      return collection.getFilteredByTag("entry").sort(function(a, b){
-        if(a.data.title < b.data.title) { return -1; }
-        if(a.data.title > b.data.title) { return 1; }
-        return 0;
-    })
+  eleventyConfig.addCollection('entriesSorted', function (collection) {
+    return collection.getFilteredByTag('entry').sort(function (a, b) {
+      if (a.data.title < b.data.title) {
+        return -1;
+      }
+      if (a.data.title > b.data.title) {
+        return 1;
+      }
+      return 0;
+    });
   });
 
   eleventyConfig.addPassthroughCopy({
     './src/assets/favicon': '/',
     './src/images': '/images',
     './src/assets': '/assets',
-    './src/netlify.toml': '/netlify.toml'
-   });
+    './src/netlify.toml': '/netlify.toml',
+  });
 
   return {
     templateFormats: ['md', 'njk'],
@@ -56,7 +60,7 @@ module.exports = function(eleventyConfig) {
       input: 'src',
       includes: '_includes',
       data: '_data',
-      output: '_site'
-    }
+      output: '_site',
+    },
   };
 };
