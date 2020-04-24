@@ -5,8 +5,4 @@ package = "netlify-plugin-a11y"
   [plugins.inputs]
 
   ## Another checkPaths Example 
-  checkPaths = [
-    '/',
-    '/html',
-    '/css/properties/grid-template-columns/',
-  ]
+  checkPaths = ['/']
