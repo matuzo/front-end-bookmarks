@@ -163,7 +163,19 @@ img {
 .jump {
   margin-top: 1.4rem;
   max-width: 32rem;
+}
 
+.jump__button {
+  background: #c34035;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.js .jump__button {
+  display: none;
 }
 
 .jump__label {
