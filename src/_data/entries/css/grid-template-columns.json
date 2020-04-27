@@ -1,5 +1,15 @@
 [
   {
+    "id": "marcotte",
+    "url": "https://ethanmarcotte.com/wrote/css-grid-without-max-width/",
+    "title": "Constrained CSS grids without <code>max-width</code>",
+    "description": "Stumbled across a little layout technique while working on my latest redesign. I think it’s helpful; maybe you’ll think so, too.",
+    "date": "2020-04-15T00:00:00.000Z",
+    "image": "/constrained-css-grids-without-codemax-widthcode-ethanmarcottecom.jpg",
+    "author": "Ethan Marcotte",
+    "processed": true
+  },
+  {
     "id": "chen",
     "url": "https://blog.bitsrc.io/animating-css-grid-rows-and-columns-4b3b0997d06a",
     "title": "Animating CSS Grid Rows and Columns",
