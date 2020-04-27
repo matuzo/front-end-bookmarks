@@ -97,7 +97,7 @@ img {
 }
 
 .h1 {
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   background: #c34035;
   padding: 0.4em 0.3em 0.2em;
   display: inline-flex;
@@ -107,6 +107,12 @@ img {
   line-height: 1;
   flex-grow: 1;
   font-weight: bold;
+}
+
+@media (min-width: 320px) {
+  .h1 {
+    font-size: 3.2rem;
+  }
 }
 
 /* NAV */
@@ -133,13 +139,19 @@ img {
 .nav__link {
   display: inline-flex;
   background: rgb(52, 82, 123);
-  padding: 0.6rem 1.7rem 0.2rem;
+  padding: 0.2rem 0.7rem 0;
   box-sizing: border-box;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2.4rem;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 320px) {
+  .nav__link {
+    padding: 0.6rem 1.7rem 0.2rem;
+  }
 }
 
 .nav__link--active {
@@ -180,7 +192,6 @@ img {
 
 .jump__label {
   font-weight: bold;
-  display: block;
   font-size: 1.7rem;
   margin-bottom: 0.3rem;
   color: rgb(52, 82, 123);
@@ -210,7 +221,6 @@ img {
   top: 0;
   height: 100%;
   width: 4.4rem;
-  display: flex;
   align-items: center;
   justify-content: center;
   -moz-appearance: none;
@@ -222,6 +232,11 @@ img {
   font-size: 1.6rem;
   margin: 0;
   padding: 0;
+  display: none;
+}
+
+.js .combo-box__btn {
+  display: flex;
 }
 
 .combo-box__btn:hover {
@@ -443,6 +458,7 @@ a.card__link:hover {
   width: 100%;
   max-width: 48rem;
   max-height: 27rem;
+  height: auto;
 }
 
 .bookmark__meta {
