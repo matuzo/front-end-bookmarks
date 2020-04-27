@@ -1,0 +1,6 @@
+[[plugins]]
+package = "netlify-plugin-a11y"
+
+  [plugins.inputs]
+
+  checkPaths = ['/']
