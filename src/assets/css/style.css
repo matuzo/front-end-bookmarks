@@ -549,3 +549,11 @@ a.card__link:hover {
 outline: 5px solid #000;
 outline-offset: 2px;;
 }
+
+.js .no-js-only {
+  display: none;
+}
+
+.js .js-only {
+  display: initial;
+}
