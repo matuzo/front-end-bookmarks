@@ -13,6 +13,7 @@ definition:
     url: https://www.w3.org/TR/css-grid-1/#track-sizing
 links: "grid-template-columns"
 date: 2020-04-27
+sm_img: images/sm/sm_gridtemplatecolumns.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
