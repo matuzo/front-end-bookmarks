@@ -5,7 +5,8 @@
     "title": "HTML attribute: multiple",
     "description": "The Boolean multiple attribute, if set, means the form control accepts one or more values. Valid for the email and file input types and the select, the manner by which the user opts for multiple values depends on the form control.",
     "date": "2019-11-15T13:47:46.910Z",
-    "image": "/html-attribute-multiple.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

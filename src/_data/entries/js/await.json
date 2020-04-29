@@ -21,8 +21,9 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await",
     "title": "await",
     "description": "The await operator is used to wait for a Promise. It can only be used inside an async function.",
+    "author": "MDN",
     "date": "2020-03-04T04:30:58.026Z",
-    "image": "/await.png",
+    "image": "/mdn.png",
     "processed": true
   }
 ]

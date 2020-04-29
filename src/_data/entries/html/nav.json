@@ -14,7 +14,8 @@
     "title": "&lt;nav&gt;: The Navigation Section element",
     "description": "The HTML nav element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.",
     "date": "2019-03-23T19:17:28.323Z",
-    "image": "/nav-the-navigation-section-element.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

@@ -18,7 +18,8 @@
     "title": "&lt;video&gt;: The Video Embed element",
     "description": "The HTML Video element (video) embeds a media player which supports video playback into the document. You can use video for audio content as well, but the audio element may provide a more appropriate user experience.",
     "date": "2020-02-22T23:56:54.947Z",
-    "image": "/video-the-video-embed-element.png",
+    "author": "MDN",
+    "image": "/mdn.png",
     "processed": true
   }
 ]

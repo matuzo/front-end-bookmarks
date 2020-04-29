@@ -39,8 +39,9 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type",
     "title": "list-style-type",
     "description": "The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element.",
-    "date": "2019-10-04T09:36:46.246Z",
-    "image": "/list-style-type.png",
+    "date": "2020-04-21T08:46:00.900Z",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   },
   {

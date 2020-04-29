@@ -27,7 +27,8 @@
     "title": "&lt;section&gt;: The Generic Section element",
     "description": "The HTML section element represents a standalone section — which doesn’t have a more specific semantic element to represent it — contained within an HTML document.",
     "date": "2019-08-19T08:54:47.538Z",
-    "image": "/section-the-generic-section-element.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

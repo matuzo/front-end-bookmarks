@@ -15,7 +15,8 @@
     "title": "JSON.stringify()",
     "description": "The JSON.stringify() method converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.",
     "date": "2020-01-15T03:22:29.194Z",
-    "image": "/jsonstringify.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

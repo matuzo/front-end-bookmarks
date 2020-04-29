@@ -16,7 +16,8 @@
     "title": "&lt;input type=“search”&gt;",
     "description": "input elements of type search are text fields designed for the user to enter search queries into. These are functionally identical to text inputs, but may be styled differently by the user agent.",
     "date": "2019-12-19T20:51:49.970Z",
-    "image": "/input-typesearch.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

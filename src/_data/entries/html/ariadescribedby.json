@@ -29,7 +29,8 @@
     "title": "Using the aria-describedby attribute",
     "description": "The aria-describedby attribute is used to indicate the IDs of the elements that describe the object. It is used to establish a relationship between widgets or groups and text that described them. This is very similar to aria-labelledby: a label describes the essence of an object, while a description…",
     "date": "2019-03-23T19:16:44.431Z",
-    "image": "/using-the-aria-describedby-attribute.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

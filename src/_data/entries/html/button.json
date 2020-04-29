@@ -100,7 +100,8 @@
     "title": "&lt;button&gt;: The Button element",
     "description": "The HTML button element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.",
     "date": "2020-02-26T18:46:46.212Z",
-    "image": "/button-the-button-element.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

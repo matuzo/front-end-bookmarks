@@ -31,7 +31,8 @@
     "title": "&lt;input type=“number”&gt;",
     "description": "input elements of type number are used to let the user enter a number. They include built-in validation to reject non-numerical entries.",
     "date": "2020-03-15T01:40:09.979Z",
-    "image": "/input-typenumber.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

@@ -17,7 +17,8 @@
     "title": "&lt;figure&gt;: The Figure with Optional Caption element",
     "description": "The HTML figure (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (figcaption) element.",
     "date": "2019-08-14T18:16:45.619Z",
-    "image": "/figure-the-figure-with-optional-caption-element.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

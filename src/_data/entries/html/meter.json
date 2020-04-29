@@ -16,7 +16,8 @@
     "title": "&lt;meter&gt;: The HTML Meter element",
     "description": "The HTML meter element represents either a scalar value within a known range or a fractional value.",
     "date": "2020-03-09T08:41:51.996Z",
-    "image": "/meter-the-html-meter-element.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

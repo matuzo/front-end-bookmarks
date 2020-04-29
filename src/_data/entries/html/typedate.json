@@ -17,7 +17,8 @@
     "title": "&lt;input type=“date”&gt;",
     "description": "input elements of type=“date” create input fields that let the user enter a date, either with a textbox that validates the input or a special date picker interface.",
     "date": "2020-03-19T22:00:07.686Z",
-    "image": "/input-typedate.png",
+    "author": "MDN",
+    "image": "/mdn.png",
     "processed": true
   }
 ]

@@ -17,7 +17,8 @@
     "title": "Using the aria-label attribute",
     "description": "The aria-label attribute is used to define a string that labels the current element. Use it in cases where a text label is not visible on the screen. If there is visible text labeling the element, use aria-labelledby instead.",
     "date": "2020-02-17T00:25:15.649Z",
-    "image": "/using-the-aria-label-attribute.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

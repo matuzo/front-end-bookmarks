@@ -14,7 +14,8 @@
     "title": "Using the aria-relevant attribute",
     "description": "The aria-relevant attribute is an optional value used to describe what types of changes have occurred to an aria-live region, and which are relevant and should be announced. Any change that is not relevant acts in the same manner it would if the aria-live attribute were set to off.",
     "date": "2020-01-07T11:07:59.630Z",
-    "image": "/using-the-aria-relevant-attribute.png",
+    "author": "MDN",
+    "image": "/mdn.png",
     "processed": true
   }
 ]

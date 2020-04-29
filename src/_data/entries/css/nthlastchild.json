@@ -15,7 +15,8 @@
     "title": ":nth-last-child()",
     "description": "The :nth-last-child() CSS pseudo-class matches elements based on their position among a group of siblings, counting from the end.",
     "date": "2018-09-18T23:19:02.444Z",
-    "image": "/nth-last-child.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

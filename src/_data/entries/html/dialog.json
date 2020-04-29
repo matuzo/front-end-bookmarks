@@ -17,7 +17,8 @@
     "title": "&lt;dialog&gt;: The Dialog element",
     "description": "The HTML dialog element represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow.",
     "date": "2020-02-08T09:17:05.990Z",
-    "image": "/dialog-the-dialog-element.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

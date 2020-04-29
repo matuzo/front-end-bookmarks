@@ -69,8 +69,9 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
     "title": "&lt;a&gt;: The Anchor element",
     "description": "The HTML a element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.",
-    "date": "2020-02-10T15:29:54.791Z",
-    "image": "/a-the-anchor-element.png",
+    "date": "2020-04-12T21:55:01.545Z",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

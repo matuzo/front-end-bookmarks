@@ -75,8 +75,6 @@ const writeLinks = (linksFile, links) => {
 const getData = async (file, links, targetUrl, id) => {
   links.map(async link => {
     if (link.id === id) {
-      console.log(id)
-      
       if (!link.processed) {
         const { body: html, url } = await got(targetUrl);
         const metadata = await metascraper({ html, url });
@@ -95,14 +93,24 @@ const getData = async (file, links, targetUrl, id) => {
         }
 
         if (metadata.image) {
-          downloadImage(metadata, function() {
-            link.image = getNewImageFileName(metadata)
+          console.log(url.indexOf('developer.mozilla.org'))
+          if (url.indexOf('developer.mozilla.org') !== -1) {
+            link.image = '/mdn.png'
+            link.author = 'MDN'
             link.processed = true;
             writeLinks(file, links);
-          }, function() {
-            link.processed = true;
-            writeLinks(file, links);
-          });
+          } else {
+            downloadImage(metadata, function() {
+              link.image = getNewImageFileName(metadata)
+              link.processed = true;
+              writeLinks(file, links);
+            }, function() {
+              link.processed = true;
+              writeLinks(file, links);
+            });
+          }
+
+          console.log(metadata.image)
         } else {
           link.processed = true;
           writeLinks(file, links);

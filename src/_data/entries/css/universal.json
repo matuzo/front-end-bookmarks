@@ -15,7 +15,8 @@
     "title": "Universal selectors",
     "description": "The CSS universal selector (*) matches elements of any type.",
     "date": "2019-03-23T19:18:06.590Z",
-    "image": "/universal-selectors.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]

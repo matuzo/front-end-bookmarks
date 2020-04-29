@@ -25,7 +25,8 @@
     "title": "scroll-margin",
     "description": "The scroll-margin property is a shorthand property which sets all of the scroll-margin longhands, assigning values much like the margin property does for the margin-* longhands.",
     "date": "2019-12-17T08:01:54.037Z",
-    "image": "/scroll-margin.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   },
   {

@@ -30,7 +30,8 @@
     "title": "&lt;select&gt;",
     "description": "The HTML select element represents a control that provides a menu of options",
     "date": "2020-03-09T08:50:04.027Z",
-    "image": "/select.png",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]
