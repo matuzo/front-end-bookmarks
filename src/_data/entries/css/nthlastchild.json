@@ -1,5 +1,12 @@
 [
   {
+    "id": "nthtester",
+    "url": "https://css-tricks.com/examples/nth-child-tester/",
+    "title": ":nth Tester",
+    "author": "CSS Tricks",
+    "processed": true
+  },
+  {
     "id": "ala",
     "url": "https://alistapart.com/article/quantity-queries-for-css/",
     "title": "Quantity Queries for CSS",

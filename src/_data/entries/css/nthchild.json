@@ -1,5 +1,12 @@
 [
   {
+    "id": "nthtester",
+    "url": "https://css-tricks.com/examples/nth-child-tester/",
+    "title": ":nth Tester",
+    "author": "CSS Tricks",
+    "processed": true
+  },
+  {
     "id": "nthmaster",
     "url": "http://nthmaster.com/",
     "title": "Mastering the :nth-child | CSS3 pseudo classes and :nth-child ranges",
@@ -11,8 +18,9 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child",
     "title": ":nth-child()",
     "description": "The :nth-child() CSS pseudo-class matches elements based on their position in a group of siblings.",
-    "date": "2020-03-19T14:14:45.486Z",
-    "image": "/nth-child.png",
+    "date": "2020-04-03T05:38:39.173Z",
+    "image": "/mdn.png",
+    "author": "MDN",
     "processed": true
   }
 ]
