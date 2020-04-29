@@ -22,7 +22,7 @@
     {% set pages = pages | random %}
   {% endif %}
 
-  {% for page in pages | sort(url) | reverse | head(limit) %}
+  {% for page in pages  | reverse | head(limit) %}
     <li class="link-list__item card">
       <a href="{{ page.url }}" class="card__link" rel="noopener">{{ page.data.title }}</a>
       <p class="card__desc">{{ page.data.short_desc }}</p>
