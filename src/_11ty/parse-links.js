@@ -92,9 +92,15 @@ const getData = async (file, links, targetUrl, id) => {
           link.date = metadata.date
         }
 
+        if (url.indexOf('caniuse.com') !== -1) {
+          link.image = '/caniuse.jpg'
+          link.author = 'Can I use'
+          link.processed = true;
+          writeLinks(file, links);
+        }
+
         if (metadata.image) {
-          console.log(url.indexOf('developer.mozilla.org'))
-          if (url.indexOf('developer.mozilla.org') !== -1) {
+          if (url.indexOf('//developer.mozilla.org') !== -1) {
             link.image = '/mdn.png'
             link.author = 'MDN'
             link.processed = true;

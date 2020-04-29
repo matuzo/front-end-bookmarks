@@ -13,7 +13,9 @@
     "id": "caniuse",
     "url": "https://caniuse.com/#feat=mdn-css_properties_aspect-ratio",
     "title": "Can I use... Support tables for HTML5, CSS3, etc",
-    "date": "2020-03-24T11:00:00.000Z",
+    "date": "2020-04-27T10:00:00.000Z",
+    "image": "/caniuse.jpg",
+    "author": "Can I use",
     "processed": true
   }
 ]
