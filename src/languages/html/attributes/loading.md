@@ -13,6 +13,7 @@ definition:
     url: https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes
 links: "loading"
 date: 2020-04-29
+sm_img: images/sm/sm_loading.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
