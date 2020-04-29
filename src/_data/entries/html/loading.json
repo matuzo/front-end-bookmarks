@@ -1,0 +1,38 @@
+[
+  {
+    "id": "osmani",
+    "url": "https://addyosmani.com/blog/lazy-loading/",
+    "title": "Native image lazy-loading for the web!",
+    "description": "In this post, we’ll look at the new loading attribute which brings native &lt;img&gt; and &lt;iframe&gt; lazy-loading to the web!. For the curious, here&amp;...",
+    "author": "Addy Osmani",
+    "date": "2019-04-06T10:00:00.000Z",
+    "image": "/native-image-lazy-loading-for-the-web.png",
+    "tags": [
+      "performance",
+      "accessibility"
+    ],
+    "processed": true
+  },
+  {
+    "id": "webdev",
+    "url": "https://web.dev/native-lazy-loading/",
+    "title": "Native lazy-loading for the web",
+    "description": "This post covers the loading attribute and how it can be used to control the loading of images and iframes.",
+    "date": "2019-08-06T10:00:00.000Z",
+    "image": "/native-lazy-loading-for-the-web.png",
+    "author": "Houssein Djirdeh",
+    "tags": [
+      "performance",
+      "accessibility"
+    ],
+    "processed": true
+  },
+  {
+    "id": "caniuse",
+    "url": "https://caniuse.com/#feat=loading-lazy-attr",
+    "title": "Can I use... Support tables for HTML5, CSS3, etc",
+    "date": "2020-04-27T10:00:00.000Z",
+    "author": "Can I use",
+    "processed": true
+  }
+]
