@@ -1,0 +1,31 @@
+[
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/css-content/",
+    "title": "CSS Content | CSS-Tricks",
+    "description": "CSS has a property called content. It can only be used with the pseudo elements :after and :before. It is written like a pseudo selector (with the colon),",
+    "date": "2015-05-13T14:17:47.000Z",
+    "image": "/css-content-or-css-tricks.png",
+    "processed": true
+  },
+  {
+    "id": "judis",
+    "url": "https://www.stefanjudis.com/today-i-learned/css-content-accepts-alternative-text/",
+    "title": "The CSS “content” property accepts alternative text",
+    "description": "The CSS ‘content’ property allows a way to provide an alternative text",
+    "author": "stefan judis",
+    "date": "2020-04-28T22:00:00.000Z",
+    "image": "/the-css-content-property-accepts-alternative-text.jpg",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/content",
+    "title": "content",
+    "description": "The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.",
+    "date": "2020-04-05T17:20:12.999Z",
+    "image": "/mdn.png",
+    "author": "MDN",
+    "processed": true
+  }
+]
