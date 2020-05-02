@@ -1,14 +1,5 @@
 [
   {
-    "id": "csstricks",
-    "url": "https://css-tricks.com/css-content/",
-    "title": "CSS Content | CSS-Tricks",
-    "description": "CSS has a property called content. It can only be used with the pseudo elements :after and :before. It is written like a pseudo selector (with the colon),",
-    "date": "2015-05-13T14:17:47.000Z",
-    "image": "/css-content-or-css-tricks.png",
-    "processed": true
-  },
-  {
     "id": "judis",
     "url": "https://www.stefanjudis.com/today-i-learned/css-content-accepts-alternative-text/",
     "title": "The CSS “content” property accepts alternative text",
@@ -16,6 +7,15 @@
     "author": "stefan judis",
     "date": "2020-04-28T22:00:00.000Z",
     "image": "/the-css-content-property-accepts-alternative-text.jpg",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/css-content/",
+    "title": "CSS Content | CSS-Tricks",
+    "description": "CSS has a property called content. It can only be used with the pseudo elements :after and :before. It is written like a pseudo selector (with the colon),",
+    "date": "2015-05-13T14:17:47.000Z",
+    "image": "/css-content-or-css-tricks.png",
     "processed": true
   },
   {
