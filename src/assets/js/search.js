@@ -599,6 +599,8 @@ for (var i = 0; i < comboboxes.length; i++) {
   var combobox = comboboxes[i]
   var comboboxNode = combobox.querySelector('input')
   var buttonNode = combobox.querySelector('button')
+  var labelNode = combobox.querySelector('label')
+  labelNode.textContent = 'Jump to page'
   var listboxNode = combobox.querySelector('[role="listbox"]')
   var cba = new ComboboxAutocomplete(comboboxNode, buttonNode, listboxNode)
   comboboxNode.value = '';
@@ -607,3 +609,4 @@ for (var i = 0; i < comboboxes.length; i++) {
   document.documentElement.classList.remove('no-js')
   document.documentElement.classList.add('js')
 }
+
