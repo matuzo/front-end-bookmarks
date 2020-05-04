@@ -3,4 +3,9 @@ package = "netlify-plugin-a11y"
 
   [plugins.inputs]
 
-  checkPaths = ['/html']
+  checkPaths = [
+    '/index.html',
+    '/html/index.html',
+    '/css/properties/index.html',
+    '/html/elements/a/index.html'
+  ]
