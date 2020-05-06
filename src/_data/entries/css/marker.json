@@ -1,5 +1,15 @@
 [
   {
+    "id": "csstricks2",
+    "url": "https://css-tricks.com/list-style-recipes/",
+    "title": "List Style Recipes | CSS-Tricks",
+    "description": "Lists are a fundamental part of HTML! They are useful in things like blog posts for listing out steps, recipes for listing ingredients, or items in a",
+    "date": "2020-05-05T14:10:28.000Z",
+    "image": "/list-style-recipes-or-css-tricks.jpg",
+    "author": "Chris Coyier",
+    "processed": true
+  },
+  {
     "id": "smashing",
     "url": "https://www.smashingmagazine.com/2019/07/css-lists-markers-counters/",
     "title": "CSS Lists, Markers, And Counters — Smashing Magazine",
