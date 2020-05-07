@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fenton",
+    "url": "https://www.stevefenton.co.uk/2020/04/css-clamp-the-goldilocks-of-css-math-functions/",
+    "title": "CSS Clamp: The Goldilocks of CSS Math Functions - Steve Fenton",
+    "description": "There is a problem I have wrestled with a couple of times, which was frustrating to solve... but can now be easily solved using clamp, which is currently in an Editors Draft of the CSS Values and Units Module Level 4 specification. It is sat alongside similar mathmatical CSS",
+    "author": "Steve Fenton",
+    "date": "2020-04-21T19:22:13.000Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp",
+    "title": "clamp()",
+    "description": "The clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. The clamp() function can be u…",
+    "date": "2020-02-25T05:24:39.827Z",
+    "image": "/mdn.png",
+    "author": "MDN",
+    "processed": true
+  },
+  {
+    "id": "caniuse",
+    "url": "https://caniuse.com/#feat=mdn-css_types_clamp",
+    "title": "Can I use... Support tables for HTML5, CSS3, etc",
+    "date": "2020-04-27T10:00:00.000Z",
+    "image": "/caniuse.jpg",
+    "author": "Can I use",
+    "processed": true
+  }
+]
