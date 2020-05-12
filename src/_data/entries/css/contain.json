@@ -1,5 +1,15 @@
 [
   {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/lets-take-a-deep-dive-into-the-css-contain-property/",
+    "title": "Let’s Take a Deep Dive Into the CSS Contain Property | CSS-Tricks",
+    "description": "Compared to the past, modern browsers have become really efficient at rendering the tangled web of HTML, CSS, and JavaScript code a typical webpage",
+    "date": "2020-05-08T14:33:22.000Z",
+    "image": "/lets-take-a-deep-dive-into-the-css-contain-property-or-css-tricks.png",
+    "author": "Travis Almand",
+    "processed": true
+  },
+  {
     "id": "smashing",
     "url": "https://www.smashingmagazine.com/2019/12/browsers-containment-css-contain-property/",
     "title": "Helping Browsers Optimize With The CSS Contain Property — Smashing Magazine",
