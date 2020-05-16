@@ -1,14 +1,11 @@
 [[plugins]]
-package = "netlify-plugin-a11y"
+  package = "netlify-plugin-a11y"
 
-  [plugins.inputs]
+    [plugins.inputs]
 
-  checkPaths = [
-    'index.html',
-    'html/index.html',
-    'css/properties/index.html',
-    'html/elements/a/index.html'
-  ]
+    checkPaths = [
+      'index.html'
+    ]
 
 [[redirects]]
   from = "/css/selectors/:not()"
