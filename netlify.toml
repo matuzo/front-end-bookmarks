@@ -4,13 +4,12 @@ package = "netlify-plugin-a11y"
   [plugins.inputs]
 
   checkPaths = [
-    '/index.html',
-    '/html/index.html',
-    '/css/properties/index.html',
-    '/html/elements/a/index.html'
+    'index.html',
+    'html/index.html',
+    'css/properties/index.html',
+    'html/elements/a/index.html'
   ]
 
-  debugMode = true
 [[redirects]]
   from = "/css/selectors/:not()"
   to = "/css/selectors/not"
