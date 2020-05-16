@@ -9,3 +9,15 @@ package = "netlify-plugin-a11y"
     '/css/properties/index.html',
     '/html/elements/a/index.html'
   ]
+[[redirects]]
+  from = "/css/selectors/:not()"
+  to = "/css/selectors/not"
+[[redirects]]
+  from = "/css/selectors/::marker"
+  to = "/css/selectors/marker"
+[[redirects]]
+  from = "/css/selectors/:nth-child()"
+  to = "/css/selectors/nth-child"
+[[redirects]]
+  from = "/css/selectors/:nth-last-child()"
+  to = "/css/selectors/nth-last-child"
