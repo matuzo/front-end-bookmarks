@@ -13,3 +13,6 @@
 [[redirects]]
   from = "/css/properties/color-values/"
   to = "/css/properties/lch/"
+[[redirects]]
+  from = "/css/properties/math-functions/"
+  to = "/css/properties/clamp/"
