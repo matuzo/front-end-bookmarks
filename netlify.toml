@@ -9,6 +9,8 @@ package = "netlify-plugin-a11y"
     '/css/properties/index.html',
     '/html/elements/a/index.html'
   ]
+
+  debugMode = true
 [[redirects]]
   from = "/css/selectors/:not()"
   to = "/css/selectors/not"
