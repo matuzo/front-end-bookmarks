@@ -10,3 +10,6 @@
 [[redirects]]
   from = "/css/selectors/:nth-last-child()"
   to = "/css/selectors/nth-last-child"
+[[redirects]]
+  from = "/css/properties/color-values/"
+  to = "/css/properties/lch/"
