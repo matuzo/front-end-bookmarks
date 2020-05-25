@@ -1,5 +1,14 @@
 [
   {
+    "id": "shadeed",
+    "url": "https://ishadeed.com/article/css-min-max-clamp/",
+    "title": "Everything I Learned About min(), max(), clamp() In CSS - Ahmad Shadeed",
+    "description": "CSS Comparison Functions (min(), max(), clamp()) become supported in Firefox on 8 April 2020, which means that they are now supported in all major browsers. ...",
+    "author": "iShadeed",
+    "date": "2020-05-07T10:00:00.000Z",
+    "processed": true
+  },
+  {
     "id": "fenton",
     "url": "https://www.stevefenton.co.uk/2020/04/css-clamp-the-goldilocks-of-css-math-functions/",
     "title": "CSS Clamp: The Goldilocks of CSS Math Functions - Steve Fenton",
