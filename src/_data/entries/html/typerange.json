@@ -1,0 +1,41 @@
+[
+  {
+    "id": "lindesey",
+    "url": "https://www.a11ywithlindsey.com/blog/creating-accessible-range-slider-css",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Creating an Accessible Range Slider with CSS",
+    "description": "I’ve always loved exploring how to make semantic, accessible elements aesthetically pleasing. And yes, it is possible. Challenging myself to…",
+    "image": "/creating-an-accessible-range-slider-with-css.png",
+    "author": "Lindsey Kopacz",
+    "processed": true
+  },
+  {
+    "id": "ohara",
+    "url": "https://scottaohara.github.io/a11y_styled_form_controls/src/range-slider/",
+    "title": "Styled Range Slider",
+    "author": "Scott O'Hara",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/value-bubbles-for-range-inputs/",
+    "title": "Value Bubbles for Range Inputs | CSS-Tricks",
+    "description": "HTML5 range inputs, in supported browsers and by design, don’t show the user the actual value they are submitting. If you want to use the cool slider, but show the value, you’ll have to do that yourself. Here we use the output element and jQuery to show the current value in a bubble that hovers abov…",
+    "date": "2020-03-26T13:31:13.000Z",
+    "image": "/value-bubbles-for-range-inputs-or-css-tricks.png",
+    "author": "Chris Coyier",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range",
+    "title": "&lt;input type=“range”&gt;",
+    "description": "input elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value. The precise value, however, is not considered important. This is typically represented using a slider or dial control rather than a text entry box like th…",
+    "date": "2020-02-21T10:38:40.117Z",
+    "image": "/mdn.png",
+    "author": "MDN",
+    "processed": true
+  }
+]
