@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hugo",
+    "url": "https://hugogiraudel.com/2020/05/18/using-calc-to-figure-out-optimal-line-height/",
+    "title": "Using calc to figure out optimal line-height",
+    "description": "The following is a guest post by Jesús Ricarte, a front-end developer and volunteer translator for A List Apart in Spanish. I’m very glad to have him writi...",
+    "author": "Jesús Ricarte",
+    "date": "2020-05-18T00:00:00.000Z",
+    "processed": true
+  },
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/how-to-tame-line-height-in-css/",
+    "title": "How to Tame Line Height in CSS | CSS-Tricks",
+    "description": "In CSS, line-height is probably one of the most misunderstood, yet commonly-used attributes. As designers and developers, when we think about line-height,",
+    "date": "2020-05-15T15:09:07.000Z",
+    "image": "/how-to-tame-line-height-in-css-or-css-tricks.jpg",
+    "processed": true
+  },
+  {
+    "id": "csstricks2",
+    "url": "https://css-tricks.com/almanac/properties/l/line-height/",
+    "title": "line-height | CSS-Tricks",
+    "description": "The line-height property defines the amount of space above and below inline elements. That is, elements that are set to display: inline or display:",
+    "date": "2015-05-15T16:23:45.000Z",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-height",
+    "title": "line-height",
+    "description": "The line-height CSS property sets the height of a line box. It’s commonly used to set the distance between lines of text.",
+    "date": "2020-01-31T23:45:45.732Z",
+    "image": "/mdn.png",
+    "author": "MDN",
+    "processed": true
+  }
+]
