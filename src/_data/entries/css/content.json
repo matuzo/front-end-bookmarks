@@ -1,5 +1,15 @@
 [
   {
+    "id": "matuzo",
+    "url": "https://www.matuzo.at/blog/heres-what-i-didnt-know-about-content/",
+    "title": "Here’s what I didn’t know about “content”",
+    "description": "In part 3 of my series I’m trying to find out what I didn’t know about the `content` property.",
+    "author": "Manuel Matuzović",
+    "date": "2020-05-26T00:00:00.000Z",
+    "image": "/heres-what-i-didnt-know-about-content.jpg",
+    "processed": true
+  },
+  {
     "id": "judis",
     "url": "https://www.stefanjudis.com/today-i-learned/css-content-accepts-alternative-text/",
     "title": "The CSS “content” property accepts alternative text",
