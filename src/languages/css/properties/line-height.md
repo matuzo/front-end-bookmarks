@@ -13,6 +13,7 @@ definition:
     url: https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height
 links: "line-height"
 date: 2020-05-25
+sm_img: images/sm/sm_lineheight.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
