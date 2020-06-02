@@ -1,5 +1,14 @@
 [
   {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/a-first-look-at-aspect-ratio/",
+    "title": "A First Look at `aspect-ratio` | CSS-Tricks",
+    "description": "Oh hey! A brand new property that affects how a box is sized! That’s a big deal. There are lots of ways already to make an aspect-ratio sized box (and I’d",
+    "date": "2020-06-01T12:50:44.000Z",
+    "image": "/a-first-look-at-`aspect-ratio`-or-css-tricks.jpg",
+    "processed": true
+  },
+  {
     "id": "smashing",
     "url": "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
     "title": "Designing An Aspect Ratio Unit For CSS — Smashing Magazine",

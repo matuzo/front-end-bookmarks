@@ -12,7 +12,8 @@ definition:
     text: "4.1. Intrinsic Aspect Ratios: the aspect-ratio property"
     url: https://drafts.csswg.org/css-sizing-4/#aspect-ratio
 links: "aspect-ratio"
-date: 2020-04-10
+date: 2020-06-02
+sm_img: images/sm/sm_aspectratio.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
