@@ -12,7 +12,7 @@ definition:
     text: "1. Inserting and replacing content with the content property"
     url: https://drafts.csswg.org/css-content-3/#content-property
 links: "content"
-date: 2020-05-26
+date: 2020-06-02
 sm_img: images/sm/sm_content.jpg
 ---
 
@@ -23,3 +23,4 @@ a::after {
   content: " (" attr(href) ")"; 
 }
 ```
+

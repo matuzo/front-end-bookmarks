@@ -1,5 +1,14 @@
 [
   {
+    "id": "htmhell6",
+    "url": "https://www.htmhell.dev/20-close-buttons/",
+    "title": "HTMHell - #20 HTMHell special: close buttons",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2020-05-23T00:00:00.000Z",
+    "image": "/htmhell-20-htmhell-special-close-buttons.png",
+    "processed": true
+  },
+  {
     "id": "csstricks",
     "url": "https://css-tricks.com/a-complete-guide-to-links-and-buttons/",
     "title": "A Complete Guide to Links and Buttons | CSS-Tricks",
