@@ -12,7 +12,7 @@ definition:
     text: "1. Inserting and replacing content with the content property"
     url: https://drafts.csswg.org/css-content-3/#content-property
 links: "content"
-date: 2020-04-30
+date: 2020-05-26
 sm_img: images/sm/sm_content.jpg
 ---
 
