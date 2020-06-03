@@ -1,5 +1,14 @@
 [
   {
+    "id": "rachel",
+    "url": "https://vimeo.com/422929734",
+    "title": "Smashing Meets - 19th May 2020 - Rachel Andrew",
+    "description": "In this talk, Rachel will introduce Subgrid alongside use cases, example code, and some thoughts on where we might see Grid heading in the future.",
+    "author": "Rachel Andrew",
+    "date": "2020-06-03T03:06:37.000Z",
+    "processed": true
+  },
+  {
     "id": "marcotte",
     "url": "https://ethanmarcotte.com/wrote/css-grid-without-max-width/",
     "title": "Constrained CSS grids without <code>max-width</code>",
