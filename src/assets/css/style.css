@@ -565,3 +565,22 @@ a.card__link:hover {
 outline: 5px solid #000;
 outline-offset: 2px;;
 }
+
+/* Banner */
+
+.topbanner {
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 1rem;  
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.topbanner p {
+  margin: 0;
+}
+
+.topbanner a:visited,
+.topbanner a:link {
+  color: #FFFFFF;
+}
