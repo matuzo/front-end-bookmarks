@@ -1,5 +1,15 @@
 [
   {
+    "id": "rachel",
+    "url": "https://noti.st/rachelandrew/qN6DnE/now-you-see-it-understanding-display",
+    "title": "Now You See It: Understanding Display by Rachel Andrew",
+    "description": "CSS Layout is all about boxes. We know that some boxes are blocks, and others are inline, and we can change the display type of elements by changing the value of the display property. That property holds the key to much more than this, however. It is the foundation on which all layout is built; the …",
+    "author": "Rachel Andrew",
+    "date": "2020-05-31T08:00:00.000Z",
+    "image": "/now-you-see-it-understanding-display-by-rachel-andrew.png",
+    "processed": true
+  },
+  {
     "id": "smashing",
     "url": "https://www.smashingmagazine.com/2019/04/display-two-value/",
     "title": "Digging Into The Display Property: The Two Values Of Display — Smashing Magazine",
