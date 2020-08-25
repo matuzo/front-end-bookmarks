@@ -14,7 +14,7 @@ definition:
 links: "arialabelledby"
 related:
   - 'html.svg.csstricksa11y'
-date: 2020-04-10
+date: 2020-08-25
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
