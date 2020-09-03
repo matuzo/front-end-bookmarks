@@ -1,0 +1,12 @@
+[
+  {
+    "id": "chromeblog",
+    "url": "https://blog.chromium.org/2020/09/giving-users-and-developers-more.html",
+    "title": "Giving users and developers more control over focus",
+    "description": "Chrome 86 introduces two new features that improve both the user and developer experience when it comes to working with focus The :focus-v...",
+    "author": "Google",
+    "date": "2020-09-02T10:00:00.000Z",
+    "image": "/giving-users-and-developers-more-control-over-focus.png",
+    "processed": true
+  }
+]
