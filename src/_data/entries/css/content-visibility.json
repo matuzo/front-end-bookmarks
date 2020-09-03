@@ -1,0 +1,20 @@
+[
+  {
+    "id": "webdev",
+    "url": "https://web.dev/content-visibility/",
+    "title": "content-visibility: the new CSS property that boosts your rendering performance",
+    "description": "The CSS content-visibility property enables web content rendering performance benefits by skipping rendering of off-screen content. This article shows you how to leverage this new CSS property for faster initial load times, using the auto keyword. You will also learn about the CSS Containment Spec a…",
+    "date": "2020-08-05T10:00:00.000Z",
+    "image": "/content-visibility-the-new-css-property-that-boosts-your-rendering-performance.jpg",
+    "processed": true
+  },
+  {
+    "id": "html5a11y",
+    "url": "https://html5accessibility.com/stuff/2020/08/25/short-note-on-content-visibility-hidden/",
+    "title": "Short note on content-visibility: hidden – HTML Accessibility",
+    "date": "2020-08-26T00:38:28.000Z",
+    "description": "What I am interested in is how it is exposed to screen readers and other assistive technology that make use of the content information represented in the browser accessibility tree.",
+    "author": "Steve Faulkner",
+    "processed": true
+  }
+]
