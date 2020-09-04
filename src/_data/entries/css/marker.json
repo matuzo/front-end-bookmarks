@@ -1,5 +1,14 @@
 [
   {
+    "id": "webdev",
+    "url": "https://web.dev/css-marker-pseudo-element/",
+    "title": "Custom bullets with CSS ::marker",
+    "description": "It is now trivial to customize the color, size or type of number or bullet when using a &lt;ul&gt; or &lt;ol&gt;.",
+    "date": "2020-09-02T10:00:00.000Z",
+    "image": "/custom-bullets-with-css-marker.png",
+    "processed": true
+  },
+  {
     "id": "csstricks2",
     "url": "https://css-tricks.com/list-style-recipes/",
     "title": "List Style Recipes | CSS-Tricks",

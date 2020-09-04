@@ -13,7 +13,7 @@ definition:
     text: "4.2. List Markers: the ::marker pseudo-element"
     url: https://www.w3.org/TR/css-pseudo-4/#marker-pseudo
 links: "marker"
-date: 2020-05-06
+date: 2020-09-04
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
