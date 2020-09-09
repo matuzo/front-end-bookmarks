@@ -1,5 +1,13 @@
 [
   {
+    "id": "hidde",
+    "url": "https://hiddedevries.nl/en/blog/2020-09-05-when-there-is-no-content-between-headings",
+    "title": "When there is no content between headings",
+    "description": "The website of Hidde de Vries, freelance front-end developer.",
+    "date": "2020-09-05T12:35:00.000Z",
+    "processed": true
+  },
+  {
     "id": "paciello",
     "url": "https://developer.paciellogroup.com/blog/2020/03/heading-off-confusion-when-do-headings-fail-wcag/",
     "title": "Heading off confusion: When do headings fail WCAG?",

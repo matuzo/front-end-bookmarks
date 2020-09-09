@@ -12,7 +12,7 @@ definition:
     text: "4.3.6. The h1, h2, h3, h4, h5, and h6 elements "
     url: https://www.w3.org/TR/html52/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements
 links: "headings"
-date: 2020-04-16
+date: 2020-09-09
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
