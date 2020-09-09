@@ -12,7 +12,7 @@ definition:
     text: "10.8 Line height calculations: the 'line-height' and 'vertical-align' properties"
     url: https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height
 links: "line-height"
-date: 2020-05-25
+date: 2020-09-09
 sm_img: images/sm/sm_lineheight.jpg
 ---
 
