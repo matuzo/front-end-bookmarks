@@ -1,0 +1,17 @@
+[
+  {
+    "id": "roselli",
+    "url": "https://adrianroselli.com/2020/04/avoid-aria-roledescription.html",
+    "title": "Avoid aria-roledescription",
+    "description": "HTML has all sorts of built-in features that, when used correctly, are accessible, will localize, and which just work. For example, if I want a button, I use &lt;button&gt;, and a screen reader will announce it as button. For users in other languages, they will hear whatever is their word…",
+    "date": "2020-08-07T16:41:32.000Z",
+    "processed": true
+  },
+  {
+    "id": "tink",
+    "url": "https://tink.uk/using-the-aria-roledescription-attribute/",
+    "title": "Using the aria-roledescription attribute - Tink - Léonie Watson",
+    "date": "2018-12-13T00:00:00.000Z",
+    "processed": true
+  }
+]
