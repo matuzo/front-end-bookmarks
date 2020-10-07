@@ -12,7 +12,7 @@ definition:
     text: "5.1 Clipping Shape: the clip-path property"
     url: https://www.w3.org/TR/css-masking-1/#the-clip-path
 links: "clip-path"
-date: 2020-04-10
+date: 2020-10-07
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
