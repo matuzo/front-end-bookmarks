@@ -12,7 +12,7 @@ definition:
     text: "7.2. Explicit Track Sizing: the grid-template-columns and grid-template-columns properties"
     url: https://www.w3.org/TR/css-grid-1/#track-sizing
 links: "grid-template-columns"
-date: 2020-07-10
+date: 2020-10-07
 sm_img: images/sm/sm_gridtemplatecolumns.jpg
 ---
 
