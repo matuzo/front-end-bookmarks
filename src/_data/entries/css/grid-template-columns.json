@@ -1,5 +1,14 @@
 [
   {
+    "id": "csstricks2",
+    "url": "https://css-tricks.com/achieving-vertical-alignment-thanks-subgrid/",
+    "title": "Achieving Vertical Alignment (Thanks, Subgrid!) | CSS-Tricks",
+    "description": "Our tools for vertical alignment have gotten a lot better as of late. My early days as a website designer involved laying out 960px wide homepage designs",
+    "date": "2020-09-30T14:46:41.000Z",
+    "image": "/achieving-vertical-alignment-thanks-subgrid-or-css-tricks.png",
+    "processed": true
+  },
+  {
     "id": "csstricks",
     "url": "https://css-tricks.com/cool-little-css-grid-tricks-for-your-blog/",
     "title": "Cool Little CSS Grid Tricks for Your Blog | CSS-Tricks",
