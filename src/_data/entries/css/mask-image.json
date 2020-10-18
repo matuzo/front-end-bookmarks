@@ -1,0 +1,30 @@
+[
+  {
+    "id": "webdev",
+    "url": "https://web.dev/css-masking/",
+    "title": "How to use CSS masking",
+    "description": "CSS masking gives you the option of using an image as a mask layer. This means that use can use an image, an SVG, or a gradient as your mask, to create interested effects without an image editor.",
+    "date": "2020-09-14T10:00:00.000Z",
+    "image": "/how-to-use-css-masking.jpg",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-image",
+    "title": "mask-image",
+    "description": "The mask-image CSS property sets the image that is used as mask layer for an element.",
+    "date": "2020-07-20T10:34:13.255Z",
+    "image": "/mdn.png",
+    "author": "MDN",
+    "processed": true
+  },
+  {
+    "id": "caniuse",
+    "url": "https://caniuse.com/css-masks",
+    "title": "Can I use... Support tables for HTML5, CSS3, etc",
+    "date": "2020-09-24T10:00:00.000Z",
+    "image": "/caniuse.jpg",
+    "author": "Can I use",
+    "processed": true
+  }
+]
