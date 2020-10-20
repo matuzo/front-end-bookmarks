@@ -13,7 +13,7 @@ definition:
     text: "9.4. The Focus-Indicated Pseudo-class: :focus-visible"
     url: https://www.w3.org/TR/selectors-4/#the-focus-visible-pseudo
 links: "focusvisible"
-date: 2020-09-03
+date: 2020-10-20
 sm_img: images/sm/sm_focusvisible.jpg
 ---
 
