@@ -13,6 +13,7 @@ definition:
     url: https://www.w3.org/TR/css-masking-1/#the-mask-image
 links: "mask-image"
 date: 2020-10-18
+sm_img: images/sm/sm_maskimage.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
