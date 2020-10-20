@@ -1,5 +1,15 @@
 [
   {
+    "id": "ott",
+    "url": "https://matthiasott.com/notes/focus-visible-is-here",
+    "title": ":focus-visible Is Here · Matthias Ott – User Experience Designer",
+    "description": "Matthias Ott is an independent user experience designer and developer from Stuttgart, Germany. Besides design practice he teaches Interface Prototyping at the Muthesius Academy of Fine Arts and Design, Kiel.",
+    "author": "Matthias Ott",
+    "date": "2020-10-10T13:10:00.000Z",
+    "image": "/focus-visible-is-here-·-matthias-ott-–-user-experience-designer.png",
+    "processed": true
+  },
+  {
     "id": "chromeblog",
     "url": "https://blog.chromium.org/2020/09/giving-users-and-developers-more.html",
     "title": "Giving users and developers more control over focus",
