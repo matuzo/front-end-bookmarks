@@ -1,0 +1,30 @@
+[
+  {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/focus-management-and-inert/",
+    "title": "Focus management and inert | CSS-Tricks",
+    "description": "Many forms of assistive technology use keyboard navigation to understand and take action on screen content. One way of navigating is via the Tab key. You",
+    "date": "2020-10-19T13:56:30.000Z",
+    "image": "/focus-management-and-inert-or-css-tricks.png",
+    "processed": true
+  },
+  {
+    "id": "mdn",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/inert",
+    "title": "inert",
+    "description": "The HTMLElement property inert is a Boolean, when present, may make the browser “ignore” the element from assistive technologies, page search and text selection. This can be useful when building UIs such as modals where you would want to “trap” the focus inside the modal when it’s visible.",
+    "date": "2020-10-20T05:02:13.228Z",
+    "image": "/mdn.png",
+    "author": "MDN",
+    "processed": true
+  },
+  {
+    "id": "polyfill",
+    "url": "https://github.com/WICG/inert",
+    "title": "WICG/inert",
+    "description": "Polyfill for the inert attribute and property. Contribute to WICG/inert development by creating an account on GitHub.",
+    "author": "WICG",
+    "date": "2020-06-16T10:00:00.000Z",
+    "processed": true
+  }
+]
