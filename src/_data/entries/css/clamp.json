@@ -1,5 +1,14 @@
 [
   {
+    "id": "webdev",
+    "url": "https://web.dev/min-max-clamp/",
+    "title": "min(), max(), and clamp(): three logical CSS functions to use today",
+    "description": "Min, max, and clamp provide some powerful CSS capabilities that enable more responsive styling with fewer liens of code. This post goes over how to control element sizing, maintain proper spacing, and implement fluid typography using these well-supported CSS math functions.",
+    "date": "2020-10-14T10:00:00.000Z",
+    "image": "/min-max-and-clamp-three-logical-css-functions-to-use-today.jpg",
+    "processed": true
+  },
+  {
     "id": "shadeed",
     "url": "https://ishadeed.com/article/css-min-max-clamp/",
     "title": "Everything I Learned About min(), max(), clamp() In CSS - Ahmad Shadeed",

@@ -13,7 +13,7 @@ definition:
     text: "11.2. Comparison Functions: min(), max(), and clamp()"
     url: https://drafts.csswg.org/css-values-4/#comp-func
 links: "clamp"
-date: 2020-05-16
+date: 2020-10-20
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
