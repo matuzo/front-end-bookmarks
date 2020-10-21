@@ -1,5 +1,15 @@
 [
   {
+    "id": "matuzo",
+    "url": "https://www.matuzo.at/blog/lang-attribute/",
+    "title": "The lang attribute: browsers telling lies, telling sweet little lies",
+    "description": "The lang attribute is an essential component in the basic structure of an HTML document. It’s important that we set it correctly.",
+    "author": "Manuel Matuzović",
+    "date": "2020-10-19T00:00:00.000Z",
+    "image": "/the-lang-attribute-browsers-telling-lies-telling-sweet-little-lies.jpg",
+    "processed": true
+  },
+  {
     "id": "chen",
     "url": "https://www.chenhuijing.com/blog/css-for-i18n/#%F0%9F%91%BE",
     "title": "CSS for internationalisation",
