@@ -12,7 +12,7 @@ definition:
     text: "aria-roledescription (property)"
     url: https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription
 links: "ariaroledescription"
-date: 2020-09-09
+date: 2020-10-23
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
