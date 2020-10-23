@@ -13,6 +13,7 @@ definition:
     url: https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription
 links: "ariaroledescription"
 date: 2020-10-23
+sm_img: images/sm/sm_aria-roledesc.jpg
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
