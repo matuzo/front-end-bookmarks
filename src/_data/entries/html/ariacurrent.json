@@ -1,0 +1,21 @@
+[
+  {
+    "id": "leonie",
+    "url": "https://tink.uk/using-the-aria-current-attribute/",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "Using the aria-current attribute - Tink - Léonie Watson",
+    "date": "2017-01-14T00:00:00.000Z",
+    "processed": true
+  },
+  {
+    "id": "a11ysupport",
+    "url": "https://a11ysupport.io/tech/aria/aria-current_attribute",
+    "tags": [
+      "accessibility"
+    ],
+    "title": "aria-current_attribute (aria) | Accessibility Support",
+    "processed": true
+  }
+]
