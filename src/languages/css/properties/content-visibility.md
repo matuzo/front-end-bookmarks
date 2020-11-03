@@ -12,7 +12,7 @@ definition:
     text: "4. Suppressing An Element’s Contents Entirely: the content-visibility property"
     url: https://drafts.csswg.org/css-contain/#content-visibility
 links: "content-visibility"
-date: 2020-09-03
+date: 2020-11-03
 sm_img: images/sm/sm_contentvisibility.jpg
 ---
 

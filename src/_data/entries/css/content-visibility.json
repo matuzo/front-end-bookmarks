@@ -1,5 +1,14 @@
 [
   {
+    "id": "csstricks",
+    "url": "https://css-tricks.com/more-on-content-visibility/",
+    "title": "More on content-visibility | CSS-Tricks",
+    "description": "Back in August 2020, when the content-visiblity property in CSS trickled its way into Chrome browsers, Una Kravets and Vladimir Levin wrote about it and",
+    "date": "2020-10-28T22:32:34.000Z",
+    "image": "/more-on-content-visibility-or-css-tricks.jpg",
+    "processed": true
+  },
+  {
     "id": "webdev",
     "url": "https://web.dev/content-visibility/",
     "title": "content-visibility: the new CSS property that boosts your rendering performance",
