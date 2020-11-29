@@ -1,5 +1,14 @@
 [
   {
+    "id": "smashing",
+    "url": "https://www.smashingmagazine.com/2020/11/standardizing-select-native-html-form-controls",
+    "title": "Standardizing &lt;select&gt; And Beyond: The Past, Present And Future Of Native HTML Form Controls — Smashing Magazine",
+    "description": "In this article, Stephanie dives into the past by going back to the beginning of HTML and tracing the evolution of form controls through to the present and the current state of working with them.",
+    "date": "2020-11-18T12:00:00.000Z",
+    "image": "/standardizing-select-and-beyond-the-past-present-and-future-of-native-html-form-controls-smashing-magazine.png",
+    "processed": true
+  },
+  {
     "id": "selectpoison",
     "url": "https://www.24a11y.com/2019/select-your-poison",
     "tags": [

@@ -12,7 +12,7 @@ definition:
     text: "4.10.7. The select element"
     url: https://www.w3.org/TR/html52/single-page.html#the-select-element
 links: "select"
-date: 2020-04-10
+date: 2020-11-29
 ---
 
 <h2 class="h3"><span>Code sample</span></h2>
