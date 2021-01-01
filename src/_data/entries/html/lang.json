@@ -1,5 +1,12 @@
 [
   {
+    "id": "webaim",
+    "url": "https://webaim.org/techniques/language/",
+    "title": "WebAIM: Document and Content Language",
+    "date": "2020-12-21T00:00:00.000Z",
+    "processed": true
+  },
+  {
     "id": "matuzo",
     "url": "https://www.matuzo.at/blog/lang-attribute/",
     "title": "The lang attribute: browsers telling lies, telling sweet little lies",
