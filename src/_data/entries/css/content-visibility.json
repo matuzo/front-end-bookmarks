@@ -1,5 +1,13 @@
 [
   {
+    "id": "marcy",
+    "url": "https://marcysutton.com/content-visibility-accessible-semantics",
+    "title": "Content-visibility and Accessible Semantics | MarcySutton.com",
+    "description": "While working with the team at DEV this past quarter on their open source community platform, Forem, they requested I review a Pull Request…",
+    "image": "/content-visibility-and-accessible-semantics-or-marcysuttoncom.png",
+    "processed": true
+  },
+  {
     "id": "csstricks",
     "url": "https://css-tricks.com/more-on-content-visibility/",
     "title": "More on content-visibility | CSS-Tricks",
