@@ -1,4 +1,13 @@
 [
+    {
+    "id": "ben",
+    "url": "https://benmyers.dev/blog/aria-labels-and-descriptions/",
+    "title": "aria-label, aria-labelledby, and aria-describedby: What’s the Difference?",
+    "description": "Diving deep into three attributes that bring clarity to elements in assistive technologies.",
+    "date": "2020-12-07T00:00:00.000Z",
+    "image": "/aria-label-aria-labelledby-and-aria-describedby-whats-the-difference.png",
+    "processed": true
+  },
   {
     "id": "leonie",
     "url": "https://tink.uk/the-difference-between-aria-label-and-aria-labelledby/",
