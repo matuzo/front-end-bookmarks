@@ -1,0 +1,47 @@
+[
+  {
+    "id": "htmhell",
+    "url": "https://www.htmhell.dev/24-a-placeholder-is-not-a-label/",
+    "title": "HTMHell - #24 A placeholder is not a label",
+    "description": "A collection of bad practices in HTML, copied from real websites.",
+    "date": "2020-11-29T00:00:00.000Z",
+    "image": "/htmhell-24-a-placeholder-is-not-a-label.png",
+    "processed": true
+  },
+  {
+    "id": "nn",
+    "url": "https://www.nngroup.com/articles/form-design-placeholders/",
+    "title": "Placeholders in Form Fields Are Harmful",
+    "description": "Labels or sample text inside a form field makes it difficult for people to remember what information belongs in that field once they start data entry.",
+    "date": "2018-09-10T00:00:00.000Z",
+    "image": "/placeholders-in-form-fields-are-harmful.png",
+    "processed": true
+  },
+  {
+    "id": "silver",
+    "url": "https://medium.com/simple-human/10-reasons-why-placeholders-are-problematic-f8079412b960",
+    "title": "11 reasons why placeholders are problematic",
+    "description": "Since placeholders arrived on the scene, they have been rapidly adopted to provide hints and instructions to help users fill in forms. Whilst this sounds good, it is actually problematic due to the…",
+    "author": "Adam Silver",
+    "date": "2018-06-13T00:25:23.797Z",
+    "image": "/11-reasons-why-placeholders-are-problematic.jpeg",
+    "processed": true
+  },
+  {
+    "id": "sm",
+    "url": "https://www.smashingmagazine.com/2018/06/placeholder-attribute/",
+    "title": "Don’t Use The Placeholder Attribute — Smashing Magazine",
+    "description": "The placeholder attribute contains a surprising amount of issues that prevent it from delivering on what it promises. Let’s clarify why you need to stop using it.",
+    "date": "2018-06-20T11:45:26.000Z",
+    "image": "/dont-use-the-placeholder-attribute-smashing-magazine.png",
+    "processed": true
+  },
+  {
+    "id": "webaxe",
+    "url": "http://www.webaxe.org/floated-labels-still-suck/",
+    "title": "Floated Labels Still Suck | Web Axe",
+    "author": "Dennis",
+    "date": "2014-10-30T23:05:53.000Z",
+    "processed": true
+  }
+]
