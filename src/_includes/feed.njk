@@ -24,6 +24,9 @@
     <updated>{{ entry.date | rssDate }}</updated>
     <id>{{ absoluteEntryUrl }}</id>
     <content type="html">
+      {% if entry.data.definition %}
+        <p>{{ entry.data.definition.text | safe }}</p>
+      {% endif %}
       <![CDATA[{{ entry.templateContent | htmlToAbsoluteUrls(absoluteEntryUrl) | safe }}]]>
     </content>
   </entry>
