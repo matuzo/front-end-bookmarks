@@ -1,0 +1,11 @@
+[
+  {
+    "id": "schepp",
+    "url": "https://schepp.dev/posts/smooth-scrolling-and-page-search/",
+    "title": "Fixing Smooth Scrolling &amp; Page Search",
+    "description": "Native smooth scrolling is one more example of standards paving the cow path by declaring a wide-spread practice officially a thing&amp;#58; being able to smoothly scroll the viewport to another part of a page without the user losing their orientation. As good at it is, though, it also has an undesired …",
+    "date": "2021-01-06T19:18:17.000Z",
+    "image": "/fixing-smooth-scrolling-and-page-search.jpg",
+    "processed": true
+  }
+]
