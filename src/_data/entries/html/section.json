@@ -1,5 +1,21 @@
 [
   {
+    "id": "htmlhell2",
+    "url": "https://www.htmhell.dev/tips/the-section-element/",
+    "title": "the section element - HTMHell",
+    "description": "Use the section element to mark up a grouping of related content, typically introduced with a heading.",
+    "image": "/the-section-element-htmhell.png",
+    "processed": true
+  },
+  {
+    "id": "ohara",
+    "url": "https://www.scottohara.me/blog/2021/07/16/section.html",
+    "title": "Accessibility of the section element | scottohara.me",
+    "description": "The &lt;section&gt; element semantically represents a grouping of content that has an overarching theme. It is one of the HTML elements that represent sectio...",
+    "date": "2021-07-16T00:00:00.000Z",
+    "processed": true
+  },
+  {
     "id": "smashing",
     "url": "https://www.smashingmagazine.com/2020/01/html5-article-section/",
     "tags": [
